@@ -1,0 +1,1550 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1393d92ac087fa5351676cda0b9272d9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    <h4 style="text-align:center;">1992 Spring Tour</h4>
+    
+            <div class="folium-map" id="map_1393d92ac087fa5351676cda0b9272d9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1393d92ac087fa5351676cda0b9272d9 = L.map(
+                "map_1393d92ac087fa5351676cda0b9272d9",
+                {
+                    center: [39.5219, -98.4892],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8f878c5789da616aa4d2d2a8276f9243 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_8f878c5789da616aa4d2d2a8276f9243.addTo(map_1393d92ac087fa5351676cda0b9272d9);
+        
+    
+            var marker_cluster_5380745fef706da60317f842aba7b03d = L.markerClusterGroup(
+                {"maxClusterRadius": 20}
+            );
+        
+    
+            var marker_69de3b0d4d03ac8ca5c4576a459761a3 = L.marker(
+                [43.0717552, -70.7625532],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_17ab340b0627d6787d5c4c86b2e8dd99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_69de3b0d4d03ac8ca5c4576a459761a3.setIcon(icon_17ab340b0627d6787d5c4c86b2e8dd99);
+        
+    
+        var popup_afb8b556d130852d8deb3100cb0cd3ed = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_3a6a08120088a5a30e24d38563e10800 = $(`<div id="html_3a6a08120088a5a30e24d38563e10800" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-03-06</h4>         <h5>The Music Hall</h5>         <h5>Portsmouth, NH</h5>         <a href=https://phish.net/setlists/phish-march-06-1992-the-music-hall-portsmouth-nh-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_afb8b556d130852d8deb3100cb0cd3ed.setContent(html_3a6a08120088a5a30e24d38563e10800);
+            
+        
+
+        marker_69de3b0d4d03ac8ca5c4576a459761a3.bindPopup(popup_afb8b556d130852d8deb3100cb0cd3ed)
+        ;
+
+        
+    
+    
+            var marker_67ac276820772ed575f698e4398c7011 = L.marker(
+                [43.0717552, -70.7625532],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_6801da9bd80c37e458b120551311f1c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_67ac276820772ed575f698e4398c7011.setIcon(icon_6801da9bd80c37e458b120551311f1c7);
+        
+    
+        var popup_7af9450501fe8966eea6fa54e3509e96 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_165741bd290fa546760d51afd08a2018 = $(`<div id="html_165741bd290fa546760d51afd08a2018" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-03-07</h4>         <h5>The Music Hall</h5>         <h5>Portsmouth, NH</h5>         <a href=https://phish.net/setlists/phish-march-07-1992-the-music-hall-portsmouth-nh-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_7af9450501fe8966eea6fa54e3509e96.setContent(html_165741bd290fa546760d51afd08a2018);
+            
+        
+
+        marker_67ac276820772ed575f698e4398c7011.bindPopup(popup_7af9450501fe8966eea6fa54e3509e96)
+        ;
+
+        
+    
+    
+            var marker_08ed79a3554805479f7d1dbcd9e5bdc0 = L.marker(
+                [42.933692, -72.2781409],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_0aa980a2cdcf027dff62aacec28e2432 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_08ed79a3554805479f7d1dbcd9e5bdc0.setIcon(icon_0aa980a2cdcf027dff62aacec28e2432);
+        
+    
+        var popup_6b5ccf36dade9ecd216f8c96ec435361 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_70bed3fd562daef599adc0536764a406 = $(`<div id="html_70bed3fd562daef599adc0536764a406" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-03-11</h4>         <h5>The Colonial Theatre</h5>         <h5>Keene, NH</h5>         <a href=https://phish.net/setlists/phish-march-11-1992-the-colonial-theatre-keene-nh-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_6b5ccf36dade9ecd216f8c96ec435361.setContent(html_70bed3fd562daef599adc0536764a406);
+            
+        
+
+        marker_08ed79a3554805479f7d1dbcd9e5bdc0.bindPopup(popup_6b5ccf36dade9ecd216f8c96ec435361)
+        ;
+
+        
+    
+    
+            var marker_bbba6a004dc64acc28a20781b5f7eeee = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_288787ffa86a5ae86386adb07abef29c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bbba6a004dc64acc28a20781b5f7eeee.setIcon(icon_288787ffa86a5ae86386adb07abef29c);
+        
+    
+        var popup_3857913978953467810fb3b15b5631a6 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_801628f363fa0ab5ccf5b4a8739e5e55 = $(`<div id="html_801628f363fa0ab5ccf5b4a8739e5e55" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-03-12</h4>         <h5>The Flynn Theatre</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-march-12-1992-the-flynn-theatre-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_3857913978953467810fb3b15b5631a6.setContent(html_801628f363fa0ab5ccf5b4a8739e5e55);
+            
+        
+
+        marker_bbba6a004dc64acc28a20781b5f7eeee.bindPopup(popup_3857913978953467810fb3b15b5631a6)
+        ;
+
+        
+    
+    
+            var marker_359c98ed5c4e96bfe3658d3ae7224763 = L.marker(
+                [41.8239891, -71.4128343],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_c48e8d5f139ec965a306b5b43a2ee777 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_359c98ed5c4e96bfe3658d3ae7224763.setIcon(icon_c48e8d5f139ec965a306b5b43a2ee777);
+        
+    
+        var popup_9283b10526690c963c8ad92760c55fb9 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_31bb1657d63cbf27f94ac20cd85ecd6d = $(`<div id="html_31bb1657d63cbf27f94ac20cd85ecd6d" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-03-13</h4>         <h5>Campus Club</h5>         <h5>Providence, RI</h5>         <a href=https://phish.net/setlists/phish-march-13-1992-campus-club-providence-ri-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_9283b10526690c963c8ad92760c55fb9.setContent(html_31bb1657d63cbf27f94ac20cd85ecd6d);
+            
+        
+
+        marker_359c98ed5c4e96bfe3658d3ae7224763.bindPopup(popup_9283b10526690c963c8ad92760c55fb9)
+        ;
+
+        
+    
+    
+            var marker_f95a195407c143c488d687fd08c25951 = L.marker(
+                [40.7127753, -74.0059728],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_87ac1aa903b5c416a3ffa991f781a96b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f95a195407c143c488d687fd08c25951.setIcon(icon_87ac1aa903b5c416a3ffa991f781a96b);
+        
+    
+        var popup_1d61e5809d6ae520d2dd6c9d5f4e15f3 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_e658a5dbb32f1c8d8f2b26f1e04e0fd5 = $(`<div id="html_e658a5dbb32f1c8d8f2b26f1e04e0fd5" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-03-14</h4>         <h5>Roseland Ballroom</h5>         <h5>New York, NY</h5>         <a href=https://phish.net/setlists/phish-march-14-1992-roseland-ballroom-new-york-ny-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_1d61e5809d6ae520d2dd6c9d5f4e15f3.setContent(html_e658a5dbb32f1c8d8f2b26f1e04e0fd5);
+            
+        
+
+        marker_f95a195407c143c488d687fd08c25951.bindPopup(popup_1d61e5809d6ae520d2dd6c9d5f4e15f3)
+        ;
+
+        
+    
+    
+            var marker_78fc341c418ba601f61786135654f24c = L.marker(
+                [38.9071923, -77.0368707],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_88ca5030b636992d4afb3d6ca0fcbd87 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_78fc341c418ba601f61786135654f24c.setIcon(icon_88ca5030b636992d4afb3d6ca0fcbd87);
+        
+    
+        var popup_d405556efda979c32e6c71422be3d04d = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_f50b1d55936452d95fc2a1c84cc1a322 = $(`<div id="html_f50b1d55936452d95fc2a1c84cc1a322" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-03-17</h4>         <h5>Lisner Auditorium, George Washington University</h5>         <h5>Washington, DC</h5>         <a href=https://phish.net/setlists/phish-march-17-1992-lisner-auditorium-george-washington-university-washington-dc-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_d405556efda979c32e6c71422be3d04d.setContent(html_f50b1d55936452d95fc2a1c84cc1a322);
+            
+        
+
+        marker_78fc341c418ba601f61786135654f24c.bindPopup(popup_d405556efda979c32e6c71422be3d04d)
+        ;
+
+        
+    
+    
+            var marker_a9113f0e5a2a01278dc8112fc9213622 = L.marker(
+                [41.308274, -72.9278835],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_4cf6e7379ebece6ab73097283f019c70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a9113f0e5a2a01278dc8112fc9213622.setIcon(icon_4cf6e7379ebece6ab73097283f019c70);
+        
+    
+        var popup_a9eb25d1c8c0a97dfc24a5de1d3b3d0b = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_41b3fc1bfc69f4e26503aaee37b1e77c = $(`<div id="html_41b3fc1bfc69f4e26503aaee37b1e77c" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-03-19</h4>         <h5>Palace Theatre</h5>         <h5>New Haven, CT</h5>         <a href=https://phish.net/setlists/phish-march-19-1992-palace-theatre-new-haven-ct-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_a9eb25d1c8c0a97dfc24a5de1d3b3d0b.setContent(html_41b3fc1bfc69f4e26503aaee37b1e77c);
+            
+        
+
+        marker_a9113f0e5a2a01278dc8112fc9213622.bindPopup(popup_a9eb25d1c8c0a97dfc24a5de1d3b3d0b)
+        ;
+
+        
+    
+    
+            var marker_4e00c71725fa058f87abb44d243abd0f = L.marker(
+                [42.09868669999999, -75.91797380000001],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_77b74d1b67eeef2cd4f229ba5bec4903 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4e00c71725fa058f87abb44d243abd0f.setIcon(icon_77b74d1b67eeef2cd4f229ba5bec4903);
+        
+    
+        var popup_3ae94c7a62dd139dc535de0973fa6d95 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_f3fe730a3966200d7d0a49f778927724 = $(`<div id="html_f3fe730a3966200d7d0a49f778927724" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-03-20</h4>         <h5>Broome County Forum</h5>         <h5>Binghamton, NY</h5>         <a href=https://phish.net/setlists/phish-march-20-1992-broome-county-forum-binghamton-ny-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_3ae94c7a62dd139dc535de0973fa6d95.setContent(html_f3fe730a3966200d7d0a49f778927724);
+            
+        
+
+        marker_4e00c71725fa058f87abb44d243abd0f.bindPopup(popup_3ae94c7a62dd139dc535de0973fa6d95)
+        ;
+
+        
+    
+    
+            var marker_a02d7b87dcf6899933b13a5c47919ee6 = L.marker(
+                [39.9525839, -75.1652215],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_ea826a2350a3981bfd9dcac49628b272 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a02d7b87dcf6899933b13a5c47919ee6.setIcon(icon_ea826a2350a3981bfd9dcac49628b272);
+        
+    
+        var popup_4a2872e6aed27f15aedf4ccdafecfb70 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_962e9609128de321e6b4fbcb38561c8f = $(`<div id="html_962e9609128de321e6b4fbcb38561c8f" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-03-21</h4>         <h5>Chestnut Cabaret</h5>         <h5>Philadelphia, PA</h5>         <a href=https://phish.net/setlists/phish-march-21-1992-chestnut-cabaret-philadelphia-pa-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_4a2872e6aed27f15aedf4ccdafecfb70.setContent(html_962e9609128de321e6b4fbcb38561c8f);
+            
+        
+
+        marker_a02d7b87dcf6899933b13a5c47919ee6.bindPopup(popup_4a2872e6aed27f15aedf4ccdafecfb70)
+        ;
+
+        
+    
+    
+            var marker_d7b64ceff71674b089e91df85d7f5b16 = L.marker(
+                [38.3498195, -81.6326234],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_ddfb2b4a32a494a8b07288492b45a737 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d7b64ceff71674b089e91df85d7f5b16.setIcon(icon_ddfb2b4a32a494a8b07288492b45a737);
+        
+    
+        var popup_bf24162740343846cef28fab3df245d0 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_7e6aa1113e10308d64a2e9487508c3c1 = $(`<div id="html_7e6aa1113e10308d64a2e9487508c3c1" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-03-22</h4>         <h5>Cultural Center Auditorium</h5>         <h5>Charleston, WV</h5>         <a href=https://phish.net/setlists/phish-march-22-1992-cultural-center-auditorium-charleston-wv-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_bf24162740343846cef28fab3df245d0.setContent(html_7e6aa1113e10308d64a2e9487508c3c1);
+            
+        
+
+        marker_d7b64ceff71674b089e91df85d7f5b16.bindPopup(popup_bf24162740343846cef28fab3df245d0)
+        ;
+
+        
+    
+    
+            var marker_816b661f2eb770e8ef9481b10d6dfab1 = L.marker(
+                [37.5407246, -77.4360481],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_6fed783765cc7af28cb8a0d6f04a9fa7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_816b661f2eb770e8ef9481b10d6dfab1.setIcon(icon_6fed783765cc7af28cb8a0d6f04a9fa7);
+        
+    
+        var popup_9bac555a746b8be1a361cf9cc1b50910 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_93b8277a1aa807181fe17eca10eadace = $(`<div id="html_93b8277a1aa807181fe17eca10eadace" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-03-24</h4>         <h5>Flood Zone</h5>         <h5>Richmond, VA</h5>         <a href=https://phish.net/setlists/phish-march-24-1992-flood-zone-richmond-va-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_9bac555a746b8be1a361cf9cc1b50910.setContent(html_93b8277a1aa807181fe17eca10eadace);
+            
+        
+
+        marker_816b661f2eb770e8ef9481b10d6dfab1.bindPopup(popup_9bac555a746b8be1a361cf9cc1b50910)
+        ;
+
+        
+    
+    
+            var marker_e27199234fd573a4c8dbd2b1dbf9447d = L.marker(
+                [38.0293059, -78.47667810000002],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_8e11c092b5ef3fed3d504be91d9ffba6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e27199234fd573a4c8dbd2b1dbf9447d.setIcon(icon_8e11c092b5ef3fed3d504be91d9ffba6);
+        
+    
+        var popup_d5066cd6667823955621906b149166a2 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_632ae39946e913cae00100a232c0378d = $(`<div id="html_632ae39946e913cae00100a232c0378d" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-03-25</h4>         <h5>Trax</h5>         <h5>Charlottesville, VA</h5>         <a href=https://phish.net/setlists/phish-march-25-1992-trax-charlottesville-va-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_d5066cd6667823955621906b149166a2.setContent(html_632ae39946e913cae00100a232c0378d);
+            
+        
+
+        marker_e27199234fd573a4c8dbd2b1dbf9447d.bindPopup(popup_d5066cd6667823955621906b149166a2)
+        ;
+
+        
+    
+    
+            var marker_017470982ec19a4ca1042b2a4103a3e3 = L.marker(
+                [36.09985959999999, -80.244216],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_79186f660ffe575e1facd1a391d711f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_017470982ec19a4ca1042b2a4103a3e3.setIcon(icon_79186f660ffe575e1facd1a391d711f9);
+        
+    
+        var popup_c705c8c9ce5237eb33bff9cf1d10d84d = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_cc4f67063ea3b2ec6db6e1e387c15c5d = $(`<div id="html_cc4f67063ea3b2ec6db6e1e387c15c5d" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-03-26</h4>         <h5>Ziggy's</h5>         <h5>Winston-Salem, NC</h5>         <a href=https://phish.net/setlists/phish-march-26-1992-ziggys-winston-salem-nc-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_c705c8c9ce5237eb33bff9cf1d10d84d.setContent(html_cc4f67063ea3b2ec6db6e1e387c15c5d);
+            
+        
+
+        marker_017470982ec19a4ca1042b2a4103a3e3.bindPopup(popup_c705c8c9ce5237eb33bff9cf1d10d84d)
+        ;
+
+        
+    
+    
+            var marker_47819b701dcf675cee383571bd810588 = L.marker(
+                [35.2270869, -80.8431267],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_412359ff450641b74d9207dfc0ef6521 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_47819b701dcf675cee383571bd810588.setIcon(icon_412359ff450641b74d9207dfc0ef6521);
+        
+    
+        var popup_4d089b86f86f5e2a730398a15a3a2472 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_e89e7a2580e3feeb0c5aebe8c22b9683 = $(`<div id="html_e89e7a2580e3feeb0c5aebe8c22b9683" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-03-27</h4>         <h5>13x13 Club</h5>         <h5>Charlotte, NC</h5>         <a href=https://phish.net/setlists/phish-march-27-1992-13x13-club-charlotte-nc-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_4d089b86f86f5e2a730398a15a3a2472.setContent(html_e89e7a2580e3feeb0c5aebe8c22b9683);
+            
+        
+
+        marker_47819b701dcf675cee383571bd810588.bindPopup(popup_4d089b86f86f5e2a730398a15a3a2472)
+        ;
+
+        
+    
+    
+            var marker_31d91a3f09344e3fe0d9e29297cfd90b = L.marker(
+                [33.748752, -84.38768449999999],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_46187aed01f3aeee9f3c73964f60542d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_31d91a3f09344e3fe0d9e29297cfd90b.setIcon(icon_46187aed01f3aeee9f3c73964f60542d);
+        
+    
+        var popup_5710578586f06236473d21fe4ae857ae = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_f71bd20bdda4740904a83a9a896e58a4 = $(`<div id="html_f71bd20bdda4740904a83a9a896e58a4" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-03-28</h4>         <h5>Variety Playhouse</h5>         <h5>Atlanta, GA</h5>         <a href=https://phish.net/setlists/phish-march-28-1992-variety-playhouse-atlanta-ga-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_5710578586f06236473d21fe4ae857ae.setContent(html_f71bd20bdda4740904a83a9a896e58a4);
+            
+        
+
+        marker_31d91a3f09344e3fe0d9e29297cfd90b.bindPopup(popup_5710578586f06236473d21fe4ae857ae)
+        ;
+
+        
+    
+    
+            var marker_3dbc79396d502d6d042884f1091749fd = L.marker(
+                [38.6270025, -90.19940419999999],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_8aa644d5f031703771fb8c6617cf14a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3dbc79396d502d6d042884f1091749fd.setIcon(icon_8aa644d5f031703771fb8c6617cf14a4);
+        
+    
+        var popup_b11a3e8ef15b227c2cc74367c0498791 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_0eba7799e6c3ddec241fbaef08010134 = $(`<div id="html_0eba7799e6c3ddec241fbaef08010134" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-03-30</h4>         <h5>Mississippi Nights</h5>         <h5>St. Louis, MO</h5>         <a href=https://phish.net/setlists/phish-march-30-1992-mississippi-nights-st-louis-mo-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_b11a3e8ef15b227c2cc74367c0498791.setContent(html_0eba7799e6c3ddec241fbaef08010134);
+            
+        
+
+        marker_3dbc79396d502d6d042884f1091749fd.bindPopup(popup_b11a3e8ef15b227c2cc74367c0498791)
+        ;
+
+        
+    
+    
+            var marker_38d62426214f4c883390f81368ed2cea = L.marker(
+                [38.9517053, -92.3340724],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_1f25a3c43660abb5e72cdf404918b68a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_38d62426214f4c883390f81368ed2cea.setIcon(icon_1f25a3c43660abb5e72cdf404918b68a);
+        
+    
+        var popup_1cfdee0f8c5ad3ef791199ffd415b060 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_bdfbe6e0286a032f8dc69af8bb1ab3ec = $(`<div id="html_bdfbe6e0286a032f8dc69af8bb1ab3ec" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-03-31</h4>         <h5>The Blue Note</h5>         <h5>Columbia, MO</h5>         <a href=https://phish.net/setlists/phish-march-31-1992-the-blue-note-columbia-mo-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_1cfdee0f8c5ad3ef791199ffd415b060.setContent(html_bdfbe6e0286a032f8dc69af8bb1ab3ec);
+            
+        
+
+        marker_38d62426214f4c883390f81368ed2cea.bindPopup(popup_1cfdee0f8c5ad3ef791199ffd415b060)
+        ;
+
+        
+    
+    
+            var marker_9c11e31f5b7f77675852dfcea2ef854a = L.marker(
+                [38.9716689, -95.2352501],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_582b13627123f157e9d065ac708b5aed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9c11e31f5b7f77675852dfcea2ef854a.setIcon(icon_582b13627123f157e9d065ac708b5aed);
+        
+    
+        var popup_cf2fa7ab31bf39fef6413fdfcbf43518 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_f1980a000da351b7b4d3630c1091266b = $(`<div id="html_f1980a000da351b7b4d3630c1091266b" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-04-01</h4>         <h5>Liberty Hall</h5>         <h5>Lawrence, KS</h5>         <a href=https://phish.net/setlists/phish-april-01-1992-liberty-hall-lawrence-ks-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_cf2fa7ab31bf39fef6413fdfcbf43518.setContent(html_f1980a000da351b7b4d3630c1091266b);
+            
+        
+
+        marker_9c11e31f5b7f77675852dfcea2ef854a.bindPopup(popup_cf2fa7ab31bf39fef6413fdfcbf43518)
+        ;
+
+        
+    
+    
+            var marker_37bd79cbf6b62cd663ffafdf53bb7c06 = L.marker(
+                [39.6350534, -106.5221255],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_e91646d2d818b8f8769233237c063cb7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_37bd79cbf6b62cd663ffafdf53bb7c06.setIcon(icon_e91646d2d818b8f8769233237c063cb7);
+        
+    
+        var popup_57f54a2ef41c4ab00bdff1103fa07a4c = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_682633d4fa724dcee40cc76abbce7051 = $(`<div id="html_682633d4fa724dcee40cc76abbce7051" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-04-03</h4>         <h5>Sawatch Hall, Park Hyatt Beaver Creek</h5>         <h5>Avon, CO</h5>         <a href=https://phish.net/setlists/phish-april-03-1992-sawatch-hall-park-hyatt-beaver-creek-avon-co-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_57f54a2ef41c4ab00bdff1103fa07a4c.setContent(html_682633d4fa724dcee40cc76abbce7051);
+            
+        
+
+        marker_37bd79cbf6b62cd663ffafdf53bb7c06.bindPopup(popup_57f54a2ef41c4ab00bdff1103fa07a4c)
+        ;
+
+        
+    
+    
+            var marker_beba37620d9e8a0b0c93f5d640f07544 = L.marker(
+                [40.0149856, -105.2705456],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_38f23d3ba3480da8e9745e123f474f10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_beba37620d9e8a0b0c93f5d640f07544.setIcon(icon_38f23d3ba3480da8e9745e123f474f10);
+        
+    
+        var popup_37491256034c5e4cdb88ed097030a47b = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_3c6009f2509fa298d5b9a381fb4a71be = $(`<div id="html_3c6009f2509fa298d5b9a381fb4a71be" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-04-04</h4>         <h5>Balch Fieldhouse, University of Colorado</h5>         <h5>Boulder, CO</h5>         <a href=https://phish.net/setlists/phish-april-04-1992-balch-fieldhouse-university-of-colorado-boulder-co-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_37491256034c5e4cdb88ed097030a47b.setContent(html_3c6009f2509fa298d5b9a381fb4a71be);
+            
+        
+
+        marker_beba37620d9e8a0b0c93f5d640f07544.bindPopup(popup_37491256034c5e4cdb88ed097030a47b)
+        ;
+
+        
+    
+    
+            var marker_eb8eb9e44b56439c8cacd6556b717ea7 = L.marker(
+                [40.0149856, -105.2705456],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_f9138614831eed24ca5f9b5fa252aee8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_eb8eb9e44b56439c8cacd6556b717ea7.setIcon(icon_f9138614831eed24ca5f9b5fa252aee8);
+        
+    
+        var popup_f4a280c3f652f73c96d0c0e78426a888 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_dec20ae339448bf1a9005a189366b9c5 = $(`<div id="html_dec20ae339448bf1a9005a189366b9c5" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-04-05</h4>         <h5>The Fox Theatre</h5>         <h5>Boulder, CO</h5>         <a href=https://phish.net/setlists/phish-april-05-1992-the-fox-theatre-boulder-co-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_f4a280c3f652f73c96d0c0e78426a888.setContent(html_dec20ae339448bf1a9005a189366b9c5);
+            
+        
+
+        marker_eb8eb9e44b56439c8cacd6556b717ea7.bindPopup(popup_f4a280c3f652f73c96d0c0e78426a888)
+        ;
+
+        
+    
+    
+            var marker_e1e6fd8b06e72b53981a577a3990193d = L.marker(
+                [38.5458246, -106.9253207],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_8c94ab80bb76791f5fbc3fd75b30efc1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e1e6fd8b06e72b53981a577a3990193d.setIcon(icon_8c94ab80bb76791f5fbc3fd75b30efc1);
+        
+    
+        var popup_6e3521e9786b655300aff225ccf655a2 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_149195b3ea6e113f25247bb7ae2096e7 = $(`<div id="html_149195b3ea6e113f25247bb7ae2096e7" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-04-06</h4>         <h5>Paul Wright Gym, Western State College</h5>         <h5>Gunnison, CO</h5>         <a href=https://phish.net/setlists/phish-april-06-1992-paul-wright-gym-western-state-college-gunnison-co-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_6e3521e9786b655300aff225ccf655a2.setContent(html_149195b3ea6e113f25247bb7ae2096e7);
+            
+        
+
+        marker_e1e6fd8b06e72b53981a577a3990193d.bindPopup(popup_6e3521e9786b655300aff225ccf655a2)
+        ;
+
+        
+    
+    
+            var marker_1bf47b2f10891606c355f024c4b836f2 = L.marker(
+                [37.27528, -107.8800667],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_b1443dfd70fffa29bb321e158c4a4f79 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1bf47b2f10891606c355f024c4b836f2.setIcon(icon_b1443dfd70fffa29bb321e158c4a4f79);
+        
+    
+        var popup_011c13658d5153162ac4c914b5160373 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_6ca20de13da9e91c04945afbbfc23ea8 = $(`<div id="html_6ca20de13da9e91c04945afbbfc23ea8" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-04-07</h4>         <h5>Fine Arts Auditorium, Fort Lewis College</h5>         <h5>Durango, CO</h5>         <a href=https://phish.net/setlists/phish-april-07-1992-fine-arts-auditorium-fort-lewis-college-durango-co-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_011c13658d5153162ac4c914b5160373.setContent(html_6ca20de13da9e91c04945afbbfc23ea8);
+            
+        
+
+        marker_1bf47b2f10891606c355f024c4b836f2.bindPopup(popup_011c13658d5153162ac4c914b5160373)
+        ;
+
+        
+    
+    
+            var marker_61f53635ccf26672cfd458ecae766dda = L.marker(
+                [35.0843859, -106.650422],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_388e1f7c67e93272773db10b3c3392c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_61f53635ccf26672cfd458ecae766dda.setIcon(icon_388e1f7c67e93272773db10b3c3392c8);
+        
+    
+        var popup_18d8d36c878517b885475c66aed7de18 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_ab5d3b251e0c04b7c8ada1d67d0bf8a8 = $(`<div id="html_ab5d3b251e0c04b7c8ada1d67d0bf8a8" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-04-08</h4>         <h5>El Rey Theater</h5>         <h5>Albuquerque, NM</h5>         <a href=https://phish.net/setlists/phish-april-08-1992-el-rey-theater-albuquerque-nm-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_18d8d36c878517b885475c66aed7de18.setContent(html_ab5d3b251e0c04b7c8ada1d67d0bf8a8);
+            
+        
+
+        marker_61f53635ccf26672cfd458ecae766dda.bindPopup(popup_18d8d36c878517b885475c66aed7de18)
+        ;
+
+        
+    
+    
+            var marker_9e293aff97f80d093bc1d3b26a9554fd = L.marker(
+                [32.2539787, -110.9741769],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_4d3ac4474c53048a69eb1a87d6268390 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9e293aff97f80d093bc1d3b26a9554fd.setIcon(icon_4d3ac4474c53048a69eb1a87d6268390);
+        
+    
+        var popup_16cac0dc0f92b0cdfc9d235e57708f09 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_900b44fb8950772ce3f992324e20498b = $(`<div id="html_900b44fb8950772ce3f992324e20498b" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-04-12</h4>         <h5>Arizona Ballroom, University of Arizona Student Union</h5>         <h5>Tucson, AZ</h5>         <a href=https://phish.net/setlists/phish-april-12-1992-arizona-ballroom-university-of-arizona-student-union-tucson-az-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_16cac0dc0f92b0cdfc9d235e57708f09.setContent(html_900b44fb8950772ce3f992324e20498b);
+            
+        
+
+        marker_9e293aff97f80d093bc1d3b26a9554fd.bindPopup(popup_16cac0dc0f92b0cdfc9d235e57708f09)
+        ;
+
+        
+    
+    
+            var marker_11810fcb9041e98fa0ced0660df41d6a = L.marker(
+                [33.4255104, -111.9400054],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_380b37084b3f8701e03ebebff4836375 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_11810fcb9041e98fa0ced0660df41d6a.setIcon(icon_380b37084b3f8701e03ebebff4836375);
+        
+    
+        var popup_2c50e8ef4e1ee07f8a8b40af42e9435c = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_b90d5d9602b88b63a47050c86a2b8016 = $(`<div id="html_b90d5d9602b88b63a47050c86a2b8016" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-04-13</h4>         <h5>After the Gold Rush</h5>         <h5>Tempe, AZ</h5>         <a href=https://phish.net/setlists/phish-april-13-1992-after-the-gold-rush-tempe-az-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_2c50e8ef4e1ee07f8a8b40af42e9435c.setContent(html_b90d5d9602b88b63a47050c86a2b8016);
+            
+        
+
+        marker_11810fcb9041e98fa0ced0660df41d6a.bindPopup(popup_2c50e8ef4e1ee07f8a8b40af42e9435c)
+        ;
+
+        
+    
+    
+            var marker_4dab9323c39ce19343bda3cb5b95d89e = L.marker(
+                [34.0549076, -118.242643],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_dcd4c014a686be5906b1a802867d3428 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4dab9323c39ce19343bda3cb5b95d89e.setIcon(icon_dcd4c014a686be5906b1a802867d3428);
+        
+    
+        var popup_29df46a9be5121313d0d979b4d9947ab = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_87d73b2ba66260aed548128e955fed72 = $(`<div id="html_87d73b2ba66260aed548128e955fed72" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-04-15</h4>         <h5>Variety Arts Center</h5>         <h5>Los Angeles, CA</h5>         <a href=https://phish.net/setlists/phish-april-15-1992-variety-arts-center-los-angeles-ca-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_29df46a9be5121313d0d979b4d9947ab.setContent(html_87d73b2ba66260aed548128e955fed72);
+            
+        
+
+        marker_4dab9323c39ce19343bda3cb5b95d89e.bindPopup(popup_29df46a9be5121313d0d979b4d9947ab)
+        ;
+
+        
+    
+    
+            var marker_835f0af74b935b86d45f1a6f4fd2c234 = L.marker(
+                [34.4133292, -119.8609718],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_120f4cb5005d849800ac7d9b1a175956 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_835f0af74b935b86d45f1a6f4fd2c234.setIcon(icon_120f4cb5005d849800ac7d9b1a175956);
+        
+    
+        var popup_03647c109b5fc20811fbf6b3ab852694 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_d3d0b02703c3563885c1320dfd51bbd5 = $(`<div id="html_d3d0b02703c3563885c1320dfd51bbd5" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-04-16</h4>         <h5>Anaconda Theatre</h5>         <h5>Isla Vista, CA</h5>         <a href=https://phish.net/setlists/phish-april-16-1992-anaconda-theatre-isla-vista-ca-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_03647c109b5fc20811fbf6b3ab852694.setContent(html_d3d0b02703c3563885c1320dfd51bbd5);
+            
+        
+
+        marker_835f0af74b935b86d45f1a6f4fd2c234.bindPopup(popup_03647c109b5fc20811fbf6b3ab852694)
+        ;
+
+        
+    
+    
+            var marker_03bea4481f101b345bc3fe4467b1ec89 = L.marker(
+                [37.7749295, -122.4194155],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_5d4a187e0a75e74332f3f9eb49f28363 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_03bea4481f101b345bc3fe4467b1ec89.setIcon(icon_5d4a187e0a75e74332f3f9eb49f28363);
+        
+    
+        var popup_8a1a6e855ce177c422267bf583680a6e = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_1e007f0d0db47742b957e74ad0bc2bd4 = $(`<div id="html_1e007f0d0db47742b957e74ad0bc2bd4" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-04-17</h4>         <h5>Warfield Theatre</h5>         <h5>San Francisco, CA</h5>         <a href=https://phish.net/setlists/phish-april-17-1992-warfield-theatre-san-francisco-ca-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_8a1a6e855ce177c422267bf583680a6e.setContent(html_1e007f0d0db47742b957e74ad0bc2bd4);
+            
+        
+
+        marker_03bea4481f101b345bc3fe4467b1ec89.bindPopup(popup_8a1a6e855ce177c422267bf583680a6e)
+        ;
+
+        
+    
+    
+            var marker_c8da76edc8d7e5160d750e4845c95f68 = L.marker(
+                [37.4418834, -122.1430195],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_c3630be719ad4996fb8cf599debbc1e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c8da76edc8d7e5160d750e4845c95f68.setIcon(icon_c3630be719ad4996fb8cf599debbc1e5);
+        
+    
+        var popup_10e1883f7f1cf0165e47dfdc9e151767 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_92a7d13cfadb25b52bac4d6b1d2aa174 = $(`<div id="html_92a7d13cfadb25b52bac4d6b1d2aa174" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-04-18</h4>         <h5>Wilbur Field, Stanford University</h5>         <h5>Palo Alto, CA</h5>         <a href=https://phish.net/setlists/phish-april-18-1992-wilbur-field-stanford-university-palo-alto-ca-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_10e1883f7f1cf0165e47dfdc9e151767.setContent(html_92a7d13cfadb25b52bac4d6b1d2aa174);
+            
+        
+
+        marker_c8da76edc8d7e5160d750e4845c95f68.bindPopup(popup_10e1883f7f1cf0165e47dfdc9e151767)
+        ;
+
+        
+    
+    
+            var marker_9d1e4c47b7fdb989de8091ef7e73aaa1 = L.marker(
+                [36.9741171, -122.0307963],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_e80934b7f58edc00388da7f83a6678a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9d1e4c47b7fdb989de8091ef7e73aaa1.setIcon(icon_e80934b7f58edc00388da7f83a6678a4);
+        
+    
+        var popup_88748e72eb219c14a8b97926c8413938 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_f76c132988fb2c166bd67ffed46de20d = $(`<div id="html_f76c132988fb2c166bd67ffed46de20d" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-04-19</h4>         <h5>The Catalyst</h5>         <h5>Santa Cruz, CA</h5>         <a href=https://phish.net/setlists/phish-april-19-1992-the-catalyst-santa-cruz-ca-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_88748e72eb219c14a8b97926c8413938.setContent(html_f76c132988fb2c166bd67ffed46de20d);
+            
+        
+
+        marker_9d1e4c47b7fdb989de8091ef7e73aaa1.bindPopup(popup_88748e72eb219c14a8b97926c8413938)
+        ;
+
+        
+    
+    
+            var marker_73d1df255a01cf652e1452864fa719c1 = L.marker(
+                [40.8020712, -124.1636729],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_386ad6ef974bef703bf22bf49c430a34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_73d1df255a01cf652e1452864fa719c1.setIcon(icon_386ad6ef974bef703bf22bf49c430a34);
+        
+    
+        var popup_3e535140b87ea82ed56bb8f883f516be = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_6ef370db73896f5cf65d30c53c45ebee = $(`<div id="html_6ef370db73896f5cf65d30c53c45ebee" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-04-21</h4>         <h5>Redwood Acres Fairgrounds</h5>         <h5>Eureka, CA</h5>         <a href=https://phish.net/setlists/phish-april-21-1992-redwood-acres-fairgrounds-eureka-ca-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_3e535140b87ea82ed56bb8f883f516be.setContent(html_6ef370db73896f5cf65d30c53c45ebee);
+            
+        
+
+        marker_73d1df255a01cf652e1452864fa719c1.bindPopup(popup_3e535140b87ea82ed56bb8f883f516be)
+        ;
+
+        
+    
+    
+            var marker_255808b14f5fc61c79837dfd3088520b = L.marker(
+                [44.0520691, -123.0867536],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_ee764d7f886f223b5a5c84d9b2cc138d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_255808b14f5fc61c79837dfd3088520b.setIcon(icon_ee764d7f886f223b5a5c84d9b2cc138d);
+        
+    
+        var popup_154980e5ed328d4c89de90fbb4340494 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_1b9cbf44f52ba969479e0b348d218870 = $(`<div id="html_1b9cbf44f52ba969479e0b348d218870" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-04-22</h4>         <h5>Hilton Ballroom</h5>         <h5>Eugene, OR</h5>         <a href=https://phish.net/setlists/phish-april-22-1992-hilton-ballroom-eugene-or-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_154980e5ed328d4c89de90fbb4340494.setContent(html_1b9cbf44f52ba969479e0b348d218870);
+            
+        
+
+        marker_255808b14f5fc61c79837dfd3088520b.bindPopup(popup_154980e5ed328d4c89de90fbb4340494)
+        ;
+
+        
+    
+    
+            var marker_c0aa5a3680090ff396046bb256ecd922 = L.marker(
+                [47.6061389, -122.3328481],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_ec5c2234758c7d529788ea666201b5a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c0aa5a3680090ff396046bb256ecd922.setIcon(icon_ec5c2234758c7d529788ea666201b5a3);
+        
+    
+        var popup_46326799ae9bcb68be66aa9914b1c083 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_b997a42773581f573f03dc24337820c1 = $(`<div id="html_b997a42773581f573f03dc24337820c1" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-04-23</h4>         <h5>Oz Nightclub</h5>         <h5>Seattle, WA</h5>         <a href=https://phish.net/setlists/phish-april-23-1992-oz-nightclub-seattle-wa-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_46326799ae9bcb68be66aa9914b1c083.setContent(html_b997a42773581f573f03dc24337820c1);
+            
+        
+
+        marker_c0aa5a3680090ff396046bb256ecd922.bindPopup(popup_46326799ae9bcb68be66aa9914b1c083)
+        ;
+
+        
+    
+    
+            var marker_e2493cbc41e244130a642f6fc7ad61e7 = L.marker(
+                [45.515232, -122.6783853],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_0edc56f7f15ab3844ac23fceb8fcd488 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e2493cbc41e244130a642f6fc7ad61e7.setIcon(icon_0edc56f7f15ab3844ac23fceb8fcd488);
+        
+    
+        var popup_72d723310723d2d576b5e57ac9763af1 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_75c148b519a8b889138296d75d5ddab2 = $(`<div id="html_75c148b519a8b889138296d75d5ddab2" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-04-24</h4>         <h5>Roseland Theater</h5>         <h5>Portland, OR</h5>         <a href=https://phish.net/setlists/phish-april-24-1992-roseland-theater-portland-or-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_72d723310723d2d576b5e57ac9763af1.setContent(html_75c148b519a8b889138296d75d5ddab2);
+            
+        
+
+        marker_e2493cbc41e244130a642f6fc7ad61e7.bindPopup(popup_72d723310723d2d576b5e57ac9763af1)
+        ;
+
+        
+    
+    
+            var marker_d5ff09ea0ffa7faf74c5b9496a3e8ec9 = L.marker(
+                [47.0378741, -122.9006951],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_823a88f772feb037a5159d860f0a45e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d5ff09ea0ffa7faf74c5b9496a3e8ec9.setIcon(icon_823a88f772feb037a5159d860f0a45e1);
+        
+    
+        var popup_b61bc2c228d8cff7d1eaef23392d85b6 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_0672dded2f03b3e13a317b46c412e098 = $(`<div id="html_0672dded2f03b3e13a317b46c412e098" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-04-25</h4>         <h5>Campus Recreation Center, Evergreen College</h5>         <h5>Olympia, WA</h5>         <a href=https://phish.net/setlists/phish-april-25-1992-campus-recreation-center-evergreen-college-olympia-wa-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_b61bc2c228d8cff7d1eaef23392d85b6.setContent(html_0672dded2f03b3e13a317b46c412e098);
+            
+        
+
+        marker_d5ff09ea0ffa7faf74c5b9496a3e8ec9.bindPopup(popup_b61bc2c228d8cff7d1eaef23392d85b6)
+        ;
+
+        
+    
+    
+            var marker_370768edbe164583f44f779a37880e4a = L.marker(
+                [44.977753, -93.2650108],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_4e0370efc2b05168a5ae8721df62903d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_370768edbe164583f44f779a37880e4a.setIcon(icon_4e0370efc2b05168a5ae8721df62903d);
+        
+    
+        var popup_288b9873a236f01f7ff07d56f21bfe28 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_987ab7b60d311a885f9422b821c7ef66 = $(`<div id="html_987ab7b60d311a885f9422b821c7ef66" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-04-29</h4>         <h5>First Avenue</h5>         <h5>Minneapolis, MN</h5>         <a href=https://phish.net/setlists/phish-april-29-1992-first-avenue-minneapolis-mn-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_288b9873a236f01f7ff07d56f21bfe28.setContent(html_987ab7b60d311a885f9422b821c7ef66);
+            
+        
+
+        marker_370768edbe164583f44f779a37880e4a.bindPopup(popup_288b9873a236f01f7ff07d56f21bfe28)
+        ;
+
+        
+    
+    
+            var marker_916aa6a2cfdddf8ded5bfeec2260c670 = L.marker(
+                [43.0721661, -89.4007501],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_63ded21809e13cc9cadde09ffe821e6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_916aa6a2cfdddf8ded5bfeec2260c670.setIcon(icon_63ded21809e13cc9cadde09ffe821e6f);
+        
+    
+        var popup_d97c979f6befa5536867dd276506cd54 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_e9a05d29f2b308c23e25810ffec43d52 = $(`<div id="html_e9a05d29f2b308c23e25810ffec43d52" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-04-30</h4>         <h5>Barrymore Theatre</h5>         <h5>Madison, WI</h5>         <a href=https://phish.net/setlists/phish-april-30-1992-barrymore-theatre-madison-wi-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_d97c979f6befa5536867dd276506cd54.setContent(html_e9a05d29f2b308c23e25810ffec43d52);
+            
+        
+
+        marker_916aa6a2cfdddf8ded5bfeec2260c670.bindPopup(popup_d97c979f6befa5536867dd276506cd54)
+        ;
+
+        
+    
+    
+            var marker_7190d77280f050be093eab2142fca8c8 = L.marker(
+                [43.0389025, -87.9064736],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_850ab68eea381b0edfb847c2781fa15a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7190d77280f050be093eab2142fca8c8.setIcon(icon_850ab68eea381b0edfb847c2781fa15a);
+        
+    
+        var popup_8eae417dcd80b4e052019bd55fa7112f = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_1a62318700d8e20469f656cfefeaea35 = $(`<div id="html_1a62318700d8e20469f656cfefeaea35" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-05-01</h4>         <h5>The Rave</h5>         <h5>Milwaukee, WI</h5>         <a href=https://phish.net/setlists/phish-may-01-1992-the-rave-milwaukee-wi-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_8eae417dcd80b4e052019bd55fa7112f.setContent(html_1a62318700d8e20469f656cfefeaea35);
+            
+        
+
+        marker_7190d77280f050be093eab2142fca8c8.bindPopup(popup_8eae417dcd80b4e052019bd55fa7112f)
+        ;
+
+        
+    
+    
+            var marker_49e4eff0e4da858e26619de7aad58d70 = L.marker(
+                [41.8781136, -87.6297982],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_5371abe4c91be0037f70ca78220e0988 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_49e4eff0e4da858e26619de7aad58d70.setIcon(icon_5371abe4c91be0037f70ca78220e0988);
+        
+    
+        var popup_57a54d61fafc4f77bbdb57edaef56633 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_217d8e7c47c931a9402460ce4d4fb6d1 = $(`<div id="html_217d8e7c47c931a9402460ce4d4fb6d1" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-05-02</h4>         <h5>Cabaret Metro</h5>         <h5>Chicago, IL</h5>         <a href=https://phish.net/setlists/phish-may-02-1992-cabaret-metro-chicago-il-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_57a54d61fafc4f77bbdb57edaef56633.setContent(html_217d8e7c47c931a9402460ce4d4fb6d1);
+            
+        
+
+        marker_49e4eff0e4da858e26619de7aad58d70.bindPopup(popup_57a54d61fafc4f77bbdb57edaef56633)
+        ;
+
+        
+    
+    
+            var marker_8505795de32796baabddff17a6ed9540 = L.marker(
+                [42.7369792, -84.48386540000001],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_e6dc9560e8fa7b72229c9ed81b0955af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8505795de32796baabddff17a6ed9540.setIcon(icon_e6dc9560e8fa7b72229c9ed81b0955af);
+        
+    
+        var popup_8ad74c2b5405f30699739b3880e09067 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_2808a36f34c0ee3f86eed388e70acc19 = $(`<div id="html_2808a36f34c0ee3f86eed388e70acc19" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-05-03</h4>         <h5>Michigan State University Union Ballroom</h5>         <h5>East Lansing, MI</h5>         <a href=https://phish.net/setlists/phish-may-03-1992-michigan-state-university-union-ballroom-east-lansing-mi-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_8ad74c2b5405f30699739b3880e09067.setContent(html_2808a36f34c0ee3f86eed388e70acc19);
+            
+        
+
+        marker_8505795de32796baabddff17a6ed9540.bindPopup(popup_8ad74c2b5405f30699739b3880e09067)
+        ;
+
+        
+    
+    
+            var marker_ef8fd86d827c8a40d2dcc1a510c2c36c = L.marker(
+                [39.1031182, -84.5120196],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_7cba7db6deed0547e96791d75eca15c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ef8fd86d827c8a40d2dcc1a510c2c36c.setIcon(icon_7cba7db6deed0547e96791d75eca15c9);
+        
+    
+        var popup_794a14c6c6ad75c9b833b48ccf5514a9 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_55e19dd9821eb2cf7a5b1659f62f1e1b = $(`<div id="html_55e19dd9821eb2cf7a5b1659f62f1e1b" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-05-05</h4>         <h5>Bogart's</h5>         <h5>Cincinnati, OH</h5>         <a href=https://phish.net/setlists/phish-may-05-1992-bogarts-cincinnati-oh-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_794a14c6c6ad75c9b833b48ccf5514a9.setContent(html_55e19dd9821eb2cf7a5b1659f62f1e1b);
+            
+        
+
+        marker_ef8fd86d827c8a40d2dcc1a510c2c36c.bindPopup(popup_794a14c6c6ad75c9b833b48ccf5514a9)
+        ;
+
+        
+    
+    
+            var marker_b3e9a6f377ce5ae1dc05183020550221 = L.marker(
+                [42.331427, -83.0457538],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_5447afacfca78e1afb302bdcbfc404e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b3e9a6f377ce5ae1dc05183020550221.setIcon(icon_5447afacfca78e1afb302bdcbfc404e3);
+        
+    
+        var popup_05e52492586fc75c783f5d7cbbdc52f1 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_572dd45ccf575844f1a864ab4078f54f = $(`<div id="html_572dd45ccf575844f1a864ab4078f54f" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-05-06</h4>         <h5>St. Andrew's Hall</h5>         <h5>Detroit, MI</h5>         <a href=https://phish.net/setlists/phish-may-06-1992-st-andrews-hall-detroit-mi-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_05e52492586fc75c783f5d7cbbdc52f1.setContent(html_572dd45ccf575844f1a864ab4078f54f);
+            
+        
+
+        marker_b3e9a6f377ce5ae1dc05183020550221.bindPopup(popup_05e52492586fc75c783f5d7cbbdc52f1)
+        ;
+
+        
+    
+    
+            var marker_a05faef44e48a8e0e8a525f5e319f163 = L.marker(
+                [41.49932, -81.6943605],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_b1b58ba5f3850de2dedfa282946820c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a05faef44e48a8e0e8a525f5e319f163.setIcon(icon_b1b58ba5f3850de2dedfa282946820c3);
+        
+    
+        var popup_cbf0a61ddf6bcb9eaa8c997fca6e7da3 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_1277f925368b26a9239b1f481b799589 = $(`<div id="html_1277f925368b26a9239b1f481b799589" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-05-07</h4>         <h5>The Agora Theatre</h5>         <h5>Cleveland, OH</h5>         <a href=https://phish.net/setlists/phish-may-07-1992-the-agora-theatre-cleveland-oh-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_cbf0a61ddf6bcb9eaa8c997fca6e7da3.setContent(html_1277f925368b26a9239b1f481b799589);
+            
+        
+
+        marker_a05faef44e48a8e0e8a525f5e319f163.bindPopup(popup_cbf0a61ddf6bcb9eaa8c997fca6e7da3)
+        ;
+
+        
+    
+    
+            var marker_0bbb6c0c6767f54dd291e300ff28d4de = L.marker(
+                [43.038668, -78.8642033],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_b105bfcc1b145457f0f381377d41d1bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0bbb6c0c6767f54dd291e300ff28d4de.setIcon(icon_b105bfcc1b145457f0f381377d41d1bc);
+        
+    
+        var popup_9e67fc19262ef56ba37e8bdd4e188e52 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_09b4bf07aa1b4967b46f646336ac511c = $(`<div id="html_09b4bf07aa1b4967b46f646336ac511c" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-05-08</h4>         <h5>The Riviera Theatre</h5>         <h5>North Tonawanda, NY</h5>         <a href=https://phish.net/setlists/phish-may-08-1992-the-riviera-theatre-north-tonawanda-ny-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_9e67fc19262ef56ba37e8bdd4e188e52.setContent(html_09b4bf07aa1b4967b46f646336ac511c);
+            
+        
+
+        marker_0bbb6c0c6767f54dd291e300ff28d4de.bindPopup(popup_9e67fc19262ef56ba37e8bdd4e188e52)
+        ;
+
+        
+    
+    
+            var marker_44e1c01f5351c78180d06aa8f3f62b4a = L.marker(
+                [43.0481221, -76.14742439999999],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_ed833be5689a8754672ba5cfdd217f4e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_44e1c01f5351c78180d06aa8f3f62b4a.setIcon(icon_ed833be5689a8754672ba5cfdd217f4e);
+        
+    
+        var popup_0c9b1bea89fbf06957f15e5c1e929e02 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_f377c369d3db24e986e8b8f1e183beab = $(`<div id="html_f377c369d3db24e986e8b8f1e183beab" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-05-09</h4>         <h5>The Syracuse Armory</h5>         <h5>Syracuse, NY</h5>         <a href=https://phish.net/setlists/phish-may-09-1992-the-syracuse-armory-syracuse-ny-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_0c9b1bea89fbf06957f15e5c1e929e02.setContent(html_f377c369d3db24e986e8b8f1e183beab);
+            
+        
+
+        marker_44e1c01f5351c78180d06aa8f3f62b4a.bindPopup(popup_0c9b1bea89fbf06957f15e5c1e929e02)
+        ;
+
+        
+    
+    
+            var marker_5f02396a77052c45d81348e464851ebb = L.marker(
+                [42.3732216, -72.5198537],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_d4e1a9e6b251c06fdab18991791247a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5f02396a77052c45d81348e464851ebb.setIcon(icon_d4e1a9e6b251c06fdab18991791247a8);
+        
+    
+        var popup_bdd0e9ea0785b9d6e31e37cb8d321588 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_75285ea74a8350ae9b988352ed1d1b1f = $(`<div id="html_75285ea74a8350ae9b988352ed1d1b1f" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-05-10</h4>         <h5>Campus Pond, University of Massachusetts</h5>         <h5>Amherst, MA</h5>         <a href=https://phish.net/setlists/phish-may-10-1992-campus-pond-university-of-massachusetts-amherst-ma-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_bdd0e9ea0785b9d6e31e37cb8d321588.setContent(html_75285ea74a8350ae9b988352ed1d1b1f);
+            
+        
+
+        marker_5f02396a77052c45d81348e464851ebb.bindPopup(popup_bdd0e9ea0785b9d6e31e37cb8d321588)
+        ;
+
+        
+    
+    
+            var marker_95a018599721376a391af41086f43ebc = L.marker(
+                [44.5956163, -75.1690942],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_09c0b4acd926284746983895a087f2c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_95a018599721376a391af41086f43ebc.setIcon(icon_09c0b4acd926284746983895a087f2c1);
+        
+    
+        var popup_30cad7e13f300633eef23bf7489381f1 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_1da61af05820ed54a1481cb51db427e8 = $(`<div id="html_1da61af05820ed54a1481cb51db427e8" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-05-12</h4>         <h5>St. Lawrence University</h5>         <h5>Canton, NY</h5>         <a href=https://phish.net/setlists/phish-may-12-1992-st-lawrence-university-canton-ny-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_30cad7e13f300633eef23bf7489381f1.setContent(html_1da61af05820ed54a1481cb51db427e8);
+            
+        
+
+        marker_95a018599721376a391af41086f43ebc.bindPopup(popup_30cad7e13f300633eef23bf7489381f1)
+        ;
+
+        
+    
+    
+            var marker_c3f16913a9ddca191438921722e00923 = L.marker(
+                [41.0017643, -73.66568339999999],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_b14c59f31d324ff1241dd484c792a65f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c3f16913a9ddca191438921722e00923.setIcon(icon_b14c59f31d324ff1241dd484c792a65f);
+        
+    
+        var popup_351c632fc91edbe713df439635d10d1a = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_15116f6051626c5c83e099d7c57ba416 = $(`<div id="html_15116f6051626c5c83e099d7c57ba416" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-05-14</h4>         <h5>The Capitol Theatre</h5>         <h5>Port Chester, NY</h5>         <a href=https://phish.net/setlists/phish-may-14-1992-the-capitol-theatre-port-chester-ny-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_351c632fc91edbe713df439635d10d1a.setContent(html_15116f6051626c5c83e099d7c57ba416);
+            
+        
+
+        marker_c3f16913a9ddca191438921722e00923.bindPopup(popup_351c632fc91edbe713df439635d10d1a)
+        ;
+
+        
+    
+    
+            var marker_781b2bcead5cdab09aa6abd3e01a573f = L.marker(
+                [40.7127753, -74.0059728],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_0bb87dda9f62075b1a295ade4f8ef2d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_781b2bcead5cdab09aa6abd3e01a573f.setIcon(icon_0bb87dda9f62075b1a295ade4f8ef2d3);
+        
+    
+        var popup_423445d85c8a0005df6d541c8befa647 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_1148048eb13abbe6171d4f1a257ecb17 = $(`<div id="html_1148048eb13abbe6171d4f1a257ecb17" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-05-15</h4>         <h5>Lonestar Roadhouse</h5>         <h5>New York, NY</h5>         <a href=https://phish.net/setlists/phish-may-15-1992-lonestar-roadhouse-new-york-ny-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_423445d85c8a0005df6d541c8befa647.setContent(html_1148048eb13abbe6171d4f1a257ecb17);
+            
+        
+
+        marker_781b2bcead5cdab09aa6abd3e01a573f.bindPopup(popup_423445d85c8a0005df6d541c8befa647)
+        ;
+
+        
+    
+    
+            var marker_9fc84605d2d499533b42aa402dd8e60f = L.marker(
+                [42.3600825, -71.0588801],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_d64417391515923ed463d9e82fdb1e47 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9fc84605d2d499533b42aa402dd8e60f.setIcon(icon_d64417391515923ed463d9e82fdb1e47);
+        
+    
+        var popup_13e0951b6715d2ebd7bb70f6736a0705 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_4e9e9bf00e289b31ee98a6fe8f0399a1 = $(`<div id="html_4e9e9bf00e289b31ee98a6fe8f0399a1" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-05-16</h4>         <h5>The Orpheum Theatre</h5>         <h5>Boston, MA</h5>         <a href=https://phish.net/setlists/phish-may-16-1992-the-orpheum-theatre-boston-ma-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_13e0951b6715d2ebd7bb70f6736a0705.setContent(html_4e9e9bf00e289b31ee98a6fe8f0399a1);
+            
+        
+
+        marker_9fc84605d2d499533b42aa402dd8e60f.bindPopup(popup_13e0951b6715d2ebd7bb70f6736a0705)
+        ;
+
+        
+    
+    
+            var marker_32fc7993f6a467c5b705f6a9394ede59 = L.marker(
+                [42.8142432, -73.9395687],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_0417ca622b4b2b66a308f1e3959f5feb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_32fc7993f6a467c5b705f6a9394ede59.setIcon(icon_0417ca622b4b2b66a308f1e3959f5feb);
+        
+    
+        var popup_c63b157dd805b575bb7225f63703cf09 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_7d363da707b4c3dfc533f426627e6918 = $(`<div id="html_7d363da707b4c3dfc533f426627e6918" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-05-17</h4>         <h5>Achilles Rink, Union College</h5>         <h5>Schenectady, NY</h5>         <a href=https://phish.net/setlists/phish-may-17-1992-achilles-rink-union-college-schenectady-ny-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_c63b157dd805b575bb7225f63703cf09.setContent(html_7d363da707b4c3dfc533f426627e6918);
+            
+        
+
+        marker_32fc7993f6a467c5b705f6a9394ede59.bindPopup(popup_c63b157dd805b575bb7225f63703cf09)
+        ;
+
+        
+    
+    
+            var marker_bd53c50879e6e984ac056d61c17db809 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_5380745fef706da60317f842aba7b03d);
+        
+    
+            var icon_bf7cc54f1f24d28eb740b1b15dde9a74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bd53c50879e6e984ac056d61c17db809.setIcon(icon_bf7cc54f1f24d28eb740b1b15dde9a74);
+        
+    
+        var popup_84547058c32cfb4ade4dbedac0d019ab = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_8129a150e3c8b8620616359f2cf35a28 = $(`<div id="html_8129a150e3c8b8620616359f2cf35a28" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1992-05-18</h4>         <h5>The Flynn Theatre</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-may-18-1992-the-flynn-theatre-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_84547058c32cfb4ade4dbedac0d019ab.setContent(html_8129a150e3c8b8620616359f2cf35a28);
+            
+        
+
+        marker_bd53c50879e6e984ac056d61c17db809.bindPopup(popup_84547058c32cfb4ade4dbedac0d019ab)
+        ;
+
+        
+    
+    
+            marker_cluster_5380745fef706da60317f842aba7b03d.addTo(map_1393d92ac087fa5351676cda0b9272d9);
+        
+    
+            var marker_cluster_16323be34b2bfada538e9a77b9b054d8 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            marker_cluster_16323be34b2bfada538e9a77b9b054d8.addTo(map_1393d92ac087fa5351676cda0b9272d9);
+        
+</script>
+</html>

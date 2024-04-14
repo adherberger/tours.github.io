@@ -1,0 +1,2657 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f29f642842d4aa719c750734a6419637 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    <h4 style="text-align:center;">1988 Tour</h4>
+    
+            <div class="folium-map" id="map_f29f642842d4aa719c750734a6419637" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f29f642842d4aa719c750734a6419637 = L.map(
+                "map_f29f642842d4aa719c750734a6419637",
+                {
+                    center: [39.5219, -98.4892],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_013feb0016e69caefc1f56ce6b43f680 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_013feb0016e69caefc1f56ce6b43f680.addTo(map_f29f642842d4aa719c750734a6419637);
+        
+    
+            var marker_cluster_494078e9a2fb32636453bf75b93cc593 = L.markerClusterGroup(
+                {"maxClusterRadius": 20}
+            );
+        
+    
+            var marker_1fe7b646429122ded96dbc4a7af43d73 = L.marker(
+                [44.1926386, -72.7798479],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_dc755c179f58fcbd0ed906c9e544a689 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1fe7b646429122ded96dbc4a7af43d73.setIcon(icon_dc755c179f58fcbd0ed906c9e544a689);
+        
+    
+        var popup_c26142f6d30a8c4bcad06837c16a34eb = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_f935f32d1d48b1a34919f6681f3e15f4 = $(`<div id="html_f935f32d1d48b1a34919f6681f3e15f4" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-01-27</h4>         <h5>Gallagher's</h5>         <h5>Waitsfield, VT</h5>         <a href=https://phish.net/setlists/phish-january-27-1988-gallaghers-waitsfield-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_c26142f6d30a8c4bcad06837c16a34eb.setContent(html_f935f32d1d48b1a34919f6681f3e15f4);
+            
+        
+
+        marker_1fe7b646429122ded96dbc4a7af43d73.bindPopup(popup_c26142f6d30a8c4bcad06837c16a34eb)
+        ;
+
+        
+    
+    
+            var marker_f8eca7aa0ca3aa6cef13ce2318d24da5 = L.marker(
+                [44.1926386, -72.7798479],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_9c77579e61d0f825135f23edc26068d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f8eca7aa0ca3aa6cef13ce2318d24da5.setIcon(icon_9c77579e61d0f825135f23edc26068d4);
+        
+    
+        var popup_7f482161fb58fac07e860406278037d2 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_d564cde443526289969f4dcf864fdc80 = $(`<div id="html_d564cde443526289969f4dcf864fdc80" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-02-03</h4>         <h5>Gallagher's</h5>         <h5>Waitsfield, VT</h5>         <a href=https://phish.net/setlists/phish-february-03-1988-gallaghers-waitsfield-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_7f482161fb58fac07e860406278037d2.setContent(html_d564cde443526289969f4dcf864fdc80);
+            
+        
+
+        marker_f8eca7aa0ca3aa6cef13ce2318d24da5.bindPopup(popup_7f482161fb58fac07e860406278037d2)
+        ;
+
+        
+    
+    
+            var marker_dd96680d3dadfe144507ace1a7a1b86e = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_0308e4e2d579c321577499a7970b53f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dd96680d3dadfe144507ace1a7a1b86e.setIcon(icon_0308e4e2d579c321577499a7970b53f1);
+        
+    
+        var popup_bf678fb088150938c87c7b382d75ee75 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_a691128d19fbb3ef202a0d99c03a21d8 = $(`<div id="html_a691128d19fbb3ef202a0d99c03a21d8" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-02-07</h4>         <h5>Nectar's</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-february-07-1988-nectars-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_bf678fb088150938c87c7b382d75ee75.setContent(html_a691128d19fbb3ef202a0d99c03a21d8);
+            
+        
+
+        marker_dd96680d3dadfe144507ace1a7a1b86e.bindPopup(popup_bf678fb088150938c87c7b382d75ee75)
+        ;
+
+        
+    
+    
+            var marker_69404a546656e1021824d94992db459e = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_0f24398e42f9e934a6e049a0c21603fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_69404a546656e1021824d94992db459e.setIcon(icon_0f24398e42f9e934a6e049a0c21603fd);
+        
+    
+        var popup_4aa2daff555150da759bb4085330ce28 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_d7c8492d0fbf01f6db48743ea7c85a45 = $(`<div id="html_d7c8492d0fbf01f6db48743ea7c85a45" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-02-08</h4>         <h5>Nectar's</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-february-08-1988-nectars-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_4aa2daff555150da759bb4085330ce28.setContent(html_d7c8492d0fbf01f6db48743ea7c85a45);
+            
+        
+
+        marker_69404a546656e1021824d94992db459e.bindPopup(popup_4aa2daff555150da759bb4085330ce28)
+        ;
+
+        
+    
+    
+            var marker_f053690dd4020914754e25a6edd3c8c3 = L.marker(
+                [44.1926386, -72.7798479],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_52066d5013a3e27ce6f36955f2985a91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f053690dd4020914754e25a6edd3c8c3.setIcon(icon_52066d5013a3e27ce6f36955f2985a91);
+        
+    
+        var popup_9115e4d52faeefc6d51ec277ee66e89a = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_aeb7d943aa110c9ae0e5e52a65226dee = $(`<div id="html_aeb7d943aa110c9ae0e5e52a65226dee" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-02-10</h4>         <h5>Gallagher's</h5>         <h5>Waitsfield, VT</h5>         <a href=https://phish.net/setlists/phish-february-10-1988-gallaghers-waitsfield-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_9115e4d52faeefc6d51ec277ee66e89a.setContent(html_aeb7d943aa110c9ae0e5e52a65226dee);
+            
+        
+
+        marker_f053690dd4020914754e25a6edd3c8c3.bindPopup(popup_9115e4d52faeefc6d51ec277ee66e89a)
+        ;
+
+        
+    
+    
+            var marker_a03985112096b61113744fd23044d4b3 = L.marker(
+                [44.5956163, -75.1690942],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_e7379b9a85ec919cacf973a607e454eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a03985112096b61113744fd23044d4b3.setIcon(icon_e7379b9a85ec919cacf973a607e454eb);
+        
+    
+        var popup_1ffd6f3db0aa8aeeda3d5effac0a1b4f = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_9a591606d3aba5e4626fce3cdf53aba8 = $(`<div id="html_9a591606d3aba5e4626fce3cdf53aba8" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-02-20</h4>         <h5>St. Lawrence University</h5>         <h5>Canton, NY</h5>         <a href=https://phish.net/setlists/phish-february-20-1988-st-lawrence-university-canton-ny-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_1ffd6f3db0aa8aeeda3d5effac0a1b4f.setContent(html_9a591606d3aba5e4626fce3cdf53aba8);
+            
+        
+
+        marker_a03985112096b61113744fd23044d4b3.bindPopup(popup_1ffd6f3db0aa8aeeda3d5effac0a1b4f)
+        ;
+
+        
+    
+    
+            var marker_8d1c373ed0a41e22a3293f3357ab6e81 = L.marker(
+                [44.1926386, -72.7798479],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_0a3f64c796ba4cf94299468bb78a875c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8d1c373ed0a41e22a3293f3357ab6e81.setIcon(icon_0a3f64c796ba4cf94299468bb78a875c);
+        
+    
+        var popup_57bc075d1a5ed7176a53179440cf0751 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_d22d74d0aed326e38886f2418e8ba5ac = $(`<div id="html_d22d74d0aed326e38886f2418e8ba5ac" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-02-24</h4>         <h5>Gallagher's</h5>         <h5>Waitsfield, VT</h5>         <a href=https://phish.net/setlists/phish-february-24-1988-gallaghers-waitsfield-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_57bc075d1a5ed7176a53179440cf0751.setContent(html_d22d74d0aed326e38886f2418e8ba5ac);
+            
+        
+
+        marker_8d1c373ed0a41e22a3293f3357ab6e81.bindPopup(popup_57bc075d1a5ed7176a53179440cf0751)
+        ;
+
+        
+    
+    
+            var marker_ce32b9fe8fc95f8b9341ab9778d04113 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_9a7360194302e3cc8e0c461b913c633d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ce32b9fe8fc95f8b9341ab9778d04113.setIcon(icon_9a7360194302e3cc8e0c461b913c633d);
+        
+    
+        var popup_80c9e2699d961c02b22ed5f4ca00759d = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_f6f33b1b28549a0cc42e0720c97a52aa = $(`<div id="html_f6f33b1b28549a0cc42e0720c97a52aa" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-02-26</h4>         <h5>Living and Learning Center, University of Vermont</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-february-26-1988-living-and-learning-center-university-of-vermont-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_80c9e2699d961c02b22ed5f4ca00759d.setContent(html_f6f33b1b28549a0cc42e0720c97a52aa);
+            
+        
+
+        marker_ce32b9fe8fc95f8b9341ab9778d04113.bindPopup(popup_80c9e2699d961c02b22ed5f4ca00759d)
+        ;
+
+        
+    
+    
+            var marker_9e2cfc92c2e139594118d45998eb18c1 = L.marker(
+                [44.1926386, -72.7798479],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_ae5e5f45f6d231fcec9f02eee91c6ad5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9e2cfc92c2e139594118d45998eb18c1.setIcon(icon_ae5e5f45f6d231fcec9f02eee91c6ad5);
+        
+    
+        var popup_21ad0e201c1c8650b5cb0e88daa2a18a = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_e750deed608594dadb5c75193a0a393a = $(`<div id="html_e750deed608594dadb5c75193a0a393a" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-03-09</h4>         <h5>Gallagher's</h5>         <h5>Waitsfield, VT</h5>         <a href=https://phish.net/setlists/phish-march-09-1988-gallaghers-waitsfield-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_21ad0e201c1c8650b5cb0e88daa2a18a.setContent(html_e750deed608594dadb5c75193a0a393a);
+            
+        
+
+        marker_9e2cfc92c2e139594118d45998eb18c1.bindPopup(popup_21ad0e201c1c8650b5cb0e88daa2a18a)
+        ;
+
+        
+    
+    
+            var marker_134abd4d4d1743e59342a6c2cba22a59 = L.marker(
+                [44.6356063, -72.6803979],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_5bdd991b6c6943415d2d2198e2a7876f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_134abd4d4d1743e59342a6c2cba22a59.setIcon(icon_5bdd991b6c6943415d2d2198e2a7876f);
+        
+    
+        var popup_8b008eb64415a920fa22f4a5edf75596 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_d37b432cea015cd51d648571d97190c8 = $(`<div id="html_d37b432cea015cd51d648571d97190c8" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-03-11</h4>         <h5>The Base Lodge, Stearns Hall, Johnson State College</h5>         <h5>Johnson, VT</h5>         <a href=https://phish.net/setlists/phish-march-11-1988-the-base-lodge-stearns-hall-johnson-state-college-johnson-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_8b008eb64415a920fa22f4a5edf75596.setContent(html_d37b432cea015cd51d648571d97190c8);
+            
+        
+
+        marker_134abd4d4d1743e59342a6c2cba22a59.bindPopup(popup_8b008eb64415a920fa22f4a5edf75596)
+        ;
+
+        
+    
+    
+            var marker_39ed6178c4c1d19201dcc60d08829745 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_aa4ce006471af170e6465578d92446c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_39ed6178c4c1d19201dcc60d08829745.setIcon(icon_aa4ce006471af170e6465578d92446c1);
+        
+    
+        var popup_75eba690765b7f219de1fa847c3129f1 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_c007b02c0dcc2a589fe92e6db91fff31 = $(`<div id="html_c007b02c0dcc2a589fe92e6db91fff31" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-03-12</h4>         <h5>Nectar's</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-march-12-1988-nectars-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_75eba690765b7f219de1fa847c3129f1.setContent(html_c007b02c0dcc2a589fe92e6db91fff31);
+            
+        
+
+        marker_39ed6178c4c1d19201dcc60d08829745.bindPopup(popup_75eba690765b7f219de1fa847c3129f1)
+        ;
+
+        
+    
+    
+            var marker_50c6f338d6db47af61dcfca8ccb28319 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_d57e1f4209d4ab185c1982be3c416de0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_50c6f338d6db47af61dcfca8ccb28319.setIcon(icon_d57e1f4209d4ab185c1982be3c416de0);
+        
+    
+        var popup_dabb9abef436743ad17afa4ec6166e31 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_589473aff5fe4496490ce178a1a749ea = $(`<div id="html_589473aff5fe4496490ce178a1a749ea" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-03-20</h4>         <h5>Nectar's</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-march-20-1988-nectars-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_dabb9abef436743ad17afa4ec6166e31.setContent(html_589473aff5fe4496490ce178a1a749ea);
+            
+        
+
+        marker_50c6f338d6db47af61dcfca8ccb28319.bindPopup(popup_dabb9abef436743ad17afa4ec6166e31)
+        ;
+
+        
+    
+    
+            var marker_2e6d03cc851618482d6be8ae48c26733 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_4d4dc7a8c8ebabc4e53bfc6b65a81261 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2e6d03cc851618482d6be8ae48c26733.setIcon(icon_4d4dc7a8c8ebabc4e53bfc6b65a81261);
+        
+    
+        var popup_826b05b8464ea79ab7f541c6d218aa6d = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_b45fcceb5d01d2a167dd330c434c7d37 = $(`<div id="html_b45fcceb5d01d2a167dd330c434c7d37" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-03-21</h4>         <h5>Nectar's</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-march-21-1988-nectars-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_826b05b8464ea79ab7f541c6d218aa6d.setContent(html_b45fcceb5d01d2a167dd330c434c7d37);
+            
+        
+
+        marker_2e6d03cc851618482d6be8ae48c26733.bindPopup(popup_826b05b8464ea79ab7f541c6d218aa6d)
+        ;
+
+        
+    
+    
+            var marker_d03df6d12562c76b8985da58c5e6121d = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_ebdbf0c056b23e0cb319e38279a7d880 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d03df6d12562c76b8985da58c5e6121d.setIcon(icon_ebdbf0c056b23e0cb319e38279a7d880);
+        
+    
+        var popup_40ede2684a4d87749bfc27ad48e8ed98 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_368527a09728df3fba738256d5fa8836 = $(`<div id="html_368527a09728df3fba738256d5fa8836" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-03-22</h4>         <h5>Nectar's</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-march-22-1988-nectars-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_40ede2684a4d87749bfc27ad48e8ed98.setContent(html_368527a09728df3fba738256d5fa8836);
+            
+        
+
+        marker_d03df6d12562c76b8985da58c5e6121d.bindPopup(popup_40ede2684a4d87749bfc27ad48e8ed98)
+        ;
+
+        
+    
+    
+            var marker_ae33ec06d1c5f73f9ebe1df6350302d1 = L.marker(
+                [40.7127753, -74.0059728],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_f8e8722aa3b71bcf9370aefa602f9920 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ae33ec06d1c5f73f9ebe1df6350302d1.setIcon(icon_f8e8722aa3b71bcf9370aefa602f9920);
+        
+    
+        var popup_781cf150034b6d34cb43ef927cd27e6b = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_1493c1cc81b6ca0fd912fa797ddada2e = $(`<div id="html_1493c1cc81b6ca0fd912fa797ddada2e" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-03-31</h4>         <h5>Kenny's Castaways</h5>         <h5>New York, NY</h5>         <a href=https://phish.net/setlists/phish-march-31-1988-kennys-castaways-new-york-ny-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_781cf150034b6d34cb43ef927cd27e6b.setContent(html_1493c1cc81b6ca0fd912fa797ddada2e);
+            
+        
+
+        marker_ae33ec06d1c5f73f9ebe1df6350302d1.bindPopup(popup_781cf150034b6d34cb43ef927cd27e6b)
+        ;
+
+        
+    
+    
+            var marker_b3228147fe36a01f5cf9ed5ab8ba6663 = L.marker(
+                [42.3732216, -72.5198537],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_a3028855d5a4da0357b4d24b3596d435 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b3228147fe36a01f5cf9ed5ab8ba6663.setIcon(icon_a3028855d5a4da0357b4d24b3596d435);
+        
+    
+        var popup_d2a419b7d7e0707a55df76b26e8c017f = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_cc77dc4de7d8e5f0cab1c8385434e714 = $(`<div id="html_cc77dc4de7d8e5f0cab1c8385434e714" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-04-02</h4>         <h5>Humphries House (The Zoo), Amherst College</h5>         <h5>Amherst, MA</h5>         <a href=https://phish.net/setlists/phish-april-02-1988-humphries-house-the-zoo-amherst-college-amherst-ma-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_d2a419b7d7e0707a55df76b26e8c017f.setContent(html_cc77dc4de7d8e5f0cab1c8385434e714);
+            
+        
+
+        marker_b3228147fe36a01f5cf9ed5ab8ba6663.bindPopup(popup_d2a419b7d7e0707a55df76b26e8c017f)
+        ;
+
+        
+    
+    
+            var marker_de2555fe70d9c121a5da2299319d0726 = L.marker(
+                [44.1926386, -72.7798479],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_6c464fe5e1ac7afd9d2a913a6a53db10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_de2555fe70d9c121a5da2299319d0726.setIcon(icon_6c464fe5e1ac7afd9d2a913a6a53db10);
+        
+    
+        var popup_cf1c8219a5197f1b120957bf27e0744d = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_7c5467d0494abbf915aac9c8e5c96737 = $(`<div id="html_7c5467d0494abbf915aac9c8e5c96737" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-04-06</h4>         <h5>Gallagher's</h5>         <h5>Waitsfield, VT</h5>         <a href=https://phish.net/setlists/phish-april-06-1988-gallaghers-waitsfield-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_cf1c8219a5197f1b120957bf27e0744d.setContent(html_7c5467d0494abbf915aac9c8e5c96737);
+            
+        
+
+        marker_de2555fe70d9c121a5da2299319d0726.bindPopup(popup_cf1c8219a5197f1b120957bf27e0744d)
+        ;
+
+        
+    
+    
+            var marker_95b47eb2c50e796bcd2d9a378ea401d0 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_38a4d12e139c4489fe61902c7f1341ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_95b47eb2c50e796bcd2d9a378ea401d0.setIcon(icon_38a4d12e139c4489fe61902c7f1341ad);
+        
+    
+        var popup_e9a830476ec723baa164783fe726ec46 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_a8df057dc0861a1ac03af13b64ff2e26 = $(`<div id="html_a8df057dc0861a1ac03af13b64ff2e26" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-04-17</h4>         <h5>Nectar's</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-april-17-1988-nectars-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_e9a830476ec723baa164783fe726ec46.setContent(html_a8df057dc0861a1ac03af13b64ff2e26);
+            
+        
+
+        marker_95b47eb2c50e796bcd2d9a378ea401d0.bindPopup(popup_e9a830476ec723baa164783fe726ec46)
+        ;
+
+        
+    
+    
+            var marker_526ce26ffea135f74ecb33c75c70885c = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_83ba499b06322f3441c7e4707fbb43a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_526ce26ffea135f74ecb33c75c70885c.setIcon(icon_83ba499b06322f3441c7e4707fbb43a9);
+        
+    
+        var popup_a9b03150d6dd6ee872ce9631227a274f = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_01952a7973d2d10c4266fe60cc25f1a1 = $(`<div id="html_01952a7973d2d10c4266fe60cc25f1a1" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-04-18</h4>         <h5>Nectar's</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-april-18-1988-nectars-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_a9b03150d6dd6ee872ce9631227a274f.setContent(html_01952a7973d2d10c4266fe60cc25f1a1);
+            
+        
+
+        marker_526ce26ffea135f74ecb33c75c70885c.bindPopup(popup_a9b03150d6dd6ee872ce9631227a274f)
+        ;
+
+        
+    
+    
+            var marker_29c28b9cb6ce358e99b26ab8cc71ee64 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_83935cbfe5cc8f7c4a7b577b94ff5fbb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_29c28b9cb6ce358e99b26ab8cc71ee64.setIcon(icon_83935cbfe5cc8f7c4a7b577b94ff5fbb);
+        
+    
+        var popup_bd4d832920e6aa51f7cba061bb9b3994 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_dafd13fb9caf88f5b539c8bb95961b2d = $(`<div id="html_dafd13fb9caf88f5b539c8bb95961b2d" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-04-19</h4>         <h5>Nectar's</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-april-19-1988-nectars-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_bd4d832920e6aa51f7cba061bb9b3994.setContent(html_dafd13fb9caf88f5b539c8bb95961b2d);
+            
+        
+
+        marker_29c28b9cb6ce358e99b26ab8cc71ee64.bindPopup(popup_bd4d832920e6aa51f7cba061bb9b3994)
+        ;
+
+        
+    
+    
+            var marker_997afd87529df05c1bb58281bf04d86a = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_db3aa18fe3eece7043accbcdea1395f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_997afd87529df05c1bb58281bf04d86a.setIcon(icon_db3aa18fe3eece7043accbcdea1395f5);
+        
+    
+        var popup_9e74fcf286ea3816f6ce8737f7581ec2 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_7358927e349d85f301b4a3a0111af671 = $(`<div id="html_7358927e349d85f301b4a3a0111af671" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-04-22</h4>         <h5>University of Vermont</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-april-22-1988-university-of-vermont-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_9e74fcf286ea3816f6ce8737f7581ec2.setContent(html_7358927e349d85f301b4a3a0111af671);
+            
+        
+
+        marker_997afd87529df05c1bb58281bf04d86a.bindPopup(popup_9e74fcf286ea3816f6ce8737f7581ec2)
+        ;
+
+        
+    
+    
+            var marker_145f35515088250473c45fb3325d4e65 = L.marker(
+                [44.1926386, -72.7798479],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_c10db2393ce824f3937d9089f55a137b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_145f35515088250473c45fb3325d4e65.setIcon(icon_c10db2393ce824f3937d9089f55a137b);
+        
+    
+        var popup_410a104e4dfd0656fdd5eccf7ebc587e = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_55c25ae39ac82e0b7dbc0346a98b7d0b = $(`<div id="html_55c25ae39ac82e0b7dbc0346a98b7d0b" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-04-27</h4>         <h5>Gallagher's</h5>         <h5>Waitsfield, VT</h5>         <a href=https://phish.net/setlists/phish-april-27-1988-gallaghers-waitsfield-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_410a104e4dfd0656fdd5eccf7ebc587e.setContent(html_55c25ae39ac82e0b7dbc0346a98b7d0b);
+            
+        
+
+        marker_145f35515088250473c45fb3325d4e65.bindPopup(popup_410a104e4dfd0656fdd5eccf7ebc587e)
+        ;
+
+        
+    
+    
+            var marker_f85973324239aebf9d5ab1ba00f102ff = L.marker(
+                [42.80835099999999, -75.50437610000002],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_948a4e6f0f3ee99caaa0c04d15fc0f3b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f85973324239aebf9d5ab1ba00f102ff.setIcon(icon_948a4e6f0f3ee99caaa0c04d15fc0f3b);
+        
+    
+        var popup_ccc7cebff7f5213a8cfe32e97d860b1f = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_938b31564d1dd715ad27b8a0c9a7bbce = $(`<div id="html_938b31564d1dd715ad27b8a0c9a7bbce" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-04-30</h4>         <h5>Colgate University</h5>         <h5>Hamilton, NY</h5>         <a href=https://phish.net/setlists/phish-april-30-1988-colgate-university-hamilton-ny-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_ccc7cebff7f5213a8cfe32e97d860b1f.setContent(html_938b31564d1dd715ad27b8a0c9a7bbce);
+            
+        
+
+        marker_f85973324239aebf9d5ab1ba00f102ff.bindPopup(popup_ccc7cebff7f5213a8cfe32e97d860b1f)
+        ;
+
+        
+    
+    
+            var marker_696509c58731b2f5a1aaf2936446e98d = L.marker(
+                [42.4439614, -76.5018807],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_ce3b62cca5d666a2261d6287c08a9f66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_696509c58731b2f5a1aaf2936446e98d.setIcon(icon_ce3b62cca5d666a2261d6287c08a9f66);
+        
+    
+        var popup_b06914d82c1e1355793c230207efabae = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_2e8441dac3365e463ed511de5ecc4d9e = $(`<div id="html_2e8441dac3365e463ed511de5ecc4d9e" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-05-01</h4>         <h5>The Haunt</h5>         <h5>Ithaca, NY</h5>         <a href=https://phish.net/setlists/phish-may-01-1988-the-haunt-ithaca-ny-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_b06914d82c1e1355793c230207efabae.setContent(html_2e8441dac3365e463ed511de5ecc4d9e);
+            
+        
+
+        marker_696509c58731b2f5a1aaf2936446e98d.bindPopup(popup_b06914d82c1e1355793c230207efabae)
+        ;
+
+        
+    
+    
+            var marker_fce491950088f5e6e9bc5a79e36a6000 = L.marker(
+                [42.4439614, -76.5018807],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_b58f341c4c95675a1331c6f06854c2dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fce491950088f5e6e9bc5a79e36a6000.setIcon(icon_b58f341c4c95675a1331c6f06854c2dd);
+        
+    
+        var popup_6246f82cbb2d3aae745cb3899d23cd48 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_950b3ad7c49c82be0b79ecb30b9eab1d = $(`<div id="html_950b3ad7c49c82be0b79ecb30b9eab1d" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-05-02</h4>         <h5>The Haunt</h5>         <h5>Ithaca, NY</h5>         <a href=https://phish.net/setlists/phish-may-02-1988-the-haunt-ithaca-ny-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_6246f82cbb2d3aae745cb3899d23cd48.setContent(html_950b3ad7c49c82be0b79ecb30b9eab1d);
+            
+        
+
+        marker_fce491950088f5e6e9bc5a79e36a6000.bindPopup(popup_6246f82cbb2d3aae745cb3899d23cd48)
+        ;
+
+        
+    
+    
+            var marker_e87c7817de4a554189918a49af86b6b8 = L.marker(
+                [42.4439614, -76.5018807],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_b7fdc9ce0c27fa87ca065630694704cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e87c7817de4a554189918a49af86b6b8.setIcon(icon_b7fdc9ce0c27fa87ca065630694704cf);
+        
+    
+        var popup_264551227d0fb5a1f7e3ba81b880f59e = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_8bb2efade314da21066d32d101ef467a = $(`<div id="html_8bb2efade314da21066d32d101ef467a" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-05-03</h4>         <h5>The Haunt</h5>         <h5>Ithaca, NY</h5>         <a href=https://phish.net/setlists/phish-may-03-1988-the-haunt-ithaca-ny-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_264551227d0fb5a1f7e3ba81b880f59e.setContent(html_8bb2efade314da21066d32d101ef467a);
+            
+        
+
+        marker_e87c7817de4a554189918a49af86b6b8.bindPopup(popup_264551227d0fb5a1f7e3ba81b880f59e)
+        ;
+
+        
+    
+    
+            var marker_dad8eaa49a0a1c124118d2cd1385d09d = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_244c1b3cff6d436cacc2718261d66d5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dad8eaa49a0a1c124118d2cd1385d09d.setIcon(icon_244c1b3cff6d436cacc2718261d66d5c);
+        
+    
+        var popup_eb9bbc55796bb57b2767094e0aa83a61 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_6e0338acdbe38c4df869c4ff4cd2728e = $(`<div id="html_6e0338acdbe38c4df869c4ff4cd2728e" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-05-05</h4>         <h5>Slade Hall, University of Vermont</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-may-05-1988-slade-hall-university-of-vermont-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_eb9bbc55796bb57b2767094e0aa83a61.setContent(html_6e0338acdbe38c4df869c4ff4cd2728e);
+            
+        
+
+        marker_dad8eaa49a0a1c124118d2cd1385d09d.bindPopup(popup_eb9bbc55796bb57b2767094e0aa83a61)
+        ;
+
+        
+    
+    
+            var marker_84be491f35db69bff67c4b6be224c9c9 = L.marker(
+                [41.11774399999999, -73.4081575],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_488f2bea061056fe291f899e53f97384 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_84be491f35db69bff67c4b6be224c9c9.setIcon(icon_488f2bea061056fe291f899e53f97384);
+        
+    
+        var popup_e990886a382d5501a6a5d0d809e0bbbc = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_173ab73d5b3f769eec0d76fb647f4220 = $(`<div id="html_173ab73d5b3f769eec0d76fb647f4220" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-05-08</h4>         <h5>CD's</h5>         <h5>Norwalk, CT</h5>         <a href=https://phish.net/setlists/phish-may-08-1988-cds-norwalk-ct-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_e990886a382d5501a6a5d0d809e0bbbc.setContent(html_173ab73d5b3f769eec0d76fb647f4220);
+            
+        
+
+        marker_84be491f35db69bff67c4b6be224c9c9.bindPopup(popup_e990886a382d5501a6a5d0d809e0bbbc)
+        ;
+
+        
+    
+    
+            var marker_b41bf8fd64bac9434f0fdc7a367f293d = L.marker(
+                [40.7127753, -74.0059728],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_e34a7e22e91f6d96e6ef6f8b70299625 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b41bf8fd64bac9434f0fdc7a367f293d.setIcon(icon_e34a7e22e91f6d96e6ef6f8b70299625);
+        
+    
+        var popup_2221dcc495fe2377932c45a5a3b8f69e = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_89b458b6d8258f4b25953f7868d62df7 = $(`<div id="html_89b458b6d8258f4b25953f7868d62df7" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-05-12</h4>         <h5>Kenny's Castaways</h5>         <h5>New York, NY</h5>         <a href=https://phish.net/setlists/phish-may-12-1988-kennys-castaways-new-york-ny-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_2221dcc495fe2377932c45a5a3b8f69e.setContent(html_89b458b6d8258f4b25953f7868d62df7);
+            
+        
+
+        marker_b41bf8fd64bac9434f0fdc7a367f293d.bindPopup(popup_2221dcc495fe2377932c45a5a3b8f69e)
+        ;
+
+        
+    
+    
+            var marker_dfa1f34188cd65bbfde26e64fb8bebd0 = L.marker(
+                [44.2781151, -72.4264926],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_33e289d261cd1c062b4404baa7204bc6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dfa1f34188cd65bbfde26e64fb8bebd0.setIcon(icon_33e289d261cd1c062b4404baa7204bc6);
+        
+    
+        var popup_8d4b8b67279138359f01d3c8b2c3a709 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_9415caf865cfcb65db644913c5b33040 = $(`<div id="html_9415caf865cfcb65db644913c5b33040" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-05-14</h4>         <h5>Goddard College</h5>         <h5>Plainfield, VT</h5>         <a href=https://phish.net/setlists/phish-may-14-1988-goddard-college-plainfield-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_8d4b8b67279138359f01d3c8b2c3a709.setContent(html_9415caf865cfcb65db644913c5b33040);
+            
+        
+
+        marker_dfa1f34188cd65bbfde26e64fb8bebd0.bindPopup(popup_8d4b8b67279138359f01d3c8b2c3a709)
+        ;
+
+        
+    
+    
+            var marker_8f478857b94d889a88eaf58ffe243b04 = L.marker(
+                [44.3292199, -73.11067899999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_4bcccaa5901e4fe082a42550540a03ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8f478857b94d889a88eaf58ffe243b04.setIcon(icon_4bcccaa5901e4fe082a42550540a03ed);
+        
+    
+        var popup_7ef43b7b081d40a71dd33149dff09595 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_4ea7f738858528b6d3f49f45a34dd145 = $(`<div id="html_4ea7f738858528b6d3f49f45a34dd145" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-05-15</h4>         <h5>Beecher Hill Farm</h5>         <h5>Hinesburg, VT</h5>         <a href=https://phish.net/setlists/phish-may-15-1988-beecher-hill-farm-hinesburg-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_7ef43b7b081d40a71dd33149dff09595.setContent(html_4ea7f738858528b6d3f49f45a34dd145);
+            
+        
+
+        marker_8f478857b94d889a88eaf58ffe243b04.bindPopup(popup_7ef43b7b081d40a71dd33149dff09595)
+        ;
+
+        
+    
+    
+            var marker_2342533e8830fffcdc19f88a87f291bf = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_282a709b05c3057e3f4f1ff551be7858 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2342533e8830fffcdc19f88a87f291bf.setIcon(icon_282a709b05c3057e3f4f1ff551be7858);
+        
+    
+        var popup_d09f1f0d67e4b7e99e173c6ce79135b6 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_2ee574f3ffef90ecf9ec4567156c9727 = $(`<div id="html_2ee574f3ffef90ecf9ec4567156c9727" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-05-21</h4>         <h5>Nectar's</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-may-22-1988-nectars-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_d09f1f0d67e4b7e99e173c6ce79135b6.setContent(html_2ee574f3ffef90ecf9ec4567156c9727);
+            
+        
+
+        marker_2342533e8830fffcdc19f88a87f291bf.bindPopup(popup_d09f1f0d67e4b7e99e173c6ce79135b6)
+        ;
+
+        
+    
+    
+            var marker_27e3c07f7f073fb2cb8c719edcbe5907 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_3fc05520a4b031ee1931af95d8a185ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_27e3c07f7f073fb2cb8c719edcbe5907.setIcon(icon_3fc05520a4b031ee1931af95d8a185ca);
+        
+    
+        var popup_a3813a4404285554313b07a86ea141cc = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_c013707b2e550863186327f92a51fd61 = $(`<div id="html_c013707b2e550863186327f92a51fd61" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-05-22</h4>         <h5>Nectar's</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-may-21-1988-nectars-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_a3813a4404285554313b07a86ea141cc.setContent(html_c013707b2e550863186327f92a51fd61);
+            
+        
+
+        marker_27e3c07f7f073fb2cb8c719edcbe5907.bindPopup(popup_a3813a4404285554313b07a86ea141cc)
+        ;
+
+        
+    
+    
+            var marker_f33ec3fef12d7719155d52f83087ce03 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_02620d890b6d2849a8de2db9865b2389 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f33ec3fef12d7719155d52f83087ce03.setIcon(icon_02620d890b6d2849a8de2db9865b2389);
+        
+    
+        var popup_81f49ef21e2dcee147fdb6d55d6750e1 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_073667e85ddbae91a3d705a496178f95 = $(`<div id="html_073667e85ddbae91a3d705a496178f95" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-05-23</h4>         <h5>Nectar's</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-may-23-1988-nectars-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_81f49ef21e2dcee147fdb6d55d6750e1.setContent(html_073667e85ddbae91a3d705a496178f95);
+            
+        
+
+        marker_f33ec3fef12d7719155d52f83087ce03.bindPopup(popup_81f49ef21e2dcee147fdb6d55d6750e1)
+        ;
+
+        
+    
+    
+            var marker_f81255a8de6097d0b2a83caa041510b7 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_4220b4d0663a93ccdd41ac9b59ab4646 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f81255a8de6097d0b2a83caa041510b7.setIcon(icon_4220b4d0663a93ccdd41ac9b59ab4646);
+        
+    
+        var popup_ba98736b18ca249a06175e608348e496 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_8c75504517d314c99b1fe736a7cf184e = $(`<div id="html_8c75504517d314c99b1fe736a7cf184e" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-05-24</h4>         <h5>Nectar's</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-may-24-1988-nectars-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_ba98736b18ca249a06175e608348e496.setContent(html_8c75504517d314c99b1fe736a7cf184e);
+            
+        
+
+        marker_f81255a8de6097d0b2a83caa041510b7.bindPopup(popup_ba98736b18ca249a06175e608348e496)
+        ;
+
+        
+    
+    
+            var marker_ccf301bdfeeea8204ca003a9f1a3ee59 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_146aa512414488d9141e6fc295ae5203 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ccf301bdfeeea8204ca003a9f1a3ee59.setIcon(icon_146aa512414488d9141e6fc295ae5203);
+        
+    
+        var popup_df559e2dfea827fb5bb7ebd00ecb7f52 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_5510430d12e4c4da0faaaed03d4ba185 = $(`<div id="html_5510430d12e4c4da0faaaed03d4ba185" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-05-27</h4>         <h5>The Front</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-may-27-1988-the-front-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_df559e2dfea827fb5bb7ebd00ecb7f52.setContent(html_5510430d12e4c4da0faaaed03d4ba185);
+            
+        
+
+        marker_ccf301bdfeeea8204ca003a9f1a3ee59.bindPopup(popup_df559e2dfea827fb5bb7ebd00ecb7f52)
+        ;
+
+        
+    
+    
+            var marker_b8f650dfa64eeb3b80316de37b790de2 = L.marker(
+                [44.1926386, -72.7798479],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_407e7cb60cafe52e46dbedefedcaf0bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b8f650dfa64eeb3b80316de37b790de2.setIcon(icon_407e7cb60cafe52e46dbedefedcaf0bb);
+        
+    
+        var popup_c2aa9802a509b0327e5fc41f4dfedb88 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_2a59336926d052ee3d98986763ab9909 = $(`<div id="html_2a59336926d052ee3d98986763ab9909" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-05-28</h4>         <h5>Wedding Reception</h5>         <h5>Waitsfield, VT</h5>         <a href=https://phish.net/setlists/phish-may-28-1988-wedding-reception-waitsfield-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_c2aa9802a509b0327e5fc41f4dfedb88.setContent(html_2a59336926d052ee3d98986763ab9909);
+            
+        
+
+        marker_b8f650dfa64eeb3b80316de37b790de2.bindPopup(popup_c2aa9802a509b0327e5fc41f4dfedb88)
+        ;
+
+        
+    
+    
+            var marker_7ac6418cb50d747e56894a17b63dcdd1 = L.marker(
+                [43.7651992, -71.5393799],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_051e31f1d3445eb42a5e47b647de536b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7ac6418cb50d747e56894a17b63dcdd1.setIcon(icon_051e31f1d3445eb42a5e47b647de536b);
+        
+    
+        var popup_678032720b61c135b7f0a1e232e2e61e = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_454aaa2671ab1aef06740d739250dfd9 = $(`<div id="html_454aaa2671ab1aef06740d739250dfd9" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-06-03</h4>         <h5>Squam Lake Steak House</h5>         <h5>Squam Lake, NH</h5>         <a href=https://phish.net/setlists/phish-june-03-1988-squam-lake-steak-house-squam-lake-nh-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_678032720b61c135b7f0a1e232e2e61e.setContent(html_454aaa2671ab1aef06740d739250dfd9);
+            
+        
+
+        marker_7ac6418cb50d747e56894a17b63dcdd1.bindPopup(popup_678032720b61c135b7f0a1e232e2e61e)
+        ;
+
+        
+    
+    
+            var marker_01a3847d037ca76ecafcc6f06b83be09 = L.marker(
+                [43.7651992, -71.5393799],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_6b3d03ed04bb4cdd4c4b20e47fe84d21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_01a3847d037ca76ecafcc6f06b83be09.setIcon(icon_6b3d03ed04bb4cdd4c4b20e47fe84d21);
+        
+    
+        var popup_4dd74601246e73957956e5a13e963daf = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_ca1959932d5719a68b909b98c30b63bf = $(`<div id="html_ca1959932d5719a68b909b98c30b63bf" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-06-04</h4>         <h5>Squam Lake Steak House</h5>         <h5>Squam Lake, NH</h5>         <a href=https://phish.net/setlists/phish-june-04-1988-squam-lake-steak-house-squam-lake-nh-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_4dd74601246e73957956e5a13e963daf.setContent(html_ca1959932d5719a68b909b98c30b63bf);
+            
+        
+
+        marker_01a3847d037ca76ecafcc6f06b83be09.bindPopup(popup_4dd74601246e73957956e5a13e963daf)
+        ;
+
+        
+    
+    
+            var marker_dd85b9f96d8c60cb14e11690da9368c5 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_ca1d76e4b4e1c2212c5ea0150ea68c30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dd85b9f96d8c60cb14e11690da9368c5.setIcon(icon_ca1d76e4b4e1c2212c5ea0150ea68c30);
+        
+    
+        var popup_97b432f18c4bb1a5e9c77b866914a93d = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_b05789ae53afdc75d4848f65faafb1f7 = $(`<div id="html_b05789ae53afdc75d4848f65faafb1f7" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-06-15</h4>         <h5>The Front</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-june-15-1988-the-front-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_97b432f18c4bb1a5e9c77b866914a93d.setContent(html_b05789ae53afdc75d4848f65faafb1f7);
+            
+        
+
+        marker_dd85b9f96d8c60cb14e11690da9368c5.bindPopup(popup_97b432f18c4bb1a5e9c77b866914a93d)
+        ;
+
+        
+    
+    
+            var marker_6c17f7fdb65708525f34e8680a5d995d = L.marker(
+                [44.5617189, -72.5984486],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_d51189337b4c2defd52244dfaf7072d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6c17f7fdb65708525f34e8680a5d995d.setIcon(icon_d51189337b4c2defd52244dfaf7072d0);
+        
+    
+        var popup_895e45cf31d48708a1910bc688156202 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_33234a8c6ef3f5b015edeb6a32f193db = $(`<div id="html_33234a8c6ef3f5b015edeb6a32f193db" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-06-17</h4>         <h5>Gopher Broke (Commune)</h5>         <h5>Morrisville, VT</h5>         <a href=https://phish.net/setlists/phish-june-17-1988-gopher-broke-commune-morrisville-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_895e45cf31d48708a1910bc688156202.setContent(html_33234a8c6ef3f5b015edeb6a32f193db);
+            
+        
+
+        marker_6c17f7fdb65708525f34e8680a5d995d.bindPopup(popup_895e45cf31d48708a1910bc688156202)
+        ;
+
+        
+    
+    
+            var marker_5dbcc71f143a24216d6e3339f3e599ab = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_7b5e9ce15b738860738f24858e121b9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5dbcc71f143a24216d6e3339f3e599ab.setIcon(icon_7b5e9ce15b738860738f24858e121b9f);
+        
+    
+        var popup_a0ac7a0ef3a1c721da3393d1e2b4d7be = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_c5faaf8135687daeaf1b2537943dbd60 = $(`<div id="html_c5faaf8135687daeaf1b2537943dbd60" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-06-19</h4>         <h5>Nectar's</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-june-19-1988-nectars-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_a0ac7a0ef3a1c721da3393d1e2b4d7be.setContent(html_c5faaf8135687daeaf1b2537943dbd60);
+            
+        
+
+        marker_5dbcc71f143a24216d6e3339f3e599ab.bindPopup(popup_a0ac7a0ef3a1c721da3393d1e2b4d7be)
+        ;
+
+        
+    
+    
+            var marker_e062332a0007d996e812b8770efdf92d = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_a16f0bec5faac858af2229977f764dc0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e062332a0007d996e812b8770efdf92d.setIcon(icon_a16f0bec5faac858af2229977f764dc0);
+        
+    
+        var popup_b187b0443332345b74fac8f688611f60 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_7f72872c2bc941781c265bc9cbbd3534 = $(`<div id="html_7f72872c2bc941781c265bc9cbbd3534" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-06-20</h4>         <h5>Nectar's</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-june-20-1988-nectars-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_b187b0443332345b74fac8f688611f60.setContent(html_7f72872c2bc941781c265bc9cbbd3534);
+            
+        
+
+        marker_e062332a0007d996e812b8770efdf92d.bindPopup(popup_b187b0443332345b74fac8f688611f60)
+        ;
+
+        
+    
+    
+            var marker_7f016b1122fbe5eea3705a8277023cd2 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_8d13033541c2c356aecfff6dcb62a806 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7f016b1122fbe5eea3705a8277023cd2.setIcon(icon_8d13033541c2c356aecfff6dcb62a806);
+        
+    
+        var popup_c1fba71e1d8defdf91b102657b888195 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_ebf3df4d4aa1de6981839ec446f85649 = $(`<div id="html_ebf3df4d4aa1de6981839ec446f85649" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-06-21</h4>         <h5>Nectar's</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-june-21-1988-nectars-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_c1fba71e1d8defdf91b102657b888195.setContent(html_ebf3df4d4aa1de6981839ec446f85649);
+            
+        
+
+        marker_7f016b1122fbe5eea3705a8277023cd2.bindPopup(popup_c1fba71e1d8defdf91b102657b888195)
+        ;
+
+        
+    
+    
+            var marker_16bb992d134364fb6cc75d87da291c55 = L.marker(
+                [40.7127753, -74.0059728],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_cd188b944bd475b0f6b09f66ba9fb453 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_16bb992d134364fb6cc75d87da291c55.setIcon(icon_cd188b944bd475b0f6b09f66ba9fb453);
+        
+    
+        var popup_5c178817027cc72ef894b53be515b956 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_4c8c55a13dac733e6e9e9b17aa56f431 = $(`<div id="html_4c8c55a13dac733e6e9e9b17aa56f431" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-06-23</h4>         <h5>Tramps</h5>         <h5>New York, NY</h5>         <a href=https://phish.net/setlists/phish-june-23-1988-tramps-new-york-ny-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_5c178817027cc72ef894b53be515b956.setContent(html_4c8c55a13dac733e6e9e9b17aa56f431);
+            
+        
+
+        marker_16bb992d134364fb6cc75d87da291c55.bindPopup(popup_5c178817027cc72ef894b53be515b956)
+        ;
+
+        
+    
+    
+            var marker_b9340429dff5a9841c7e9c6a9e7e419e = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_289a8b0a19d617208eb092b8fa51c0f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b9340429dff5a9841c7e9c6a9e7e419e.setIcon(icon_289a8b0a19d617208eb092b8fa51c0f2);
+        
+    
+        var popup_d3ea26d9451d38a4c554f9edeea58efa = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_9dd8ceb65d0264dd8e833f4914f4d6f7 = $(`<div id="html_9dd8ceb65d0264dd8e833f4914f4d6f7" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-06-24</h4>         <h5>Halverson's</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-june-24-1988-halversons-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_d3ea26d9451d38a4c554f9edeea58efa.setContent(html_9dd8ceb65d0264dd8e833f4914f4d6f7);
+            
+        
+
+        marker_b9340429dff5a9841c7e9c6a9e7e419e.bindPopup(popup_d3ea26d9451d38a4c554f9edeea58efa)
+        ;
+
+        
+    
+    
+            var marker_1948f3eb3ee10855eac2def3609de82c = L.marker(
+                [43.1837905, -73.4263306],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_333fa8dfbada823380d9857daec7e41d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1948f3eb3ee10855eac2def3609de82c.setIcon(icon_333fa8dfbada823380d9857daec7e41d);
+        
+    
+        var popup_88e8f4488be1a396a29753049cf487fb = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_b913ff5743442d76b5bcb9189fd3e31f = $(`<div id="html_b913ff5743442d76b5bcb9189fd3e31f" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-06-27</h4>         <h5>Cossayuna Lake</h5>         <h5>Cossayuna, NY</h5>         <a href=https://phish.net/setlists/phish-june-27-1988-cossayuna-lake-cossayuna-ny-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_88e8f4488be1a396a29753049cf487fb.setContent(html_b913ff5743442d76b5bcb9189fd3e31f);
+            
+        
+
+        marker_1948f3eb3ee10855eac2def3609de82c.bindPopup(popup_88e8f4488be1a396a29753049cf487fb)
+        ;
+
+        
+    
+    
+            var marker_d47c2601d77967879b4ad41af109b664 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_eb6b46644ac7c8fe74511132da127bcf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d47c2601d77967879b4ad41af109b664.setIcon(icon_eb6b46644ac7c8fe74511132da127bcf);
+        
+    
+        var popup_0bb6c810c3a8a31baf516b870ea874e6 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_db22d7abde5c56c32f7418e590cceb65 = $(`<div id="html_db22d7abde5c56c32f7418e590cceb65" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-07-07</h4>         <h5>The Front</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-july-07-1988-the-front-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_0bb6c810c3a8a31baf516b870ea874e6.setContent(html_db22d7abde5c56c32f7418e590cceb65);
+            
+        
+
+        marker_d47c2601d77967879b4ad41af109b664.bindPopup(popup_0bb6c810c3a8a31baf516b870ea874e6)
+        ;
+
+        
+    
+    
+            var marker_25358bb250b4a543dc2a4718fecb45da = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_5fa3e33252fa16878c986f49ae26dd60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_25358bb250b4a543dc2a4718fecb45da.setIcon(icon_5fa3e33252fa16878c986f49ae26dd60);
+        
+    
+        var popup_c1a53c7a1d7b9ee74d6d50bcbadfb67e = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_3ee7298046fe323013a7dcb242488aec = $(`<div id="html_3ee7298046fe323013a7dcb242488aec" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-07-08</h4>         <h5>The Front</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-july-08-1988-the-front-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_c1a53c7a1d7b9ee74d6d50bcbadfb67e.setContent(html_3ee7298046fe323013a7dcb242488aec);
+            
+        
+
+        marker_25358bb250b4a543dc2a4718fecb45da.bindPopup(popup_c1a53c7a1d7b9ee74d6d50bcbadfb67e)
+        ;
+
+        
+    
+    
+            var marker_b9e90995058a16697f145fcc5821f07f = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_4fecdf4105f689a18710a0f4b1197bd1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b9e90995058a16697f145fcc5821f07f.setIcon(icon_4fecdf4105f689a18710a0f4b1197bd1);
+        
+    
+        var popup_f258a855a2dd06e747660a833d314505 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_50c74521e4db2724f32a79178284c24d = $(`<div id="html_50c74521e4db2724f32a79178284c24d" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-07-11</h4>         <h5>Sam's Tavern</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-july-11-1988-sams-tavern-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_f258a855a2dd06e747660a833d314505.setContent(html_50c74521e4db2724f32a79178284c24d);
+            
+        
+
+        marker_b9e90995058a16697f145fcc5821f07f.bindPopup(popup_f258a855a2dd06e747660a833d314505)
+        ;
+
+        
+    
+    
+            var marker_0668be9183cee30b59cf3a975d64a524 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_08f33bfc943f6afecf09431ce9037cbf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0668be9183cee30b59cf3a975d64a524.setIcon(icon_08f33bfc943f6afecf09431ce9037cbf);
+        
+    
+        var popup_3ce9ba065785d72bf1f04d530e66fdc2 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_4479d9b2db1b3e91da69b0e90e7141cf = $(`<div id="html_4479d9b2db1b3e91da69b0e90e7141cf" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-07-12</h4>         <h5>Sam's Tavern</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-july-12-1988-sams-tavern-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_3ce9ba065785d72bf1f04d530e66fdc2.setContent(html_4479d9b2db1b3e91da69b0e90e7141cf);
+            
+        
+
+        marker_0668be9183cee30b59cf3a975d64a524.bindPopup(popup_3ce9ba065785d72bf1f04d530e66fdc2)
+        ;
+
+        
+    
+    
+            var marker_e3b5a2ede7ef6c3fe2a6320541483283 = L.marker(
+                [44.5258842, -72.9451267],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_ac23af153d34ceba69164879238ab2c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e3b5a2ede7ef6c3fe2a6320541483283.setIcon(icon_ac23af153d34ceba69164879238ab2c5);
+        
+    
+        var popup_58314435b1a9c0989f12fcdfdbf6b34d = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_21c172503b06b2c140d2cb5a5fcb3b0b = $(`<div id="html_21c172503b06b2c140d2cb5a5fcb3b0b" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-07-23</h4>         <h5>Pete's Phabulous Phish Phest</h5>         <h5>Underhill, VT</h5>         <a href=https://phish.net/setlists/phish-july-23-1988-petes-phabulous-phish-phest-underhill-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_58314435b1a9c0989f12fcdfdbf6b34d.setContent(html_21c172503b06b2c140d2cb5a5fcb3b0b);
+            
+        
+
+        marker_e3b5a2ede7ef6c3fe2a6320541483283.bindPopup(popup_58314435b1a9c0989f12fcdfdbf6b34d)
+        ;
+
+        
+    
+    
+            var marker_03b27944cc9e463fa38f5f088eb8bd09 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_2e8622f774d7fcc815482cb41b1123bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_03b27944cc9e463fa38f5f088eb8bd09.setIcon(icon_2e8622f774d7fcc815482cb41b1123bb);
+        
+    
+        var popup_11914f2cd31a987d094be85e6b19707b = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_6614b24d6c35db4a589c515ada397341 = $(`<div id="html_6614b24d6c35db4a589c515ada397341" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-07-24</h4>         <h5>Nectar's</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-july-24-1988-nectars-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_11914f2cd31a987d094be85e6b19707b.setContent(html_6614b24d6c35db4a589c515ada397341);
+            
+        
+
+        marker_03b27944cc9e463fa38f5f088eb8bd09.bindPopup(popup_11914f2cd31a987d094be85e6b19707b)
+        ;
+
+        
+    
+    
+            var marker_a94dcc655e728cf643c736c531ec5f2a = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_00df92c4a7f583e5e3d53f0b193250a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a94dcc655e728cf643c736c531ec5f2a.setIcon(icon_00df92c4a7f583e5e3d53f0b193250a0);
+        
+    
+        var popup_54e238a8ead043f1a3a06785875411f2 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_de7017b7e9e02ae0b41608c2e7bc9474 = $(`<div id="html_de7017b7e9e02ae0b41608c2e7bc9474" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-07-25</h4>         <h5>Nectar's</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-july-25-1988-nectars-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_54e238a8ead043f1a3a06785875411f2.setContent(html_de7017b7e9e02ae0b41608c2e7bc9474);
+            
+        
+
+        marker_a94dcc655e728cf643c736c531ec5f2a.bindPopup(popup_54e238a8ead043f1a3a06785875411f2)
+        ;
+
+        
+    
+    
+            var marker_17196924de27a1d9d1e55a29a5daffa8 = L.marker(
+                [37.9374939, -107.8122852],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_74c9fbb2b36c298abd4e593c1a7078f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_17196924de27a1d9d1e55a29a5daffa8.setIcon(icon_74c9fbb2b36c298abd4e593c1a7078f2);
+        
+    
+        var popup_2bb0d2eb89086ad666738a5747ae7844 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_0f28bea8fa247ac24d9b1a96fdc0afde = $(`<div id="html_0f28bea8fa247ac24d9b1a96fdc0afde" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-07-28</h4>         <h5>The Roma</h5>         <h5>Telluride, CO</h5>         <a href=https://phish.net/setlists/phish-july-28-1988-the-roma-telluride-co-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_2bb0d2eb89086ad666738a5747ae7844.setContent(html_0f28bea8fa247ac24d9b1a96fdc0afde);
+            
+        
+
+        marker_17196924de27a1d9d1e55a29a5daffa8.bindPopup(popup_2bb0d2eb89086ad666738a5747ae7844)
+        ;
+
+        
+    
+    
+            var marker_7cf1226580fc60fcdc67b2685d057128 = L.marker(
+                [37.9374939, -107.8122852],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_184150ab5d829a34e698dcb268774ade = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7cf1226580fc60fcdc67b2685d057128.setIcon(icon_184150ab5d829a34e698dcb268774ade);
+        
+    
+        var popup_c1889f12bb70f0e854cbcd59e2d383db = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_9b2c94d46d8fdd07aa9d5d7950bef684 = $(`<div id="html_9b2c94d46d8fdd07aa9d5d7950bef684" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-07-29</h4>         <h5>The Roma</h5>         <h5>Telluride, CO</h5>         <a href=https://phish.net/setlists/phish-july-29-1988-the-roma-telluride-co-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_c1889f12bb70f0e854cbcd59e2d383db.setContent(html_9b2c94d46d8fdd07aa9d5d7950bef684);
+            
+        
+
+        marker_7cf1226580fc60fcdc67b2685d057128.bindPopup(popup_c1889f12bb70f0e854cbcd59e2d383db)
+        ;
+
+        
+    
+    
+            var marker_8386d4c07ec6ec21dba28e77370a08ed = L.marker(
+                [37.9374939, -107.8122852],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_9c23380f15eb3fec514c3e1decd99921 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8386d4c07ec6ec21dba28e77370a08ed.setIcon(icon_9c23380f15eb3fec514c3e1decd99921);
+        
+    
+        var popup_ce7c367ff26e6ed3e850d8869c857ab3 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_92e72f597531d92496159bd1c90a8f09 = $(`<div id="html_92e72f597531d92496159bd1c90a8f09" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-07-30</h4>         <h5>The Roma</h5>         <h5>Telluride, CO</h5>         <a href=https://phish.net/setlists/phish-july-30-1988-the-roma-telluride-co-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_ce7c367ff26e6ed3e850d8869c857ab3.setContent(html_92e72f597531d92496159bd1c90a8f09);
+            
+        
+
+        marker_8386d4c07ec6ec21dba28e77370a08ed.bindPopup(popup_ce7c367ff26e6ed3e850d8869c857ab3)
+        ;
+
+        
+    
+    
+            var marker_74328be03bd271ddd323b4651192116d = L.marker(
+                [37.9374939, -107.8122852],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_1be7fae9aa6408592b935ff5626a23ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_74328be03bd271ddd323b4651192116d.setIcon(icon_1be7fae9aa6408592b935ff5626a23ba);
+        
+    
+        var popup_ab0c66996e7252386583550919381c4a = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_235c6d4953ea434a768eda29cd6b2959 = $(`<div id="html_235c6d4953ea434a768eda29cd6b2959" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-08-03</h4>         <h5>Fly Me to the Moon Saloon</h5>         <h5>Telluride, CO</h5>         <a href=https://phish.net/setlists/phish-august-03-1988-fly-me-to-the-moon-saloon-telluride-co-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_ab0c66996e7252386583550919381c4a.setContent(html_235c6d4953ea434a768eda29cd6b2959);
+            
+        
+
+        marker_74328be03bd271ddd323b4651192116d.bindPopup(popup_ab0c66996e7252386583550919381c4a)
+        ;
+
+        
+    
+    
+            var marker_e6d0ce9bfe23298c2a0ae6d6c8a39cbd = L.marker(
+                [37.9374939, -107.8122852],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_9eebc870de8825a5564e6c2425447461 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e6d0ce9bfe23298c2a0ae6d6c8a39cbd.setIcon(icon_9eebc870de8825a5564e6c2425447461);
+        
+    
+        var popup_4df4030134114479a6cc76210e4b2295 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_b515a857d26a51835a133af514c83e59 = $(`<div id="html_b515a857d26a51835a133af514c83e59" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-08-04</h4>         <h5>The Roma</h5>         <h5>Telluride, CO</h5>         <a href=https://phish.net/setlists/phish-august-04-1988-the-roma-telluride-co-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_4df4030134114479a6cc76210e4b2295.setContent(html_b515a857d26a51835a133af514c83e59);
+            
+        
+
+        marker_e6d0ce9bfe23298c2a0ae6d6c8a39cbd.bindPopup(popup_4df4030134114479a6cc76210e4b2295)
+        ;
+
+        
+    
+    
+            var marker_9fce828e9fde649e584ed332888bb3a4 = L.marker(
+                [37.9374939, -107.8122852],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_93943baa4b874b529d5a4e843a75bc7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9fce828e9fde649e584ed332888bb3a4.setIcon(icon_93943baa4b874b529d5a4e843a75bc7f);
+        
+    
+        var popup_4047533a1dbbe54509882bd3b9f1aa65 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_9626b87d8d1448220f0e0e513747560d = $(`<div id="html_9626b87d8d1448220f0e0e513747560d" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-08-05</h4>         <h5>The Roma</h5>         <h5>Telluride, CO</h5>         <a href=https://phish.net/setlists/phish-august-05-1988-the-roma-telluride-co-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_4047533a1dbbe54509882bd3b9f1aa65.setContent(html_9626b87d8d1448220f0e0e513747560d);
+            
+        
+
+        marker_9fce828e9fde649e584ed332888bb3a4.bindPopup(popup_4047533a1dbbe54509882bd3b9f1aa65)
+        ;
+
+        
+    
+    
+            var marker_433661f60c4aa3718e5f056546da7b60 = L.marker(
+                [39.1910983, -106.8175387],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_c58138f1d4577752ed4c812aea689ebc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_433661f60c4aa3718e5f056546da7b60.setIcon(icon_c58138f1d4577752ed4c812aea689ebc);
+        
+    
+        var popup_c9c22c4ce9d4ab706ec8e04cfa4d0c9a = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_4bdcfe59d84cef9cb85377476a96cb31 = $(`<div id="html_4bdcfe59d84cef9cb85377476a96cb31" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-08-06</h4>         <h5>Aspen Mining Company</h5>         <h5>Aspen, CO</h5>         <a href=https://phish.net/setlists/phish-august-06-1988-aspen-mining-company-aspen-co-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_c9c22c4ce9d4ab706ec8e04cfa4d0c9a.setContent(html_4bdcfe59d84cef9cb85377476a96cb31);
+            
+        
+
+        marker_433661f60c4aa3718e5f056546da7b60.bindPopup(popup_c9c22c4ce9d4ab706ec8e04cfa4d0c9a)
+        ;
+
+        
+    
+    
+            var marker_bb77ce896b4cb75ac746fdca96e2f5bb = L.marker(
+                [40.36427279999999, -74.9512785],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_b2f324f094b96001110b5d93c7ed3759 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bb77ce896b4cb75ac746fdca96e2f5bb.setIcon(icon_b2f324f094b96001110b5d93c7ed3759);
+        
+    
+        var popup_427b620a4d690422e457dc27b8fa9bba = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_4c9d1badac5c8a9182f3057ed9b6eb8b = $(`<div id="html_4c9d1badac5c8a9182f3057ed9b6eb8b" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-08-09</h4>         <h5>John & Peter's</h5>         <h5>New Hope, PA</h5>         <a href=https://phish.net/setlists/phish-august-09-1988-john-peters-new-hope-pa-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_427b620a4d690422e457dc27b8fa9bba.setContent(html_4c9d1badac5c8a9182f3057ed9b6eb8b);
+            
+        
+
+        marker_bb77ce896b4cb75ac746fdca96e2f5bb.bindPopup(popup_427b620a4d690422e457dc27b8fa9bba)
+        ;
+
+        
+    
+    
+            var marker_8994dfacebd37c5515078d23ca1ba815 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_e656640d0e53368e4efe28b4c05846e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8994dfacebd37c5515078d23ca1ba815.setIcon(icon_e656640d0e53368e4efe28b4c05846e1);
+        
+    
+        var popup_00fac5bbb197c9a62a420cba714da9de = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_6e6743597cb886f999820095dc509d6d = $(`<div id="html_6e6743597cb886f999820095dc509d6d" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-08-11</h4>         <h5>The Front</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-august-11-1988-the-front-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_00fac5bbb197c9a62a420cba714da9de.setContent(html_6e6743597cb886f999820095dc509d6d);
+            
+        
+
+        marker_8994dfacebd37c5515078d23ca1ba815.bindPopup(popup_00fac5bbb197c9a62a420cba714da9de)
+        ;
+
+        
+    
+    
+            var marker_65352594d4465161b0fd638c9ff24738 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_af232b7ddc9303bff9f6cb4f7211be91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_65352594d4465161b0fd638c9ff24738.setIcon(icon_af232b7ddc9303bff9f6cb4f7211be91);
+        
+    
+        var popup_852f3fb4ef92f51108777872c575b9ed = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_d594ca46bd9c4135decd212a99592f73 = $(`<div id="html_d594ca46bd9c4135decd212a99592f73" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-08-12</h4>         <h5>The Front</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-august-12-1988-the-front-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_852f3fb4ef92f51108777872c575b9ed.setContent(html_d594ca46bd9c4135decd212a99592f73);
+            
+        
+
+        marker_65352594d4465161b0fd638c9ff24738.bindPopup(popup_852f3fb4ef92f51108777872c575b9ed)
+        ;
+
+        
+    
+    
+            var marker_c93424c7725f2c1f82a7750d7202fd06 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_d74473b703b5815048a63a49986e5a86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c93424c7725f2c1f82a7750d7202fd06.setIcon(icon_d74473b703b5815048a63a49986e5a86);
+        
+    
+        var popup_c18e5116b301d9584dae93fa6ca8078a = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_2acc1516cb34d0edf445572caf83cb8a = $(`<div id="html_2acc1516cb34d0edf445572caf83cb8a" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-08-13</h4>         <h5>The Front</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-august-13-1988-the-front-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_c18e5116b301d9584dae93fa6ca8078a.setContent(html_2acc1516cb34d0edf445572caf83cb8a);
+            
+        
+
+        marker_c93424c7725f2c1f82a7750d7202fd06.bindPopup(popup_c18e5116b301d9584dae93fa6ca8078a)
+        ;
+
+        
+    
+    
+            var marker_558cb4d737772726817bf2ed70c2c571 = L.marker(
+                [44.1926386, -72.7798479],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_8da85805723f8f742610c3173ed9b8f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_558cb4d737772726817bf2ed70c2c571.setIcon(icon_8da85805723f8f742610c3173ed9b8f2);
+        
+    
+        var popup_4662113207d3f833889ffa730d207a39 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_a28443d22065a9c9c8fc9ded8bbfd387 = $(`<div id="html_a28443d22065a9c9c8fc9ded8bbfd387" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-08-17</h4>         <h5>Gallagher's</h5>         <h5>Waitsfield, VT</h5>         <a href=https://phish.net/setlists/phish-august-17-1988-gallaghers-waitsfield-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_4662113207d3f833889ffa730d207a39.setContent(html_a28443d22065a9c9c8fc9ded8bbfd387);
+            
+        
+
+        marker_558cb4d737772726817bf2ed70c2c571.bindPopup(popup_4662113207d3f833889ffa730d207a39)
+        ;
+
+        
+    
+    
+            var marker_8e04a98d3fd34275aab08b972f15276b = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_aaf329fdaaf0da5b7e9aadc44325674f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8e04a98d3fd34275aab08b972f15276b.setIcon(icon_aaf329fdaaf0da5b7e9aadc44325674f);
+        
+    
+        var popup_0e5c0271d3d4af24ff6a014f8e032921 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_9101956584ec6a748cb1455a3f17bf31 = $(`<div id="html_9101956584ec6a748cb1455a3f17bf31" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-08-18</h4>         <h5>Sam's Tavern</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-august-18-1988-sams-tavern-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_0e5c0271d3d4af24ff6a014f8e032921.setContent(html_9101956584ec6a748cb1455a3f17bf31);
+            
+        
+
+        marker_8e04a98d3fd34275aab08b972f15276b.bindPopup(popup_0e5c0271d3d4af24ff6a014f8e032921)
+        ;
+
+        
+    
+    
+            var marker_96e3db0f864778ea321d03ae3c6b0e2f = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_5b340cc0e2dc442f0b95b69c07488e9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_96e3db0f864778ea321d03ae3c6b0e2f.setIcon(icon_5b340cc0e2dc442f0b95b69c07488e9f);
+        
+    
+        var popup_21bf4dcd8923c1ed9cadfd448c9c5550 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_c23209eabca9290f3de79c0c68af059c = $(`<div id="html_c23209eabca9290f3de79c0c68af059c" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-08-21</h4>         <h5>Nectar's</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-august-21-1988-nectars-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_21bf4dcd8923c1ed9cadfd448c9c5550.setContent(html_c23209eabca9290f3de79c0c68af059c);
+            
+        
+
+        marker_96e3db0f864778ea321d03ae3c6b0e2f.bindPopup(popup_21bf4dcd8923c1ed9cadfd448c9c5550)
+        ;
+
+        
+    
+    
+            var marker_74fd5bdb220725e20049ba9565141f52 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_f019cccd2c421e570313c18bb7b0e200 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_74fd5bdb220725e20049ba9565141f52.setIcon(icon_f019cccd2c421e570313c18bb7b0e200);
+        
+    
+        var popup_81b4930de0d8581253a47b911e5b2199 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_5aa3632bf99794aeaca522b957c4e7a2 = $(`<div id="html_5aa3632bf99794aeaca522b957c4e7a2" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-08-22</h4>         <h5>Nectar's</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-august-22-1988-nectars-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_81b4930de0d8581253a47b911e5b2199.setContent(html_5aa3632bf99794aeaca522b957c4e7a2);
+            
+        
+
+        marker_74fd5bdb220725e20049ba9565141f52.bindPopup(popup_81b4930de0d8581253a47b911e5b2199)
+        ;
+
+        
+    
+    
+            var marker_84c36a962647e7980bdbc64bbb75b067 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_45222ec3d7ce27dcd815dbf2b2fccfe8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_84c36a962647e7980bdbc64bbb75b067.setIcon(icon_45222ec3d7ce27dcd815dbf2b2fccfe8);
+        
+    
+        var popup_b7ef983fedb8ea3e690b235fc2adf5aa = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_5dac8c123e484b7109cf6b687d0c548c = $(`<div id="html_5dac8c123e484b7109cf6b687d0c548c" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-08-24</h4>         <h5>The Border</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-august-24-1988-the-border-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_b7ef983fedb8ea3e690b235fc2adf5aa.setContent(html_5dac8c123e484b7109cf6b687d0c548c);
+            
+        
+
+        marker_84c36a962647e7980bdbc64bbb75b067.bindPopup(popup_b7ef983fedb8ea3e690b235fc2adf5aa)
+        ;
+
+        
+    
+    
+            var marker_273e4bd06ca8467cd32c9b53e6ff8b8a = L.marker(
+                [39.8442593, -77.55832319999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_cd9abb211a823da4c5c891957b44bc9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_273e4bd06ca8467cd32c9b53e6ff8b8a.setIcon(icon_cd9abb211a823da4c5c891957b44bc9c);
+        
+    
+        var popup_452eff0f36d66a78edb982b1c5a20b06 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_6ba93b688c618a3b2867b6a5053441f4 = $(`<div id="html_6ba93b688c618a3b2867b6a5053441f4" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-08-27</h4>         <h5>Food Court, Mont Alto Campus, Penn State University</h5>         <h5>Mont Alto, PA</h5>         <a href=https://phish.net/setlists/phish-august-27-1988-food-court-mont-alto-campus-penn-state-university-mont-alto-pa-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_452eff0f36d66a78edb982b1c5a20b06.setContent(html_6ba93b688c618a3b2867b6a5053441f4);
+            
+        
+
+        marker_273e4bd06ca8467cd32c9b53e6ff8b8a.bindPopup(popup_452eff0f36d66a78edb982b1c5a20b06)
+        ;
+
+        
+    
+    
+            var marker_ff5f765864854a4ce187c55b88e962ad = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_5d37bac465660578b7538ab2c5a01235 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ff5f765864854a4ce187c55b88e962ad.setIcon(icon_5d37bac465660578b7538ab2c5a01235);
+        
+    
+        var popup_b680c7acf52491837c90090f1c826372 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_c67ff4538300be27f676c665b4493f20 = $(`<div id="html_c67ff4538300be27f676c665b4493f20" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-08-29</h4>         <h5>Sam's Tavern</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-august-29-1988-sams-tavern-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_b680c7acf52491837c90090f1c826372.setContent(html_c67ff4538300be27f676c665b4493f20);
+            
+        
+
+        marker_ff5f765864854a4ce187c55b88e962ad.bindPopup(popup_b680c7acf52491837c90090f1c826372)
+        ;
+
+        
+    
+    
+            var marker_998b01e0c15b2569e17fe8c10fb1a178 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_bae8dd332f7033e864452ba4880bfae6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_998b01e0c15b2569e17fe8c10fb1a178.setIcon(icon_bae8dd332f7033e864452ba4880bfae6);
+        
+    
+        var popup_685973e514ff5dfbc5f8690ef89c7c60 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_c7726dbb4f88871ff80cb482e5b755e9 = $(`<div id="html_c7726dbb4f88871ff80cb482e5b755e9" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-08-30</h4>         <h5>Sam's Tavern</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-august-30-1988-sams-tavern-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_685973e514ff5dfbc5f8690ef89c7c60.setContent(html_c7726dbb4f88871ff80cb482e5b755e9);
+            
+        
+
+        marker_998b01e0c15b2569e17fe8c10fb1a178.bindPopup(popup_685973e514ff5dfbc5f8690ef89c7c60)
+        ;
+
+        
+    
+    
+            var marker_462220e47284fe19d1ce2090f715afc2 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_40b2b8c044aa4e6df9afdd36c74fb8fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_462220e47284fe19d1ce2090f715afc2.setIcon(icon_40b2b8c044aa4e6df9afdd36c74fb8fc);
+        
+    
+        var popup_7d28c176b194f37cc021b369b4683934 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_0963ae251dd2fc59c1ada1f05567657e = $(`<div id="html_0963ae251dd2fc59c1ada1f05567657e" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-09-08</h4>         <h5>The Front</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-september-08-1988-the-front-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_7d28c176b194f37cc021b369b4683934.setContent(html_0963ae251dd2fc59c1ada1f05567657e);
+            
+        
+
+        marker_462220e47284fe19d1ce2090f715afc2.bindPopup(popup_7d28c176b194f37cc021b369b4683934)
+        ;
+
+        
+    
+    
+            var marker_b763f85877fc23fc7067f9d1b1fe64d8 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_8ec6cf1e1ddd7e185615bc68559fa46c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b763f85877fc23fc7067f9d1b1fe64d8.setIcon(icon_8ec6cf1e1ddd7e185615bc68559fa46c);
+        
+    
+        var popup_cd6b9a7bc971b519744fcd811951b51f = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_4952396754cb960a98fc9f59e64fc83f = $(`<div id="html_4952396754cb960a98fc9f59e64fc83f" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-09-09</h4>         <h5>The Front</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-september-09-1988-the-front-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_cd6b9a7bc971b519744fcd811951b51f.setContent(html_4952396754cb960a98fc9f59e64fc83f);
+            
+        
+
+        marker_b763f85877fc23fc7067f9d1b1fe64d8.bindPopup(popup_cd6b9a7bc971b519744fcd811951b51f)
+        ;
+
+        
+    
+    
+            var marker_9d1b66ed0b3c78356c455dc19f715771 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_feb2c544d349b042db46b2124a583142 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9d1b66ed0b3c78356c455dc19f715771.setIcon(icon_feb2c544d349b042db46b2124a583142);
+        
+    
+        var popup_d0646e2d5baec9ae392e16622526212c = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_6bd38bcd83ef12f89ac9f233229da631 = $(`<div id="html_6bd38bcd83ef12f89ac9f233229da631" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-09-10</h4>         <h5>The Front</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-september-10-1988-the-front-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_d0646e2d5baec9ae392e16622526212c.setContent(html_6bd38bcd83ef12f89ac9f233229da631);
+            
+        
+
+        marker_9d1b66ed0b3c78356c455dc19f715771.bindPopup(popup_d0646e2d5baec9ae392e16622526212c)
+        ;
+
+        
+    
+    
+            var marker_a7d1a39dfbd63e04052bf41d8e5d8f39 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_2546d2407a9bf25c3a65e2b8679de899 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a7d1a39dfbd63e04052bf41d8e5d8f39.setIcon(icon_2546d2407a9bf25c3a65e2b8679de899);
+        
+    
+        var popup_dc3aeca5c0bbdbf8dd97a8e662fefbf6 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_5507d0bd598ac0c124d79bf03e7950ba = $(`<div id="html_5507d0bd598ac0c124d79bf03e7950ba" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-09-12</h4>         <h5>Sam's Tavern</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-september-12-1988-sams-tavern-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_dc3aeca5c0bbdbf8dd97a8e662fefbf6.setContent(html_5507d0bd598ac0c124d79bf03e7950ba);
+            
+        
+
+        marker_a7d1a39dfbd63e04052bf41d8e5d8f39.bindPopup(popup_dc3aeca5c0bbdbf8dd97a8e662fefbf6)
+        ;
+
+        
+    
+    
+            var marker_46f6322d7dd53de0ac1f813e554f8516 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_242608503fa6b16d54fbb8b7fbf0e824 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_46f6322d7dd53de0ac1f813e554f8516.setIcon(icon_242608503fa6b16d54fbb8b7fbf0e824);
+        
+    
+        var popup_e5b038c8675c4636ffc9b14f50d5569f = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_f8659d452f6caee33e6899b20815c790 = $(`<div id="html_f8659d452f6caee33e6899b20815c790" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-09-13</h4>         <h5>Sam's Tavern</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-september-13-1988-sams-tavern-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_e5b038c8675c4636ffc9b14f50d5569f.setContent(html_f8659d452f6caee33e6899b20815c790);
+            
+        
+
+        marker_46f6322d7dd53de0ac1f813e554f8516.bindPopup(popup_e5b038c8675c4636ffc9b14f50d5569f)
+        ;
+
+        
+    
+    
+            var marker_b3ef7e805dd4620628fb5e4191d421d7 = L.marker(
+                [43.1339545, -70.9264393],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_2d86348680307d973deeb1cd4bce2192 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b3ef7e805dd4620628fb5e4191d421d7.setIcon(icon_2d86348680307d973deeb1cd4bce2192);
+        
+    
+        var popup_9d1f28564500177615e9d70343ab57c2 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_31276646362d29d207a8ff49c07253a2 = $(`<div id="html_31276646362d29d207a8ff49c07253a2" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-09-16</h4>         <h5>Nick's Basement, University of New Hampshire</h5>         <h5>Durham, NH</h5>         <a href=https://phish.net/setlists/phish-september-16-1988-nicks-basement-university-of-new-hampshire-durham-nh-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_9d1f28564500177615e9d70343ab57c2.setContent(html_31276646362d29d207a8ff49c07253a2);
+            
+        
+
+        marker_b3ef7e805dd4620628fb5e4191d421d7.bindPopup(popup_9d1f28564500177615e9d70343ab57c2)
+        ;
+
+        
+    
+    
+            var marker_998d6947ad7b3ad53b630c84fb31c3d0 = L.marker(
+                [42.09868669999999, -75.91797380000001],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_179c687659d154379f76da86c2b783a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_998d6947ad7b3ad53b630c84fb31c3d0.setIcon(icon_179c687659d154379f76da86c2b783a8);
+        
+    
+        var popup_c828629656db612b74fe3aca80502b2b = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_afa059ddac4ba1b512bd642f0d8998cc = $(`<div id="html_afa059ddac4ba1b512bd642f0d8998cc" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-09-22</h4>         <h5>Campus Pub, Binghamton College</h5>         <h5>Binghamton, NY</h5>         <a href=https://phish.net/setlists/phish-september-22-1988-campus-pub-binghamton-college-binghamton-ny-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_c828629656db612b74fe3aca80502b2b.setContent(html_afa059ddac4ba1b512bd642f0d8998cc);
+            
+        
+
+        marker_998d6947ad7b3ad53b630c84fb31c3d0.bindPopup(popup_c828629656db612b74fe3aca80502b2b)
+        ;
+
+        
+    
+    
+            var marker_99c0c470aa7dda572fb02037c5b95e43 = L.marker(
+                [42.3732216, -72.5198537],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_7315171390fd6a450da80006e02a9142 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_99c0c470aa7dda572fb02037c5b95e43.setIcon(icon_7315171390fd6a450da80006e02a9142);
+        
+    
+        var popup_86a3cd84260146fffea1a7e8ccc20159 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_8f5ed4269ac26fc80f1a1a0eba6393a6 = $(`<div id="html_8f5ed4269ac26fc80f1a1a0eba6393a6" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-09-24</h4>         <h5>Humphries House (The Zoo), Amherst College</h5>         <h5>Amherst, MA</h5>         <a href=https://phish.net/setlists/phish-september-24-1988-humphries-house-the-zoo-amherst-college-amherst-ma-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_86a3cd84260146fffea1a7e8ccc20159.setContent(html_8f5ed4269ac26fc80f1a1a0eba6393a6);
+            
+        
+
+        marker_99c0c470aa7dda572fb02037c5b95e43.bindPopup(popup_86a3cd84260146fffea1a7e8ccc20159)
+        ;
+
+        
+    
+    
+            var marker_b1c74f88f2e0e8297ccce0bbd297ef9f = L.marker(
+                [44.0153371, -73.16734],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_25c9c79883c4ce3f52a1dc3ce36cbedd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b1c74f88f2e0e8297ccce0bbd297ef9f.setIcon(icon_25c9c79883c4ce3f52a1dc3ce36cbedd);
+        
+    
+        var popup_393948f8feca0afeba1092cbc978311c = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_04cad50dff87ec3c6a3f8eb100e8f6b9 = $(`<div id="html_04cad50dff87ec3c6a3f8eb100e8f6b9" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-10-28</h4>         <h5>Cafeteria Building, Middlebury College</h5>         <h5>Middlebury, VT</h5>         <a href=https://phish.net/setlists/phish-october-28-1988-cafeteria-building-middlebury-college-middlebury-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_393948f8feca0afeba1092cbc978311c.setContent(html_04cad50dff87ec3c6a3f8eb100e8f6b9);
+            
+        
+
+        marker_b1c74f88f2e0e8297ccce0bbd297ef9f.bindPopup(popup_393948f8feca0afeba1092cbc978311c)
+        ;
+
+        
+    
+    
+            var marker_3f5945120931dcfa239975f92bf0162c = L.marker(
+                [44.2781151, -72.4264926],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_2a1f465f1c5925ed7cdba5deff988d9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3f5945120931dcfa239975f92bf0162c.setIcon(icon_2a1f465f1c5925ed7cdba5deff988d9f);
+        
+    
+        var popup_a00e59b5cf25242ced759ec8f05df7ba = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_d38e20257891ffd01e6b1d1812dcd36a = $(`<div id="html_d38e20257891ffd01e6b1d1812dcd36a" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-10-29</h4>         <h5>Sculpture Room, Goddard College</h5>         <h5>Plainfield, VT</h5>         <a href=https://phish.net/setlists/phish-october-29-1988-sculpture-room-goddard-college-plainfield-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_a00e59b5cf25242ced759ec8f05df7ba.setContent(html_d38e20257891ffd01e6b1d1812dcd36a);
+            
+        
+
+        marker_3f5945120931dcfa239975f92bf0162c.bindPopup(popup_a00e59b5cf25242ced759ec8f05df7ba)
+        ;
+
+        
+    
+    
+            var marker_d277050de6545f0b7dcd9280f22bbc02 = L.marker(
+                [42.3600825, -71.0588801],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_542aed12e012fb10088f2b6f8f540d39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d277050de6545f0b7dcd9280f22bbc02.setIcon(icon_542aed12e012fb10088f2b6f8f540d39);
+        
+    
+        var popup_2901a1048a5c9b3baeb9ed8c44bfc9e7 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_92311c79627d7448123cc3b6b2906c67 = $(`<div id="html_92311c79627d7448123cc3b6b2906c67" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-11-03</h4>         <h5>Molly's Cafe</h5>         <h5>Boston, MA</h5>         <a href=https://phish.net/setlists/phish-november-03-1988-mollys-cafe-boston-ma-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_2901a1048a5c9b3baeb9ed8c44bfc9e7.setContent(html_92311c79627d7448123cc3b6b2906c67);
+            
+        
+
+        marker_d277050de6545f0b7dcd9280f22bbc02.bindPopup(popup_2901a1048a5c9b3baeb9ed8c44bfc9e7)
+        ;
+
+        
+    
+    
+            var marker_9ab632f0df8deb33e3598f380f65532c = L.marker(
+                [43.0484029, -75.3785034],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_678abd71698d06402ec03551ffabf659 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9ab632f0df8deb33e3598f380f65532c.setIcon(icon_678abd71698d06402ec03551ffabf659);
+        
+    
+        var popup_f0d8bb3320da262fc8bb04fbad2975f0 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_3eae466b2e8ef68b07c5ee2a92548ca0 = $(`<div id="html_3eae466b2e8ef68b07c5ee2a92548ca0" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-11-04</h4>         <h5>Nardis Restaurant</h5>         <h5>Clinton, NY</h5>         <a href=https://phish.net/setlists/phish-november-04-1988-nardis-restaurant-clinton-ny-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_f0d8bb3320da262fc8bb04fbad2975f0.setContent(html_3eae466b2e8ef68b07c5ee2a92548ca0);
+            
+        
+
+        marker_9ab632f0df8deb33e3598f380f65532c.bindPopup(popup_f0d8bb3320da262fc8bb04fbad2975f0)
+        ;
+
+        
+    
+    
+            var marker_5ae0a2af88a613eea519055fc323f802 = L.marker(
+                [43.0484029, -75.3785034],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_50100fc16516a97cd884d7d0f97e5178 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5ae0a2af88a613eea519055fc323f802.setIcon(icon_50100fc16516a97cd884d7d0f97e5178);
+        
+    
+        var popup_167d9fec6d3755d96606f44bd1c9ac8e = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_a9e09d4f5b07346285da67997cf5cd7c = $(`<div id="html_a9e09d4f5b07346285da67997cf5cd7c" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-11-05</h4>         <h5>Sigma Phi Fraternity, Hamilton College</h5>         <h5>Clinton, NY</h5>         <a href=https://phish.net/setlists/phish-november-05-1988-sigma-phi-fraternity-hamilton-college-clinton-ny-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_167d9fec6d3755d96606f44bd1c9ac8e.setContent(html_a9e09d4f5b07346285da67997cf5cd7c);
+            
+        
+
+        marker_5ae0a2af88a613eea519055fc323f802.bindPopup(popup_167d9fec6d3755d96606f44bd1c9ac8e)
+        ;
+
+        
+    
+    
+            var marker_080783c24a298db6bf19cb8a177e0cc7 = L.marker(
+                [43.0828551, -70.9350382],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_e4a022c5648ebb18979c29c38fdb7c9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_080783c24a298db6bf19cb8a177e0cc7.setIcon(icon_e4a022c5648ebb18979c29c38fdb7c9d);
+        
+    
+        var popup_08adb506c072ca5c5cc951964e215aeb = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_1459436e04f5fab6633d6e2e28e9c466 = $(`<div id="html_1459436e04f5fab6633d6e2e28e9c466" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-11-11</h4>         <h5>Old Stone Church</h5>         <h5>Newmarket, NH</h5>         <a href=https://phish.net/setlists/phish-november-11-1988-old-stone-church-newmarket-nh-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_08adb506c072ca5c5cc951964e215aeb.setContent(html_1459436e04f5fab6633d6e2e28e9c466);
+            
+        
+
+        marker_080783c24a298db6bf19cb8a177e0cc7.bindPopup(popup_08adb506c072ca5c5cc951964e215aeb)
+        ;
+
+        
+    
+    
+            var marker_2cd6b3e96213995861145daca87d971e = L.marker(
+                [42.3600825, -71.0588801],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_ee76793fe0cabff164bc2123a93394a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2cd6b3e96213995861145daca87d971e.setIcon(icon_ee76793fe0cabff164bc2123a93394a2);
+        
+    
+        var popup_9f897ab18b66fe26ed2b70ce10525f9c = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_f40228d1d4a2344e5911e1918decf931 = $(`<div id="html_f40228d1d4a2344e5911e1918decf931" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-12-02</h4>         <h5>Molly's Cafe</h5>         <h5>Boston, MA</h5>         <a href=https://phish.net/setlists/phish-december-02-1988-mollys-cafe-boston-ma-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_9f897ab18b66fe26ed2b70ce10525f9c.setContent(html_f40228d1d4a2344e5911e1918decf931);
+            
+        
+
+        marker_2cd6b3e96213995861145daca87d971e.bindPopup(popup_9f897ab18b66fe26ed2b70ce10525f9c)
+        ;
+
+        
+    
+    
+            var marker_e458c3ebf5c177e94fe1d3e95d3105f7 = L.marker(
+                [42.3250896, -72.64120129999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_e9820a73946eec3143cada0b0b262e34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e458c3ebf5c177e94fe1d3e95d3105f7.setIcon(icon_e9820a73946eec3143cada0b0b262e34);
+        
+    
+        var popup_a9bb4274272b84d54674227a54bc2b4f = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_82a7daa952f7d43f9dd7eb069a3548f4 = $(`<div id="html_82a7daa952f7d43f9dd7eb069a3548f4" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-12-09</h4>         <h5>Sheehan's</h5>         <h5>Northampton, MA</h5>         <a href=https://phish.net/setlists/phish-december-09-1988-sheehans-northampton-ma-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_a9bb4274272b84d54674227a54bc2b4f.setContent(html_82a7daa952f7d43f9dd7eb069a3548f4);
+            
+        
+
+        marker_e458c3ebf5c177e94fe1d3e95d3105f7.bindPopup(popup_a9bb4274272b84d54674227a54bc2b4f)
+        ;
+
+        
+    
+    
+            var marker_6cc0a612489fc9a440b3a74a860fe602 = L.marker(
+                [42.3732216, -72.5198537],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_73d48dc2c1794ed29680d57738b7cc24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6cc0a612489fc9a440b3a74a860fe602.setIcon(icon_73d48dc2c1794ed29680d57738b7cc24);
+        
+    
+        var popup_6fcbd5d4c57af8d01909a9eea712c793 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_18c56c3a0ce2ec457d7658d7ae8e5cf0 = $(`<div id="html_18c56c3a0ce2ec457d7658d7ae8e5cf0" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-12-10</h4>         <h5>The Red Barn, Hampshire College</h5>         <h5>Amherst, MA</h5>         <a href=https://phish.net/setlists/phish-december-10-1988-the-red-barn-hampshire-college-amherst-ma-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_6fcbd5d4c57af8d01909a9eea712c793.setContent(html_18c56c3a0ce2ec457d7658d7ae8e5cf0);
+            
+        
+
+        marker_6cc0a612489fc9a440b3a74a860fe602.bindPopup(popup_6fcbd5d4c57af8d01909a9eea712c793)
+        ;
+
+        
+    
+    
+            var marker_5b77ab529d1cdfedc08dc66160c0e11c = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_43b2764d9a572910c7f5da942d0cfca1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5b77ab529d1cdfedc08dc66160c0e11c.setIcon(icon_43b2764d9a572910c7f5da942d0cfca1);
+        
+    
+        var popup_20db5647efd1031b9f032a5575e55442 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_4b619309efc09f56e94ade4cd14f4b23 = $(`<div id="html_4b619309efc09f56e94ade4cd14f4b23" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-12-11</h4>         <h5>The Front</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-december-11-1988-the-front-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_20db5647efd1031b9f032a5575e55442.setContent(html_4b619309efc09f56e94ade4cd14f4b23);
+            
+        
+
+        marker_5b77ab529d1cdfedc08dc66160c0e11c.bindPopup(popup_20db5647efd1031b9f032a5575e55442)
+        ;
+
+        
+    
+    
+            var marker_8fd3084060b5522d678fe5c7b5a3e69d = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_1998a32d25987a6e108d8bd16e69c5db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8fd3084060b5522d678fe5c7b5a3e69d.setIcon(icon_1998a32d25987a6e108d8bd16e69c5db);
+        
+    
+        var popup_bc00145a38432e5a543e22f56c2504d7 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_8557b200df91784a1579fd50b07f82ae = $(`<div id="html_8557b200df91784a1579fd50b07f82ae" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-12-12</h4>         <h5>The Front</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-december-12-1988-the-front-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_bc00145a38432e5a543e22f56c2504d7.setContent(html_8557b200df91784a1579fd50b07f82ae);
+            
+        
+
+        marker_8fd3084060b5522d678fe5c7b5a3e69d.bindPopup(popup_bc00145a38432e5a543e22f56c2504d7)
+        ;
+
+        
+    
+    
+            var marker_4f1b23fb08a4ec58ee142e847a79acb8 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_26ff7213012509ab0917cb251716a2c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4f1b23fb08a4ec58ee142e847a79acb8.setIcon(icon_26ff7213012509ab0917cb251716a2c3);
+        
+    
+        var popup_e3cdc7334d603b48fac11106382afb67 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_0ced5478ccddf3ae34f0b4e9b0608c47 = $(`<div id="html_0ced5478ccddf3ae34f0b4e9b0608c47" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-12-15</h4>         <h5>The Front</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-december-15-1988-the-front-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_e3cdc7334d603b48fac11106382afb67.setContent(html_0ced5478ccddf3ae34f0b4e9b0608c47);
+            
+        
+
+        marker_4f1b23fb08a4ec58ee142e847a79acb8.bindPopup(popup_e3cdc7334d603b48fac11106382afb67)
+        ;
+
+        
+    
+    
+            var marker_af2d6e2d506c0508e5dc278b94ff1056 = L.marker(
+                [44.4758825, -73.21207199999999],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_928e07d66972a36017f155741298885f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_af2d6e2d506c0508e5dc278b94ff1056.setIcon(icon_928e07d66972a36017f155741298885f);
+        
+    
+        var popup_3fea12d1335ad3b4a99ddbad1a6fbd75 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_d1601147dc6232b1ebe33e1f6dbc0122 = $(`<div id="html_d1601147dc6232b1ebe33e1f6dbc0122" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-12-16</h4>         <h5>Gymnasium, University of Vermont</h5>         <h5>Burlington, VT</h5>         <a href=https://phish.net/setlists/phish-december-16-1988-gymnasium-university-of-vermont-burlington-vt-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_3fea12d1335ad3b4a99ddbad1a6fbd75.setContent(html_d1601147dc6232b1ebe33e1f6dbc0122);
+            
+        
+
+        marker_af2d6e2d506c0508e5dc278b94ff1056.bindPopup(popup_3fea12d1335ad3b4a99ddbad1a6fbd75)
+        ;
+
+        
+    
+    
+            var marker_80b1dbe818dea0ff59c9353be538f80d = L.marker(
+                [43.0828551, -70.9350382],
+                {}
+            ).addTo(marker_cluster_494078e9a2fb32636453bf75b93cc593);
+        
+    
+            var icon_bade8bb7107f1ae59feacfa62c5ce41a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_80b1dbe818dea0ff59c9353be538f80d.setIcon(icon_bade8bb7107f1ae59feacfa62c5ce41a);
+        
+    
+        var popup_92de4b30afd94ff52142715ecd3d85ed = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_ba88bc93e95ec96d047ec058b264e66d = $(`<div id="html_ba88bc93e95ec96d047ec058b264e66d" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>1988-12-17</h4>         <h5>Old Stone Church</h5>         <h5>Newmarket, NH</h5>         <a href=https://phish.net/setlists/phish-december-17-1988-old-stone-church-newmarket-nh-usa.html>Setlist</a>         </div>     </div>`)[0];
+                popup_92de4b30afd94ff52142715ecd3d85ed.setContent(html_ba88bc93e95ec96d047ec058b264e66d);
+            
+        
+
+        marker_80b1dbe818dea0ff59c9353be538f80d.bindPopup(popup_92de4b30afd94ff52142715ecd3d85ed)
+        ;
+
+        
+    
+    
+            marker_cluster_494078e9a2fb32636453bf75b93cc593.addTo(map_f29f642842d4aa719c750734a6419637);
+        
+    
+            var marker_cluster_812b85115f5527bf943f609785799c82 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            marker_cluster_812b85115f5527bf943f609785799c82.addTo(map_f29f642842d4aa719c750734a6419637);
+        
+</script>
+</html>

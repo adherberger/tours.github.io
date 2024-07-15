@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d85461c424965b084acaf6baeebc0592 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    <h3 style="text-align:center;">Catholic Churches Attended</h3>
+    
+            <div class="folium-map" id="map_d85461c424965b084acaf6baeebc0592" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d85461c424965b084acaf6baeebc0592 = L.map(
+                "map_d85461c424965b084acaf6baeebc0592",
+                {
+                    center: [39.5219, -98.4892],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_287b3991124a1175c0f6bb7127f010e4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_287b3991124a1175c0f6bb7127f010e4.addTo(map_d85461c424965b084acaf6baeebc0592);
+        
+    
+            var marker_7358c15617293b8ab21a5e3f06a88adc = L.marker(
+                [40.45288135417026, -79.980563725996],
+                {}
+            ).addTo(map_d85461c424965b084acaf6baeebc0592);
+        
+    
+            var icon_997169c9bc3ffa8bc2860ff211001a99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7358c15617293b8ab21a5e3f06a88adc.setIcon(icon_997169c9bc3ffa8bc2860ff211001a99);
+        
+    
+        var popup_c7abf6304e3d7376e8ff5d9e07882ef7 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_db6628e2728ba71dce3651896ec974e9 = $(`<div id="html_db6628e2728ba71dce3651896ec974e9" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>St. Stanislaus Kostka</h4>         <h4>Pittsburgh, PA</h4>         <h5><b>2024-07-14</b></h5>         <h5><a href=https://23091.sites.ecatholic.com/st-stanislaus>Website</a></h5>         <h5><a href=https://www.google.com/maps/place/St.+Stanislaus+Kostka+R.+C.+Church/@40.4523262,-79.9835678,3a,75y/data=!3m8!1e2!3m6!1sAF1QipM09s3AMV1XLDELQ_7gSw5LeKJLN5CQ_imid2yN!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipM09s3AMV1XLDELQ_7gSw5LeKJLN5CQ_imid2yN%3Dw224-h298-k-no!7i3024!8i4032!4m17!1m7!3m6!1s0x8834f3dd27d09daf:0x4ae26fd504faa29b!2sSt.+Stanislaus+Kostka+R.+C.+Church!8m2!3d40.4523262!4d-79.9835678!16s%2Fm%2F06_5m6r!3m8!1s0x8834f3dd27d09daf:0x4ae26fd504faa29b!8m2!3d40.4523262!4d-79.9835678!10e5!14m1!1BCgIgAQ!16s%2Fm%2F06_5m6r?entry=ttu>Pictures</a></h5>         </div>     </div>`)[0];
+                popup_c7abf6304e3d7376e8ff5d9e07882ef7.setContent(html_db6628e2728ba71dce3651896ec974e9);
+            
+        
+
+        marker_7358c15617293b8ab21a5e3f06a88adc.bindPopup(popup_c7abf6304e3d7376e8ff5d9e07882ef7)
+        ;
+
+        
+    
+    
+            var marker_4cb91881211b765b382f320a6b23b27c = L.marker(
+                [36.09677703312443, -115.16868454770194],
+                {}
+            ).addTo(map_d85461c424965b084acaf6baeebc0592);
+        
+    
+            var icon_cab325599fa2722dffc8ca896fa7e769 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4cb91881211b765b382f320a6b23b27c.setIcon(icon_cab325599fa2722dffc8ca896fa7e769);
+        
+    
+        var popup_98810c85fe253303f2bed3ee642af57c = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_c34722022275ab9ac60dcde393083047 = $(`<div id="html_c34722022275ab9ac60dcde393083047" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>Shrine of the Most Holy Redeemer</h4>         <h4>Las Vegas, NV</h4>         <h5><b>2024-03-03</b></h5>         <h5><a href=https://theshrinelv.org/>Website</a></h5>         <h5><a href=https://www.google.com/maps/place/Roman+Catholic+Shrine+of+the+Most+Holy+Redeemer/@36.0966817,-115.1697467,3a,88.9y,90t/data=!3m8!1e2!3m6!1sAF1QipOFLq4usX-MH1LAvLzpTDeG8nWkCDmP_uTGaSB3!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOFLq4usX-MH1LAvLzpTDeG8nWkCDmP_uTGaSB3%3Dw528-h298-k-no!7i1201!8i677!4m9!3m8!1s0x80c8c5c91919f003:0x9eb4d642b82b7c0e!8m2!3d36.0966817!4d-115.1697467!10e5!14m1!1BCgIgAQ!16s%2Fg%2F1v41_r71?entry=ttu>Pictures</a></h5>         </div>     </div>`)[0];
+                popup_98810c85fe253303f2bed3ee642af57c.setContent(html_c34722022275ab9ac60dcde393083047);
+            
+        
+
+        marker_4cb91881211b765b382f320a6b23b27c.bindPopup(popup_98810c85fe253303f2bed3ee642af57c)
+        ;
+
+        
+    
+</script>
+</html>

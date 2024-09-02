@@ -1,0 +1,1550 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3af4d2caf94dfe70d5df42ddac2c0ff4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    <h4 style="text-align:center;">World Tour 2019</h4>
+    
+            <div class="folium-map" id="map_3af4d2caf94dfe70d5df42ddac2c0ff4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3af4d2caf94dfe70d5df42ddac2c0ff4 = L.map(
+                "map_3af4d2caf94dfe70d5df42ddac2c0ff4",
+                {
+                    center: [40.41312565046343, -3.7063158239500735],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_044d061e3b3beac8b91d18d71e05ea8c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_044d061e3b3beac8b91d18d71e05ea8c.addTo(map_3af4d2caf94dfe70d5df42ddac2c0ff4);
+        
+    
+            var marker_cluster_dc65bce16402aaff9ef7704a403bcd74 = L.markerClusterGroup(
+                {"maxClusterRadius": 20}
+            );
+        
+    
+            var marker_658c2401d5cdeed1bbd6e643453841d6 = L.marker(
+                [-37.7720408, 144.959576],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_07b899d21c6265e72602b83dd54ab8a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_658c2401d5cdeed1bbd6e643453841d6.setIcon(icon_07b899d21c6265e72602b83dd54ab8a7);
+        
+    
+        var popup_75ef7db742076f89eab3e603c9449731 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_0ab688648e932be80e904381e854258b = $(`<div id="html_0ab688648e932be80e904381e854258b" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-06-26</h4>         <h5>Howler</h5>         <h5>Naarm (Melbourne), VIC</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-june-26-2019-howler-naarm-melbourne-vic-australia.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_75ef7db742076f89eab3e603c9449731.setContent(html_0ab688648e932be80e904381e854258b);
+            
+        
+
+        marker_658c2401d5cdeed1bbd6e643453841d6.bindPopup(popup_75ef7db742076f89eab3e603c9449731)
+        ;
+
+        
+    
+    
+            var marker_7358d858dd67cbcde21e19dd6d93980e = L.marker(
+                [-37.8166268, 144.9695761],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_39718e6db808c824b76b25477dd311dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7358d858dd67cbcde21e19dd6d93980e.setIcon(icon_39718e6db808c824b76b25477dd311dc);
+        
+    
+        var popup_a63a989c700841a9587a19f9edab6088 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_ec3884f8dd543598b431159c655c3862 = $(`<div id="html_ec3884f8dd543598b431159c655c3862" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-06-27</h4>         <h5>Forum Theatre</h5>         <h5>Naarm (Melbourne), VIC</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-june-27-2019-forum-theatre-naarm-melbourne-vic-australia.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_a63a989c700841a9587a19f9edab6088.setContent(html_ec3884f8dd543598b431159c655c3862);
+            
+        
+
+        marker_7358d858dd67cbcde21e19dd6d93980e.bindPopup(popup_a63a989c700841a9587a19f9edab6088)
+        ;
+
+        
+    
+    
+            var marker_6b6ff2cf0bd329f8cd8f1561057f6eb0 = L.marker(
+                [-37.8166268, 144.9695761],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_710d78e0ac334e35e0a419aed5db6249 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6b6ff2cf0bd329f8cd8f1561057f6eb0.setIcon(icon_710d78e0ac334e35e0a419aed5db6249);
+        
+    
+        var popup_f3459b581b7110777b0171ee504af7f8 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_7a2939dd6ea1320cf11f1a97148521c2 = $(`<div id="html_7a2939dd6ea1320cf11f1a97148521c2" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-06-28</h4>         <h5>Forum Theatre</h5>         <h5>Naarm (Melbourne), VIC</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-june-28-2019-forum-theatre-naarm-melbourne-vic-australia.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_f3459b581b7110777b0171ee504af7f8.setContent(html_7a2939dd6ea1320cf11f1a97148521c2);
+            
+        
+
+        marker_6b6ff2cf0bd329f8cd8f1561057f6eb0.bindPopup(popup_f3459b581b7110777b0171ee504af7f8)
+        ;
+
+        
+    
+    
+            var marker_ada9bae8feb54c8549e78ef0dfdb1398 = L.marker(
+                [-27.4521218, 153.0315037],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_20bfd75e96c6febd9024a829589bdc00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ada9bae8feb54c8549e78ef0dfdb1398.setIcon(icon_20bfd75e96c6febd9024a829589bdc00);
+        
+    
+        var popup_ddca0d80bf8b209084ba751bd600f829 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_bfa4f640efaa78a865f43be9c89f05ec = $(`<div id="html_bfa4f640efaa78a865f43be9c89f05ec" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-07-03</h4>         <h5>The Tivoli</h5>         <h5>Brisbane, QLD</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-july-3-2019-the-tivoli-brisbane-qld-australia.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_ddca0d80bf8b209084ba751bd600f829.setContent(html_bfa4f640efaa78a865f43be9c89f05ec);
+            
+        
+
+        marker_ada9bae8feb54c8549e78ef0dfdb1398.bindPopup(popup_ddca0d80bf8b209084ba751bd600f829)
+        ;
+
+        
+    
+    
+            var marker_3420fe6307db9cc61130090567eb8085 = L.marker(
+                [-27.4521218, 153.0315037],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_8a51323247b8639fa55051d6f581a99e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3420fe6307db9cc61130090567eb8085.setIcon(icon_8a51323247b8639fa55051d6f581a99e);
+        
+    
+        var popup_b4cd99c6e187e2c93eee3f8ec4163157 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_3ae588409084e7abf1ab650c49a6b6b3 = $(`<div id="html_3ae588409084e7abf1ab650c49a6b6b3" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-07-04</h4>         <h5>The Tivoli</h5>         <h5>Brisbane, QLD</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-july-4-2019-the-tivoli-brisbane-qld-australia.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_b4cd99c6e187e2c93eee3f8ec4163157.setContent(html_3ae588409084e7abf1ab650c49a6b6b3);
+            
+        
+
+        marker_3420fe6307db9cc61130090567eb8085.bindPopup(popup_b4cd99c6e187e2c93eee3f8ec4163157)
+        ;
+
+        
+    
+    
+            var marker_c0b6447f8e5383a5be8818193b4bde16 = L.marker(
+                [-33.9165029, 151.2273804],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_8ac60a3d52dd29f5aa124903b6ad4528 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c0b6447f8e5383a5be8818193b4bde16.setIcon(icon_8ac60a3d52dd29f5aa124903b6ad4528);
+        
+    
+        var popup_fd226eb74d43227109348913402f3e1a = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_54fc33eeb9fa138f2353de034a3a8b36 = $(`<div id="html_54fc33eeb9fa138f2353de034a3a8b36" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-07-05</h4>         <h5>UNSW Roundhouse</h5>         <h5>Eora (Sydney), NSW</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-july-5-2019-unsw-roundhouse-eora-sydney-nsw-australia.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_fd226eb74d43227109348913402f3e1a.setContent(html_54fc33eeb9fa138f2353de034a3a8b36);
+            
+        
+
+        marker_c0b6447f8e5383a5be8818193b4bde16.bindPopup(popup_fd226eb74d43227109348913402f3e1a)
+        ;
+
+        
+    
+    
+            var marker_8ffa8e649ca7c13a1eead500ab36be3e = L.marker(
+                [-33.9165029, 151.2273804],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_bc445b14e3e87aee6b18d9d8a3230c23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8ffa8e649ca7c13a1eead500ab36be3e.setIcon(icon_bc445b14e3e87aee6b18d9d8a3230c23);
+        
+    
+        var popup_1eed8aa4d42db6a8a4363a3874586d5d = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_f7e9b9e3fe03513462ebfcae6e7730ef = $(`<div id="html_f7e9b9e3fe03513462ebfcae6e7730ef" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-07-06</h4>         <h5>UNSW Roundhouse</h5>         <h5>Eora (Sydney), NSW</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-july-6-2019-unsw-roundhouse-eora-sydney-nsw-australia.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_1eed8aa4d42db6a8a4363a3874586d5d.setContent(html_f7e9b9e3fe03513462ebfcae6e7730ef);
+            
+        
+
+        marker_8ffa8e649ca7c13a1eead500ab36be3e.bindPopup(popup_1eed8aa4d42db6a8a4363a3874586d5d)
+        ;
+
+        
+    
+    
+            var marker_41ef5c65e33dd217b2c38de1794f516f = L.marker(
+                [-34.9236153, 138.5690336],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_360f1e89453d00d6afe828f13d0c16de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_41ef5c65e33dd217b2c38de1794f516f.setIcon(icon_360f1e89453d00d6afe828f13d0c16de);
+        
+    
+        var popup_05442b30a427a077d948f0f6b46a6f63 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_0ecc9089153dc7de8e9ce5a1f5e936c7 = $(`<div id="html_0ecc9089153dc7de8e9ce5a1f5e936c7" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-07-12</h4>         <h5>Thebarton Theatre</h5>         <h5>Adelaide, SA</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-july-12-2019-thebarton-theatre-adelaide-sa-australia.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_05442b30a427a077d948f0f6b46a6f63.setContent(html_0ecc9089153dc7de8e9ce5a1f5e936c7);
+            
+        
+
+        marker_41ef5c65e33dd217b2c38de1794f516f.bindPopup(popup_05442b30a427a077d948f0f6b46a6f63)
+        ;
+
+        
+    
+    
+            var marker_abba97c8207162af7e62addc2f98c2f9 = L.marker(
+                [-31.934086, 115.872059],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_87c762a4fed752fd8060cb5db3278e2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_abba97c8207162af7e62addc2f98c2f9.setIcon(icon_87c762a4fed752fd8060cb5db3278e2a);
+        
+    
+        var popup_0984378d49fac2a651540f437be54043 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_f86a6b40c62d014a5755ea87b8ee1682 = $(`<div id="html_f86a6b40c62d014a5755ea87b8ee1682" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-07-13</h4>         <h5>Astor Theatre</h5>         <h5>Perth, W.A.</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-july-13-2019-astor-theatre-perth-wa-australia.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_0984378d49fac2a651540f437be54043.setContent(html_f86a6b40c62d014a5755ea87b8ee1682);
+            
+        
+
+        marker_abba97c8207162af7e62addc2f98c2f9.bindPopup(popup_0984378d49fac2a651540f437be54043)
+        ;
+
+        
+    
+    
+            var marker_c6e19ae1b2543dd98c98180615a4b6ba = L.marker(
+                [36.7916359, 138.7796405],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_2c3ace7ed24573b44443b906c192c60e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c6e19ae1b2543dd98c98180615a4b6ba.setIcon(icon_2c3ace7ed24573b44443b906c192c60e);
+        
+    
+        var popup_b3c9a96a82f86988445b14c7e9f87d16 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_c43a887a7c338613fb9a1e815d478d1c = $(`<div id="html_c43a887a7c338613fb9a1e815d478d1c" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-07-26</h4>         <h5>Naeba Ski Resort</h5>         <h5>Yuzawa, None</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-and-the-lizard-wizard-july-26-2019-naeba-ski-resort-yuzawa-japan.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_b3c9a96a82f86988445b14c7e9f87d16.setContent(html_c43a887a7c338613fb9a1e815d478d1c);
+            
+        
+
+        marker_c6e19ae1b2543dd98c98180615a4b6ba.bindPopup(popup_b3c9a96a82f86988445b14c7e9f87d16)
+        ;
+
+        
+    
+    
+            var marker_e31725d1c34b04aee70b657185419096 = L.marker(
+                [37.5535776, 126.9092268],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_cdde7a4bbbdcaed2450377c6a9f603fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e31725d1c34b04aee70b657185419096.setIcon(icon_cdde7a4bbbdcaed2450377c6a9f603fd);
+        
+    
+        var popup_58181cec2c5f0fc6534923db50633691 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_a46dff41e706e70a4d44f1b9cdd3a716 = $(`<div id="html_a46dff41e706e70a4d44f1b9cdd3a716" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-07-28</h4>         <h5>Club S.H.A.R.P.</h5>         <h5>Seoul, None</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-july-28-2019-club-sharp-seoul-south-korea.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_58181cec2c5f0fc6534923db50633691.setContent(html_a46dff41e706e70a4d44f1b9cdd3a716);
+            
+        
+
+        marker_e31725d1c34b04aee70b657185419096.bindPopup(popup_58181cec2c5f0fc6534923db50633691)
+        ;
+
+        
+    
+    
+            var marker_7095041d35b3d3851fcffc1edd11afe8 = L.marker(
+                [34.1195315, -118.2962896],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_c0fb47513f63cabbcfb6b57cc701ca1d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7095041d35b3d3851fcffc1edd11afe8.setIcon(icon_c0fb47513f63cabbcfb6b57cc701ca1d);
+        
+    
+        var popup_037a4c1f2028d40beac0a8f7ded8a143 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_59be7a9177b99a0cb2e08bc078879afb = $(`<div id="html_59be7a9177b99a0cb2e08bc078879afb" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-08-13</h4>         <h5>Greek Theatre</h5>         <h5>Los Angeles, CA</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-august-13-2019-greek-theatre-los-angeles-ca-usa.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_037a4c1f2028d40beac0a8f7ded8a143.setContent(html_59be7a9177b99a0cb2e08bc078879afb);
+            
+        
+
+        marker_7095041d35b3d3851fcffc1edd11afe8.bindPopup(popup_037a4c1f2028d40beac0a8f7ded8a143)
+        ;
+
+        
+    
+    
+            var marker_80e7e7dcef4650a3eb9b2ff4f4ab81fa = L.marker(
+                [37.7743276, -122.419428],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_4fd3e4656867467e4ddfffdc49993375 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_80e7e7dcef4650a3eb9b2ff4f4ab81fa.setIcon(icon_4fd3e4656867467e4ddfffdc49993375);
+        
+    
+        var popup_3af6532c0e0867b17b28ffe7b726fb16 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_25c957668dc1c60b2b61ee26a5254291 = $(`<div id="html_25c957668dc1c60b2b61ee26a5254291" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-08-14</h4>         <h5>SVN West</h5>         <h5>San Francisco, CA</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-august-14-2019-svn-west-san-francisco-ca-usa.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_3af6532c0e0867b17b28ffe7b726fb16.setContent(html_25c957668dc1c60b2b61ee26a5254291);
+            
+        
+
+        marker_80e7e7dcef4650a3eb9b2ff4f4ab81fa.bindPopup(popup_3af6532c0e0867b17b28ffe7b726fb16)
+        ;
+
+        
+    
+    
+            var marker_1fc4dff07bd4784b51f9c88695f4769a = L.marker(
+                [37.7743276, -122.419428],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_d9a3eef801c848636c447ee436d4e13f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1fc4dff07bd4784b51f9c88695f4769a.setIcon(icon_d9a3eef801c848636c447ee436d4e13f);
+        
+    
+        var popup_6a8672812f472be0069dc908da44498a = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_be0e4a6914a52a38e9cfcdb791ded795 = $(`<div id="html_be0e4a6914a52a38e9cfcdb791ded795" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-08-15</h4>         <h5>SVN West</h5>         <h5>San Francisco, CA</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-august-15-2019-svn-west-san-francisco-ca-usa.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_6a8672812f472be0069dc908da44498a.setContent(html_be0e4a6914a52a38e9cfcdb791ded795);
+            
+        
+
+        marker_1fc4dff07bd4784b51f9c88695f4769a.bindPopup(popup_6a8672812f472be0069dc908da44498a)
+        ;
+
+        
+    
+    
+            var marker_c4630362a12bd8e300b4d4ef8de2a4ee = L.marker(
+                [45.5232461, -122.676282],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_73a30b5087076a1f89310ee42f51e507 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c4630362a12bd8e300b4d4ef8de2a4ee.setIcon(icon_73a30b5087076a1f89310ee42f51e507);
+        
+    
+        var popup_0aceb1fc4b3b633e8e3418bb2af9b406 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_a9ca41a0c5d93c2d4818b2460563ced2 = $(`<div id="html_a9ca41a0c5d93c2d4818b2460563ced2" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-08-16</h4>         <h5>Roseland Theater</h5>         <h5>Portland, OR</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-august-16-2019-roseland-theater-portland-or-usa.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_0aceb1fc4b3b633e8e3418bb2af9b406.setContent(html_a9ca41a0c5d93c2d4818b2460563ced2);
+            
+        
+
+        marker_c4630362a12bd8e300b4d4ef8de2a4ee.bindPopup(popup_0aceb1fc4b3b633e8e3418bb2af9b406)
+        ;
+
+        
+    
+    
+            var marker_ea147a54508c359fd5475e70e7114b14 = L.marker(
+                [49.2747132, -123.109569],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_ff71c7c1b67b54f05ecc0fa44610ace9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ea147a54508c359fd5475e70e7114b14.setIcon(icon_ff71c7c1b67b54f05ecc0fa44610ace9);
+        
+    
+        var popup_295122f04fd1a8f91f1a7707dd952cc9 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_64eb7bb32a5d7d513d66c79a984859bc = $(`<div id="html_64eb7bb32a5d7d513d66c79a984859bc" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-08-17</h4>         <h5>Harbour Event & Convention Centre</h5>         <h5>Vancouver, BC</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-august-17-2019-harbour-event-convention-centre-vancouver-canada.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_295122f04fd1a8f91f1a7707dd952cc9.setContent(html_64eb7bb32a5d7d513d66c79a984859bc);
+            
+        
+
+        marker_ea147a54508c359fd5475e70e7114b14.bindPopup(popup_295122f04fd1a8f91f1a7707dd952cc9)
+        ;
+
+        
+    
+    
+            var marker_e7f6bd7b83e16b039d4f14dc45dc32f8 = L.marker(
+                [47.62305, -122.355072],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_dd7c844fcd5c2c30a63aa85434f75ff7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e7f6bd7b83e16b039d4f14dc45dc32f8.setIcon(icon_dd7c844fcd5c2c30a63aa85434f75ff7);
+        
+    
+        var popup_24d9627367fec04422a003a80f5eedfd = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_b0dae49c75933e35c498c46eba40040f = $(`<div id="html_b0dae49c75933e35c498c46eba40040f" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-08-18</h4>         <h5>KEXP Studios</h5>         <h5>Seattle, WA</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-august-18-2019-kexp-studios-seattle-wa-usa.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_24d9627367fec04422a003a80f5eedfd.setContent(html_b0dae49c75933e35c498c46eba40040f);
+            
+        
+
+        marker_e7f6bd7b83e16b039d4f14dc45dc32f8.bindPopup(popup_24d9627367fec04422a003a80f5eedfd)
+        ;
+
+        
+    
+    
+            var marker_45543709d3c643bea49a9f69a16dbf57 = L.marker(
+                [47.6135244, -122.3315134],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_fc81ebc22c4928dc689621234b1336ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_45543709d3c643bea49a9f69a16dbf57.setIcon(icon_fc81ebc22c4928dc689621234b1336ce);
+        
+    
+        var popup_0e8d1defe60611dfbe6ccbb97b1ab355 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_8c8b78d845e37e4ddd74f3a9d714d8e3 = $(`<div id="html_8c8b78d845e37e4ddd74f3a9d714d8e3" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-08-18</h4>         <h5>Paramount Theatre</h5>         <h5>Seattle, WA</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-august-18-2019-paramount-theatre-seattle-wa-usa-2.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_0e8d1defe60611dfbe6ccbb97b1ab355.setContent(html_8c8b78d845e37e4ddd74f3a9d714d8e3);
+            
+        
+
+        marker_45543709d3c643bea49a9f69a16dbf57.bindPopup(popup_0e8d1defe60611dfbe6ccbb97b1ab355)
+        ;
+
+        
+    
+    
+            var marker_d7e7249b8c148849b7f5abd44ab88476 = L.marker(
+                [40.7696612, -111.9030338],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_04eee65e57b1e079d6cbffd41042ae1d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d7e7249b8c148849b7f5abd44ab88476.setIcon(icon_04eee65e57b1e079d6cbffd41042ae1d);
+        
+    
+        var popup_634f4e4479848a973e131f0c0d3b66e7 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_01ef50e4138a864f6224baf909e8c81c = $(`<div id="html_01ef50e4138a864f6224baf909e8c81c" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-08-20</h4>         <h5>The Depot</h5>         <h5>Salt Lake City, UT</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-august-20-2019-the-depot-salt-lake-city-ut-usa.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_634f4e4479848a973e131f0c0d3b66e7.setContent(html_01ef50e4138a864f6224baf909e8c81c);
+            
+        
+
+        marker_d7e7249b8c148849b7f5abd44ab88476.bindPopup(popup_634f4e4479848a973e131f0c0d3b66e7)
+        ;
+
+        
+    
+    
+            var marker_b46e042fbd1cb693083cd2e929c0c8e3 = L.marker(
+                [39.776204, -104.969168],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_d8aedcdfcf9f651f00c23ec2b7e8f4bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b46e042fbd1cb693083cd2e929c0c8e3.setIcon(icon_d8aedcdfcf9f651f00c23ec2b7e8f4bd);
+        
+    
+        var popup_60b61831963858ca6a33d574f8bbf53f = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_b795fb83dc959c49aae44738dc8bede6 = $(`<div id="html_b795fb83dc959c49aae44738dc8bede6" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-08-21</h4>         <h5>Mission Ballroom</h5>         <h5>Denver, CO</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-august-21-2019-mission-ballroom-denver-co-usa.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_60b61831963858ca6a33d574f8bbf53f.setContent(html_b795fb83dc959c49aae44738dc8bede6);
+            
+        
+
+        marker_b46e042fbd1cb693083cd2e929c0c8e3.bindPopup(popup_60b61831963858ca6a33d574f8bbf53f)
+        ;
+
+        
+    
+    
+            var marker_b664291993f477ca0c7d400fc7b3aa40 = L.marker(
+                [43.0389097, -87.9109363],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_c52747aaddce080abf2800cfcb607202 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b664291993f477ca0c7d400fc7b3aa40.setIcon(icon_c52747aaddce080abf2800cfcb607202);
+        
+    
+        var popup_85f845ab6fef382e03b03c400c536637 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_c601bbb127abe0bd519ed0023cac150e = $(`<div id="html_c601bbb127abe0bd519ed0023cac150e" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-08-23</h4>         <h5>Riverside Theater</h5>         <h5>Milwaukee, WI</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-august-23-2019-riverside-theater-milwaukee-wi-usa.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_85f845ab6fef382e03b03c400c536637.setContent(html_c601bbb127abe0bd519ed0023cac150e);
+            
+        
+
+        marker_b664291993f477ca0c7d400fc7b3aa40.bindPopup(popup_85f845ab6fef382e03b03c400c536637)
+        ;
+
+        
+    
+    
+            var marker_b8e002cac85675dc8d5917ccc9781f02 = L.marker(
+                [41.969149, -87.6580233],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_62c9a95142e5cb93ec9a4802dd2c20ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b8e002cac85675dc8d5917ccc9781f02.setIcon(icon_62c9a95142e5cb93ec9a4802dd2c20ad);
+        
+    
+        var popup_889fd1fa607e317d5eb987be647e8373 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_ae31d5c521f4ae8a751e4603ce29a0c7 = $(`<div id="html_ae31d5c521f4ae8a751e4603ce29a0c7" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-08-24</h4>         <h5>Aragon Ballroom</h5>         <h5>Chicago, IL</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-august-24-2019-aragon-ballroom-chicago-il-usa.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_889fd1fa607e317d5eb987be647e8373.setContent(html_ae31d5c521f4ae8a751e4603ce29a0c7);
+            
+        
+
+        marker_b8e002cac85675dc8d5917ccc9781f02.bindPopup(popup_889fd1fa607e317d5eb987be647e8373)
+        ;
+
+        
+    
+    
+            var marker_1fd8bb19175784a0dc2630b6674ca7b7 = L.marker(
+                [43.64086229999999, -79.35456409999999],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_cda2f06b57f1f9acf597ccca666f7739 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1fd8bb19175784a0dc2630b6674ca7b7.setIcon(icon_cda2f06b57f1f9acf597ccca666f7739);
+        
+    
+        var popup_aad5901d6bd3113786fd463c8406698d = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_a52754ad30cedfcc393957f54dd50bc4 = $(`<div id="html_a52754ad30cedfcc393957f54dd50bc4" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-08-25</h4>         <h5>REBEL</h5>         <h5>Toronto, ON</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-august-25-2019-rebel-toronto-canada.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_aad5901d6bd3113786fd463c8406698d.setContent(html_a52754ad30cedfcc393957f54dd50bc4);
+            
+        
+
+        marker_1fd8bb19175784a0dc2630b6674ca7b7.bindPopup(popup_aad5901d6bd3113786fd463c8406698d)
+        ;
+
+        
+    
+    
+            var marker_bd6400950c9a4faf3c5ea24eccd06028 = L.marker(
+                [45.5170568, -73.55711099999999],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_e4a350efd6b5a95b7cbeb8408cf453bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bd6400950c9a4faf3c5ea24eccd06028.setIcon(icon_e4a350efd6b5a95b7cbeb8408cf453bf);
+        
+    
+        var popup_804dfd6c085f9665b8d4c79b0f861f58 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_653958d51b13db9da6a52af177b504a0 = $(`<div id="html_653958d51b13db9da6a52af177b504a0" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-08-26</h4>         <h5>L'Olympia</h5>         <h5>Montreal, QC</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-august-26-2019-lolympia-montreal-qc-canada.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_804dfd6c085f9665b8d4c79b0f861f58.setContent(html_653958d51b13db9da6a52af177b504a0);
+            
+        
+
+        marker_bd6400950c9a4faf3c5ea24eccd06028.bindPopup(popup_804dfd6c085f9665b8d4c79b0f861f58)
+        ;
+
+        
+    
+    
+            var marker_09a9a3e0df3e965b6b81ffea35f1326b = L.marker(
+                [41.3065611, -72.9293528],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_588c5d272767ca392da22959a2df1fb2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_09a9a3e0df3e965b6b81ffea35f1326b.setIcon(icon_588c5d272767ca392da22959a2df1fb2);
+        
+    
+        var popup_3331b1f27fa8c8a28023c659c62af48c = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_7f249d4bf9c4094b0e26bbd8bdd7e347 = $(`<div id="html_7f249d4bf9c4094b0e26bbd8bdd7e347" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-08-27</h4>         <h5>College Street Music Hall</h5>         <h5>New Haven, CT</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-august-27-2019-college-street-music-hall-new-haven-ct-usa.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_3331b1f27fa8c8a28023c659c62af48c.setContent(html_7f249d4bf9c4094b0e26bbd8bdd7e347);
+            
+        
+
+        marker_09a9a3e0df3e965b6b81ffea35f1326b.bindPopup(popup_3331b1f27fa8c8a28023c659c62af48c)
+        ;
+
+        
+    
+    
+            var marker_fbd4a86ae3df2add9eca193ebf41bb87 = L.marker(
+                [40.7724534, -73.96974770000001],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_47a409bb8e8b96010049fbfabc2e1e77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fbd4a86ae3df2add9eca193ebf41bb87.setIcon(icon_47a409bb8e8b96010049fbfabc2e1e77);
+        
+    
+        var popup_6077f3289e387e3874ccd6aebe2292ec = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_3b264a89685eab74927faaaa1613a8fb = $(`<div id="html_3b264a89685eab74927faaaa1613a8fb" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-08-28</h4>         <h5>Central Park SummerStage</h5>         <h5>New York, NY</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-august-28-2019-central-park-summerstage-new-york-ny-usa.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_6077f3289e387e3874ccd6aebe2292ec.setContent(html_3b264a89685eab74927faaaa1613a8fb);
+            
+        
+
+        marker_fbd4a86ae3df2add9eca193ebf41bb87.bindPopup(popup_6077f3289e387e3874ccd6aebe2292ec)
+        ;
+
+        
+    
+    
+            var marker_69fd2246d16414b4fbcc21051f37366a = L.marker(
+                [39.95915979999999, -75.1497116],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_8ced430f589e6ddadf3659bcae89ea93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_69fd2246d16414b4fbcc21051f37366a.setIcon(icon_8ced430f589e6ddadf3659bcae89ea93);
+        
+    
+        var popup_efd798acecaf25680098f6c876c08f6d = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_d5b2cbb2162a6a59d2f618c6614d91e3 = $(`<div id="html_d5b2cbb2162a6a59d2f618c6614d91e3" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-08-30</h4>         <h5>Franklin Music Hall</h5>         <h5>Philadelphia, PA</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-august-30-2019-franklin-music-hall-philadelphia-pa-usa.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_efd798acecaf25680098f6c876c08f6d.setContent(html_d5b2cbb2162a6a59d2f618c6614d91e3);
+            
+        
+
+        marker_69fd2246d16414b4fbcc21051f37366a.bindPopup(popup_efd798acecaf25680098f6c876c08f6d)
+        ;
+
+        
+    
+    
+            var marker_f7d4577f661002559625001a833c093d = L.marker(
+                [38.917948, -77.0237227],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_e0b9ad65bb0fdd119a5830abe4d6d045 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f7d4577f661002559625001a833c093d.setIcon(icon_e0b9ad65bb0fdd119a5830abe4d6d045);
+        
+    
+        var popup_8a9897fdbd08f0b1b3adf5fa7d84c4e1 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_be0d059aca244fe029ae43680ec8bd41 = $(`<div id="html_be0d059aca244fe029ae43680ec8bd41" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-08-31</h4>         <h5>9:30 Club</h5>         <h5>Washington, DC</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-august-31-2019-930-club-washington-dc-usa.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_8a9897fdbd08f0b1b3adf5fa7d84c4e1.setContent(html_be0d059aca244fe029ae43680ec8bd41);
+            
+        
+
+        marker_f7d4577f661002559625001a833c093d.bindPopup(popup_8a9897fdbd08f0b1b3adf5fa7d84c4e1)
+        ;
+
+        
+    
+    
+            var marker_59d8215839bedb9892265eb58756869a = L.marker(
+                [35.5872512, -82.5715645],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_cf0623af2d924d59b08d4d0e7d824801 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_59d8215839bedb9892265eb58756869a.setIcon(icon_cf0623af2d924d59b08d4d0e7d824801);
+        
+    
+        var popup_113dc392969cbf007efc0dcfd1e1f7c8 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_ae062d4d3f66f1e28fe5fc7d361e1a3b = $(`<div id="html_ae062d4d3f66f1e28fe5fc7d361e1a3b" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-09-01</h4>         <h5>New Belgium Brewing Company</h5>         <h5>Asheville, NC</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-september-1-2019-new-belgium-brewing-company-asheville-nc-usa.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_113dc392969cbf007efc0dcfd1e1f7c8.setContent(html_ae062d4d3f66f1e28fe5fc7d361e1a3b);
+            
+        
+
+        marker_59d8215839bedb9892265eb58756869a.bindPopup(popup_113dc392969cbf007efc0dcfd1e1f7c8)
+        ;
+
+        
+    
+    
+            var marker_b9bce4e80de5c028b08e3cb52cef1ec2 = L.marker(
+                [33.7588551, -84.39140569999999],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_e66e1a9da6374e283e17bc0471b0bb07 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b9bce4e80de5c028b08e3cb52cef1ec2.setIcon(icon_e66e1a9da6374e283e17bc0471b0bb07);
+        
+    
+        var popup_377690a534f0174d2e70d73d7f755ede = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_a6ef40f8a0401dcd2412ab7223ec9488 = $(`<div id="html_a6ef40f8a0401dcd2412ab7223ec9488" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-09-02</h4>         <h5>Tabernacle</h5>         <h5>Atlanta, GA</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-september-2-2019-tabernacle-atlanta-ga-usa.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_377690a534f0174d2e70d73d7f755ede.setContent(html_a6ef40f8a0401dcd2412ab7223ec9488);
+            
+        
+
+        marker_b9bce4e80de5c028b08e3cb52cef1ec2.bindPopup(popup_377690a534f0174d2e70d73d7f755ede)
+        ;
+
+        
+    
+    
+            var marker_480f0585fc1209abc234bd5ffaf800f6 = L.marker(
+                [29.9561255, -90.07386869999999],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_a80adf2b993daf0864fa0a8ae908fc7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_480f0585fc1209abc234bd5ffaf800f6.setIcon(icon_a80adf2b993daf0864fa0a8ae908fc7a);
+        
+    
+        var popup_9c795be3e03bf0cca443d54ed26e03a5 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_5eed5983ba71f5a4a9ae1d811127bc3e = $(`<div id="html_5eed5983ba71f5a4a9ae1d811127bc3e" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-09-03</h4>         <h5>Joy Theater</h5>         <h5>New Orleans, LA</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-september-3-2019-joy-theater-new-orleans-la-usa.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_9c795be3e03bf0cca443d54ed26e03a5.setContent(html_5eed5983ba71f5a4a9ae1d811127bc3e);
+            
+        
+
+        marker_480f0585fc1209abc234bd5ffaf800f6.bindPopup(popup_9c795be3e03bf0cca443d54ed26e03a5)
+        ;
+
+        
+    
+    
+            var marker_66443dff767b11124aecf3058a189ce1 = L.marker(
+                [30.2684932, -97.7362565],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_edbdffeca6198893036a60ddf3f84831 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_66443dff767b11124aecf3058a189ce1.setIcon(icon_edbdffeca6198893036a60ddf3f84831);
+        
+    
+        var popup_06b47228874c3f7192c647b5f57e5b98 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_0d104a6b6d5ab405f2df8cc393aa25de = $(`<div id="html_0d104a6b6d5ab405f2df8cc393aa25de" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-09-04</h4>         <h5>Stubb's Bar-B-Q</h5>         <h5>Austin, TX</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-september-4-2019-stubbs-bar-b-q-austin-tx-usa.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_06b47228874c3f7192c647b5f57e5b98.setContent(html_0d104a6b6d5ab405f2df8cc393aa25de);
+            
+        
+
+        marker_66443dff767b11124aecf3058a189ce1.bindPopup(popup_06b47228874c3f7192c647b5f57e5b98)
+        ;
+
+        
+    
+    
+            var marker_5831cbcb5ca6a9ac70d802697d3200f9 = L.marker(
+                [32.782355, -96.7838027],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_c1c53fed6335cd1716722131a52b0d7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5831cbcb5ca6a9ac70d802697d3200f9.setIcon(icon_c1c53fed6335cd1716722131a52b0d7d);
+        
+    
+        var popup_dfce9e20fbfe2a7efcee29dc0bd989db = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_7def83737d0aab0fc95a6122d129aa3f = $(`<div id="html_7def83737d0aab0fc95a6122d129aa3f" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-09-06</h4>         <h5>Bomb Factory</h5>         <h5>Dallas, TX</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-september-6-2019-bomb-factory-dallas-tx-usa.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_dfce9e20fbfe2a7efcee29dc0bd989db.setContent(html_7def83737d0aab0fc95a6122d129aa3f);
+            
+        
+
+        marker_5831cbcb5ca6a9ac70d802697d3200f9.bindPopup(popup_dfce9e20fbfe2a7efcee29dc0bd989db)
+        ;
+
+        
+    
+    
+            var marker_1bd111ef61149a9c5abdabde48f30ccd = L.marker(
+                [52.9560775, -1.1540776],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_2d60fdc0bb5ce3f357c9fc4f215ae3ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1bd111ef61149a9c5abdabde48f30ccd.setIcon(icon_2d60fdc0bb5ce3f357c9fc4f215ae3ff);
+        
+    
+        var popup_a9959cfd8b992e98f0a11190fdaa237e = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_f1f3d2e8f5851ee9e4e55ea49d0857ff = $(`<div id="html_f1f3d2e8f5851ee9e4e55ea49d0857ff" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-09-30</h4>         <h5>Rock City</h5>         <h5>Nottingham, None</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-september-30-2019-rock-city-nottingham-england.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_a9959cfd8b992e98f0a11190fdaa237e.setContent(html_f1f3d2e8f5851ee9e4e55ea49d0857ff);
+            
+        
+
+        marker_1bd111ef61149a9c5abdabde48f30ccd.bindPopup(popup_a9959cfd8b992e98f0a11190fdaa237e)
+        ;
+
+        
+    
+    
+            var marker_19be546f5d926431103a4ad2f6aa59bf = L.marker(
+                [55.8552688, -4.2366753],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_d2dc18d3c40fecb996000f1736586940 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_19be546f5d926431103a4ad2f6aa59bf.setIcon(icon_d2dc18d3c40fecb996000f1736586940);
+        
+    
+        var popup_29704e36729d61e0366dfbf496e03839 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_7c76db5a5bb5339be618fd23cd8b81f4 = $(`<div id="html_7c76db5a5bb5339be618fd23cd8b81f4" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-10-01</h4>         <h5>Barrowland Ballroom</h5>         <h5>Glasgow, Scotland</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-october-1-2019-barrowland-glasgow-scotland.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_29704e36729d61e0366dfbf496e03839.setContent(html_7c76db5a5bb5339be618fd23cd8b81f4);
+            
+        
+
+        marker_19be546f5d926431103a4ad2f6aa59bf.bindPopup(popup_29704e36729d61e0366dfbf496e03839)
+        ;
+
+        
+    
+    
+            var marker_abd065fa6732b1e9f401cc62460060d6 = L.marker(
+                [53.8021884, -1.5471377],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_6a77bca56d661acc694914f62b55fdf5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_abd065fa6732b1e9f401cc62460060d6.setIcon(icon_6a77bca56d661acc694914f62b55fdf5);
+        
+    
+        var popup_6060d84b948b031dfc67454bfa373005 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_457f73bc7c5fa320fc0e5b61c789a4c4 = $(`<div id="html_457f73bc7c5fa320fc0e5b61c789a4c4" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-10-02</h4>         <h5>O2 Academy Leeds</h5>         <h5>Leeds, None</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-october-2-2019-o2-academy-leeds-leeds-england.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_6060d84b948b031dfc67454bfa373005.setContent(html_457f73bc7c5fa320fc0e5b61c789a4c4);
+            
+        
+
+        marker_abd065fa6732b1e9f401cc62460060d6.bindPopup(popup_6060d84b948b031dfc67454bfa373005)
+        ;
+
+        
+    
+    
+            var marker_194dd0fe375472f8dc96bb7dca4c95a9 = L.marker(
+                [53.4646289, -2.2867158],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_0385f5c7d0be9f3347688c5fb70a80e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_194dd0fe375472f8dc96bb7dca4c95a9.setIcon(icon_0385f5c7d0be9f3347688c5fb70a80e2);
+        
+    
+        var popup_3462101eb5c90f611fcc32b46db32dd8 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_f37d637c57a6676b2075e7f6edea5b56 = $(`<div id="html_f37d637c57a6676b2075e7f6edea5b56" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-10-03</h4>         <h5>O2 Victoria Warehouse</h5>         <h5>Manchester, None</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-october-3-2019-o2-victoria-warehouse-manchester-england.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_3462101eb5c90f611fcc32b46db32dd8.setContent(html_f37d637c57a6676b2075e7f6edea5b56);
+            
+        
+
+        marker_194dd0fe375472f8dc96bb7dca4c95a9.bindPopup(popup_3462101eb5c90f611fcc32b46db32dd8)
+        ;
+
+        
+    
+    
+            var marker_cf273c5247d1cb66aa7958b4d08768e7 = L.marker(
+                [51.5940573, -0.1297604],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_6f45365044e0aa60639da27dc4c08bf5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cf273c5247d1cb66aa7958b4d08768e7.setIcon(icon_6f45365044e0aa60639da27dc4c08bf5);
+        
+    
+        var popup_9ddaebb7cf16ecf69f60ba1ff1c62f98 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_6840ed88484416fed9f4137ef4f1f734 = $(`<div id="html_6840ed88484416fed9f4137ef4f1f734" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-10-05</h4>         <h5>Alexandra Palace</h5>         <h5>London, England</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-october-5-2019-alexandra-palace-london-england.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_9ddaebb7cf16ecf69f60ba1ff1c62f98.setContent(html_6840ed88484416fed9f4137ef4f1f734);
+            
+        
+
+        marker_cf273c5247d1cb66aa7958b4d08768e7.bindPopup(popup_9ddaebb7cf16ecf69f60ba1ff1c62f98)
+        ;
+
+        
+    
+    
+            var marker_565264fc33aa5592b675fefa6efb7253 = L.marker(
+                [52.0924298, 5.1128171],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_a86abadf1eccc317eb2897f9be6ac91a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_565264fc33aa5592b675fefa6efb7253.setIcon(icon_a86abadf1eccc317eb2897f9be6ac91a);
+        
+    
+        var popup_4274a52d8ded5acc2e03ed49a3d3a939 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_e7a131f086645ddebeb7073736842198 = $(`<div id="html_e7a131f086645ddebeb7073736842198" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-10-06</h4>         <h5>TivoliVredenburg Ronda</h5>         <h5>Utrecht, Netherlands</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-october-6-2019-tivolivredenburg-ronda-utrecht-netherlands.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_4274a52d8ded5acc2e03ed49a3d3a939.setContent(html_e7a131f086645ddebeb7073736842198);
+            
+        
+
+        marker_565264fc33aa5592b675fefa6efb7253.bindPopup(popup_4274a52d8ded5acc2e03ed49a3d3a939)
+        ;
+
+        
+    
+    
+            var marker_78ef6e711ea131e9328121ab3046f4ba = L.marker(
+                [52.0924298, 5.1128171],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_904944e945cbe3f0b2f5fb526a52a0f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_78ef6e711ea131e9328121ab3046f4ba.setIcon(icon_904944e945cbe3f0b2f5fb526a52a0f4);
+        
+    
+        var popup_c7978102efbddc8fbb5e0a44035847d3 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_996267e5e85e8e898bf6e86d9fc8867b = $(`<div id="html_996267e5e85e8e898bf6e86d9fc8867b" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-10-07</h4>         <h5>TivoliVredenburg Ronda</h5>         <h5>Utrecht, Netherlands</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-october-7-2019-tivolivredenburg-ronda-utrecht-netherlands.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_c7978102efbddc8fbb5e0a44035847d3.setContent(html_996267e5e85e8e898bf6e86d9fc8867b);
+            
+        
+
+        marker_78ef6e711ea131e9328121ab3046f4ba.bindPopup(popup_c7978102efbddc8fbb5e0a44035847d3)
+        ;
+
+        
+    
+    
+            var marker_96160eb5e9ba4c63cc8437bfe899433d = L.marker(
+                [50.8472409, 4.3488349],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_69647d9c231f397fe241224cfbc9eeff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_96160eb5e9ba4c63cc8437bfe899433d.setIcon(icon_69647d9c231f397fe241224cfbc9eeff);
+        
+    
+        var popup_844874dbed1c7f0fde7cdf5984b228e3 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_d5f57dee9f76656a2f2ad957fbf6c838 = $(`<div id="html_d5f57dee9f76656a2f2ad957fbf6c838" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-10-08</h4>         <h5>Ancienne Belgique</h5>         <h5>Brussels, Belgium</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-october-8-2019-ancienne-belgique-brussels-belgium.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_844874dbed1c7f0fde7cdf5984b228e3.setContent(html_d5f57dee9f76656a2f2ad957fbf6c838);
+            
+        
+
+        marker_96160eb5e9ba4c63cc8437bfe899433d.bindPopup(popup_844874dbed1c7f0fde7cdf5984b228e3)
+        ;
+
+        
+    
+    
+            var marker_145df7e2b0ee67d6db5867734847c627 = L.marker(
+                [50.8472409, 4.3488349],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_864f84eda89392d40bb33fbb3b6abf14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_145df7e2b0ee67d6db5867734847c627.setIcon(icon_864f84eda89392d40bb33fbb3b6abf14);
+        
+    
+        var popup_27644917d943c6239224d9c857d00247 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_a74bc3acb766cab0c836ee1456f23fb9 = $(`<div id="html_a74bc3acb766cab0c836ee1456f23fb9" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-10-09</h4>         <h5>Ancienne Belgique</h5>         <h5>Brussels, Belgium</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-october-9-2019-ancienne-belgique-brussels-belgium.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_27644917d943c6239224d9c857d00247.setContent(html_a74bc3acb766cab0c836ee1456f23fb9);
+            
+        
+
+        marker_145df7e2b0ee67d6db5867734847c627.bindPopup(popup_27644917d943c6239224d9c857d00247)
+        ;
+
+        
+    
+    
+            var marker_546bb265ddc9a08dd19b73a436297311 = L.marker(
+                [50.9650717, 7.0121199],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_0e4ae7f8000da3b64e8e1a6e61bf5dcc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_546bb265ddc9a08dd19b73a436297311.setIcon(icon_0e4ae7f8000da3b64e8e1a6e61bf5dcc);
+        
+    
+        var popup_f0f429ea23dc1cde60e4e22db7ad3665 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_90b106e672cca207618c823bc4b3ea1d = $(`<div id="html_90b106e672cca207618c823bc4b3ea1d" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-10-11</h4>         <h5>Carlswerk Victoria</h5>         <h5>Cologne, None</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-october-11-2019-carlswerk-victoria-cologne-germany.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_f0f429ea23dc1cde60e4e22db7ad3665.setContent(html_90b106e672cca207618c823bc4b3ea1d);
+            
+        
+
+        marker_546bb265ddc9a08dd19b73a436297311.bindPopup(popup_f0f429ea23dc1cde60e4e22db7ad3665)
+        ;
+
+        
+    
+    
+            var marker_abe9c1a80c048ed78daae29a6f60d539 = L.marker(
+                [52.4847464, 13.3924835],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_f26c6ae349b5958e090e4194ac0121a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_abe9c1a80c048ed78daae29a6f60d539.setIcon(icon_f26c6ae349b5958e090e4194ac0121a7);
+        
+    
+        var popup_20bc016f5a74117cb61d43953b418f73 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_1a23c0c1af73f08859bdadfdf5bc1a24 = $(`<div id="html_1a23c0c1af73f08859bdadfdf5bc1a24" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-10-12</h4>         <h5>Columbiahalle</h5>         <h5>Berlin, Germany</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-october-12-2019-columbiahalle-berlin-germany.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_20bc016f5a74117cb61d43953b418f73.setContent(html_1a23c0c1af73f08859bdadfdf5bc1a24);
+            
+        
+
+        marker_abe9c1a80c048ed78daae29a6f60d539.bindPopup(popup_20bc016f5a74117cb61d43953b418f73)
+        ;
+
+        
+    
+    
+            var marker_a4c24c42e9ec0cd0680a1e1a234d16b9 = L.marker(
+                [49.4999373, 5.9476928],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_ebd125c507f3bf93b50d00c836082c2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a4c24c42e9ec0cd0680a1e1a234d16b9.setIcon(icon_ebd125c507f3bf93b50d00c836082c2f);
+        
+    
+        var popup_12934d773c78a826b5a3de8be088526a = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_ca4290f1f0d717bb9a6ee68d143563d2 = $(`<div id="html_ca4290f1f0d717bb9a6ee68d143563d2" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-10-13</h4>         <h5>Rockhal Club</h5>         <h5>Esch-sur-Alzette, None</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-october-13-2019-rockhal-club-esch-sur-alzette-luxembourg.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_12934d773c78a826b5a3de8be088526a.setContent(html_ca4290f1f0d717bb9a6ee68d143563d2);
+            
+        
+
+        marker_a4c24c42e9ec0cd0680a1e1a234d16b9.bindPopup(popup_12934d773c78a826b5a3de8be088526a)
+        ;
+
+        
+    
+    
+            var marker_16ed2a23e1f997ad60ae54301c74c1f1 = L.marker(
+                [48.8702097, 2.3283872],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_f452089f072c94eb613a931dd4b8fb5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_16ed2a23e1f997ad60ae54301c74c1f1.setIcon(icon_f452089f072c94eb613a931dd4b8fb5d);
+        
+    
+        var popup_54efacaa644d159599050b49851a566c = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_2e9df43a429dda07bd62c3fda063fda0 = $(`<div id="html_2e9df43a429dda07bd62c3fda063fda0" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-10-14</h4>         <h5>L'Olympia Bruno Coquatrix</h5>         <h5>Paris, None</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-october-14-2019-lolympia-bruno-coquatrix-paris-france.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_54efacaa644d159599050b49851a566c.setContent(html_2e9df43a429dda07bd62c3fda063fda0);
+            
+        
+
+        marker_16ed2a23e1f997ad60ae54301c74c1f1.bindPopup(popup_54efacaa644d159599050b49851a566c)
+        ;
+
+        
+    
+    
+            var marker_abcd9c305ccef682e7b9953bea7ab693 = L.marker(
+                [45.494689, 9.182658],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_4df22a56706babcb20b5b4193779de5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_abcd9c305ccef682e7b9953bea7ab693.setIcon(icon_4df22a56706babcb20b5b4193779de5a);
+        
+    
+        var popup_cc4abc7333f486e9eaf0b25542cd8e3b = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_5a0db8f76adcc65fdaf33188a61b1016 = $(`<div id="html_5a0db8f76adcc65fdaf33188a61b1016" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-10-15</h4>         <h5>Alcatraz</h5>         <h5>Milan, Italy</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-october-15-2019-alcatraz-milan-italy.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_cc4abc7333f486e9eaf0b25542cd8e3b.setContent(html_5a0db8f76adcc65fdaf33188a61b1016);
+            
+        
+
+        marker_abcd9c305ccef682e7b9953bea7ab693.bindPopup(popup_cc4abc7333f486e9eaf0b25542cd8e3b)
+        ;
+
+        
+    
+    
+            var marker_c7f4f227571c354784a1fe03809158d9 = L.marker(
+                [47.3840462, 8.5330473],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_5c19e09cb93ed62fce042b303bb48447 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c7f4f227571c354784a1fe03809158d9.setIcon(icon_5c19e09cb93ed62fce042b303bb48447);
+        
+    
+        var popup_a9deabc5cff0a892d7ea99db77ac5472 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_f8add2d6f34c00d56ce74b1e8c1977c9 = $(`<div id="html_f8add2d6f34c00d56ce74b1e8c1977c9" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-10-16</h4>         <h5>X-TRA</h5>         <h5>Zürich, Switzerland</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-october-16-2019-x-tra-zrich-switzerland.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_a9deabc5cff0a892d7ea99db77ac5472.setContent(html_f8add2d6f34c00d56ce74b1e8c1977c9);
+            
+        
+
+        marker_c7f4f227571c354784a1fe03809158d9.bindPopup(popup_a9deabc5cff0a892d7ea99db77ac5472)
+        ;
+
+        
+    
+    
+            var marker_91b61ba4003da4bc8214706cd2788b85 = L.marker(
+                [40.4129999, -3.7221514],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_20a7e8c6c361fe676670bf5c26968187 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_91b61ba4003da4bc8214706cd2788b85.setIcon(icon_20a7e8c6c361fe676670bf5c26968187);
+        
+    
+        var popup_e683c3c61d876c02071eef3e8ab119d4 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_ce72295bedc8217ec9f439dea1623008 = $(`<div id="html_ce72295bedc8217ec9f439dea1623008" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-10-18</h4>         <h5>La Riviera</h5>         <h5>Madrid, Spain</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-october-18-2019-la-riviera-madrid-spain.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_e683c3c61d876c02071eef3e8ab119d4.setContent(html_ce72295bedc8217ec9f439dea1623008);
+            
+        
+
+        marker_91b61ba4003da4bc8214706cd2788b85.bindPopup(popup_e683c3c61d876c02071eef3e8ab119d4)
+        ;
+
+        
+    
+    
+            var marker_327fa98ac1d008f2918c98d3e8fc5db0 = L.marker(
+                [41.3977323, 2.1911108],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_3b1369ed8889008cdc61b224793459f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_327fa98ac1d008f2918c98d3e8fc5db0.setIcon(icon_3b1369ed8889008cdc61b224793459f4);
+        
+    
+        var popup_7f0e2b1d80602543579e46592bb27a6e = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_855d2f875c0a66f386c326853f454818 = $(`<div id="html_855d2f875c0a66f386c326853f454818" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-10-19</h4>         <h5>Razzmatazz</h5>         <h5>Barcelona, None</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-october-19-2019-razzmatazz-barcelona-spain.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_7f0e2b1d80602543579e46592bb27a6e.setContent(html_855d2f875c0a66f386c326853f454818);
+            
+        
+
+        marker_327fa98ac1d008f2918c98d3e8fc5db0.bindPopup(popup_7f0e2b1d80602543579e46592bb27a6e)
+        ;
+
+        
+    
+    
+            var marker_352f5021dea81ca4eac0e486ceb0bae9 = L.marker(
+                [-6.2250136, 106.829553],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_517407a7817b2785ee453f4744f7d860 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_352f5021dea81ca4eac0e486ceb0bae9.setIcon(icon_517407a7817b2785ee453f4744f7d860);
+        
+    
+        var popup_65e1f02293099a6f1c26bba5fd602553 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_da01d94bebe0c6c526d66494269dbaba = $(`<div id="html_da01d94bebe0c6c526d66494269dbaba" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-11-15</h4>         <h5>Kuningan City</h5>         <h5>Jakarta, None</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-and-the-lizard-wizard-november-15-2019-kuningan-city-jakarta-indonesia.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_65e1f02293099a6f1c26bba5fd602553.setContent(html_da01d94bebe0c6c526d66494269dbaba);
+            
+        
+
+        marker_352f5021dea81ca4eac0e486ceb0bae9.bindPopup(popup_65e1f02293099a6f1c26bba5fd602553)
+        ;
+
+        
+    
+    
+            var marker_0f47ac1d456397079ad58cc4ae568322 = L.marker(
+                [13.7501564, 100.6000529],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_4e40c8c04d2d7b95c30f2993729b075d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0f47ac1d456397079ad58cc4ae568322.setIcon(icon_4e40c8c04d2d7b95c30f2993729b075d);
+        
+    
+        var popup_19a0dec3c1fd8effdf255850feb86f73 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_2e2757d340a2f561602ee6b47c7b3b91 = $(`<div id="html_2e2757d340a2f561602ee6b47c7b3b91" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-11-16</h4>         <h5>Live Park Rama 9</h5>         <h5>Bangkok, None</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-and-the-lizard-wizard-november-16-2019-live-park-rama-9-bangkok-thailand.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_19a0dec3c1fd8effdf255850feb86f73.setContent(html_2e2757d340a2f561602ee6b47c7b3b91);
+            
+        
+
+        marker_0f47ac1d456397079ad58cc4ae568322.bindPopup(popup_19a0dec3c1fd8effdf255850feb86f73)
+        ;
+
+        
+    
+    
+            var marker_e0d2cb42cc86fbdb897bae34b2c60dd4 = L.marker(
+                [31.264, 121.4983],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_6bc878b6ac67f892869240c5851553bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e0d2cb42cc86fbdb897bae34b2c60dd4.setIcon(icon_6bc878b6ac67f892869240c5851553bc);
+        
+    
+        var popup_ceb3bb47a6e9f43ea0919d07b4247006 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_acb07d9b8fbab7d7af5d712149624000 = $(`<div id="html_acb07d9b8fbab7d7af5d712149624000" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-11-21</h4>         <h5>Modern Sky Lab</h5>         <h5>Shanghai, None</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-and-the-lizard-wizard-november-21-2019-modern-sky-lab-shanghai-china.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_ceb3bb47a6e9f43ea0919d07b4247006.setContent(html_acb07d9b8fbab7d7af5d712149624000);
+            
+        
+
+        marker_e0d2cb42cc86fbdb897bae34b2c60dd4.bindPopup(popup_ceb3bb47a6e9f43ea0919d07b4247006)
+        ;
+
+        
+    
+    
+            var marker_019bf5d737e90fa07a742b0e04b40714 = L.marker(
+                [1.2943876, 103.8458033],
+                {}
+            ).addTo(marker_cluster_dc65bce16402aaff9ef7704a403bcd74);
+        
+    
+            var icon_42a49bf8c84c46fc848a15a889f50a62 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_019bf5d737e90fa07a742b0e04b40714.setIcon(icon_42a49bf8c84c46fc848a15a889f50a62);
+        
+    
+        var popup_89aa1ded5777919e2f29cd9235133319 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_5797e2d0f6ca07181017ca5bbe5e3771 = $(`<div id="html_5797e2d0f6ca07181017ca5bbe5e3771" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4>2019-11-23</h4>         <h5>Fort Canning Park</h5>         <h5>Singapore, None</h5>         <h5><a href=https://kglw.net/setlists/king-gizzard-the-lizard-wizard-november-23-2019-fort-canning-park-singapore-singapore.html>Setlist</a></h5>         </div>     </div>`)[0];
+                popup_89aa1ded5777919e2f29cd9235133319.setContent(html_5797e2d0f6ca07181017ca5bbe5e3771);
+            
+        
+
+        marker_019bf5d737e90fa07a742b0e04b40714.bindPopup(popup_89aa1ded5777919e2f29cd9235133319)
+        ;
+
+        
+    
+    
+            marker_cluster_dc65bce16402aaff9ef7704a403bcd74.addTo(map_3af4d2caf94dfe70d5df42ddac2c0ff4);
+        
+    
+            var marker_cluster_fa8d83ff54008a5f7973979754070594 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            marker_cluster_fa8d83ff54008a5f7973979754070594.addTo(map_3af4d2caf94dfe70d5df42ddac2c0ff4);
+        
+</script>
+</html>

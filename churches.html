@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_d3269d1e24bb97ee6fdc4381d3d0c016 {
+                #map_9f9f4153604a427badc1e7f7abf6870a {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -43,14 +43,14 @@
     
     <h3 style="text-align:center;">Catholic Churches Visited</h3> <h4 style="text-align:center;">(starting 2024)</h4>
     
-            <div class="folium-map" id="map_d3269d1e24bb97ee6fdc4381d3d0c016" ></div>
+            <div class="folium-map" id="map_9f9f4153604a427badc1e7f7abf6870a" ></div>
         
 </body>
 <script>
     
     
-            var map_d3269d1e24bb97ee6fdc4381d3d0c016 = L.map(
-                "map_d3269d1e24bb97ee6fdc4381d3d0c016",
+            var map_9f9f4153604a427badc1e7f7abf6870a = L.map(
+                "map_9f9f4153604a427badc1e7f7abf6870a",
                 {
                     center: [40.32639342137377, -78.92350742288966],
                     crs: L.CRS.EPSG3857,
@@ -64,1317 +64,1344 @@
 
         
     
-            var tile_layer_d2fdbec1806e7927ee90103b36a89273 = L.tileLayer(
+            var tile_layer_0a010e2604676debe0dbc05f1dcd490a = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_d2fdbec1806e7927ee90103b36a89273.addTo(map_d3269d1e24bb97ee6fdc4381d3d0c016);
+            tile_layer_0a010e2604676debe0dbc05f1dcd490a.addTo(map_9f9f4153604a427badc1e7f7abf6870a);
         
     
-            var marker_cluster_45d2ff1e52177dd7db5e70486c0b1109 = L.markerClusterGroup(
+            var marker_cluster_2753c879b658ff985c82b2e7d0c070b3 = L.markerClusterGroup(
                 {"maxClusterRadius": 1}
             );
         
     
-            var marker_2a4abfee9ca4b7b77fb9c9da25c2b0fd = L.marker(
+            var marker_2c911c352336abdcc5839446e1f801c0 = L.marker(
                 [40.45288135417026, -79.980563725996],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_3bfdcb71b1673e2141ab9dd05a70b620 = L.AwesomeMarkers.icon(
+            var icon_e339ea3c2093fe27e8a33a9f31a16f7c = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_2a4abfee9ca4b7b77fb9c9da25c2b0fd.setIcon(icon_3bfdcb71b1673e2141ab9dd05a70b620);
+            marker_2c911c352336abdcc5839446e1f801c0.setIcon(icon_e339ea3c2093fe27e8a33a9f31a16f7c);
         
     
-        var popup_85d3288bf0d5f7c308831863fa59e64c = L.popup({"maxWidth": 500});
+        var popup_3699a18dce5dab79e298a8d55ac77dae = L.popup({"maxWidth": 500});
 
         
             
-                var html_859a4378e63e6ce4bad489ac85042420 = $(`<div id="html_859a4378e63e6ce4bad489ac85042420" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Stanislaus Kostka</b></h4>         <h5>Pittsburgh, PA</h5>         <h5>2024-07-14</h5>         <h5><a href=https://23091.sites.ecatholic.com/st-stanislaus>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=5395998264245527195>Information</a></h5>         <h5><b>Notes:</b> <br>St. Therese painting behind alter, statue on side.<br></h5>        </div>     </div>`)[0];
-                popup_85d3288bf0d5f7c308831863fa59e64c.setContent(html_859a4378e63e6ce4bad489ac85042420);
+                var html_764583a5aa912d6c73c2e9824e887ab8 = $(`<div id="html_764583a5aa912d6c73c2e9824e887ab8" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Stanislaus Kostka</b></h4>         <h5>Pittsburgh, PA</h5>         <h5>2024-07-14</h5>         <h5><a href=https://23091.sites.ecatholic.com/st-stanislaus>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=5395998264245527195>Information</a></h5>         <h5><b>Notes:</b> <br>St. Therese painting behind alter, statue on side.<br></h5>        </div>     </div>`)[0];
+                popup_3699a18dce5dab79e298a8d55ac77dae.setContent(html_764583a5aa912d6c73c2e9824e887ab8);
             
         
 
-        marker_2a4abfee9ca4b7b77fb9c9da25c2b0fd.bindPopup(popup_85d3288bf0d5f7c308831863fa59e64c)
+        marker_2c911c352336abdcc5839446e1f801c0.bindPopup(popup_3699a18dce5dab79e298a8d55ac77dae)
         ;
 
         
     
     
-            var marker_8895f9f3ca51aea31c1b277f7e5d5a10 = L.marker(
+            var marker_24ee0bc506cd41798d9e57b83e131a2a = L.marker(
                 [36.09677703312443, -115.16868454770194],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_f1b7f5bdab12297a9727913a99753717 = L.AwesomeMarkers.icon(
+            var icon_4b37587f8f73ff350ba5054724ed4766 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_8895f9f3ca51aea31c1b277f7e5d5a10.setIcon(icon_f1b7f5bdab12297a9727913a99753717);
+            marker_24ee0bc506cd41798d9e57b83e131a2a.setIcon(icon_4b37587f8f73ff350ba5054724ed4766);
         
     
-        var popup_243ceeb3a71a586cd01d8f97ac6ff215 = L.popup({"maxWidth": 500});
+        var popup_ee2ec220c843346ebc837b50e32d0063 = L.popup({"maxWidth": 500});
 
         
             
-                var html_5115bc4fb200f3f6983f81175e80ae6c = $(`<div id="html_5115bc4fb200f3f6983f81175e80ae6c" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Shrine of the Most Holy Redeemer</b></h4>         <h5>Las Vegas, NV</h5>         <h5>2024-03-03</h5>         <h5><a href=https://theshrinelv.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=11436000935846575118>Information</a></h5>         <h5><b>Notes:</b> <br>St. Therese found us here.<br></h5>        </div>     </div>`)[0];
-                popup_243ceeb3a71a586cd01d8f97ac6ff215.setContent(html_5115bc4fb200f3f6983f81175e80ae6c);
+                var html_0ab0d4e689ae4575cdb0d1c04c880f72 = $(`<div id="html_0ab0d4e689ae4575cdb0d1c04c880f72" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Shrine of the Most Holy Redeemer</b></h4>         <h5>Las Vegas, NV</h5>         <h5>2024-03-03</h5>         <h5><a href=https://theshrinelv.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=11436000935846575118>Information</a></h5>         <h5><b>Notes:</b> <br>St. Therese found us here.<br></h5>        </div>     </div>`)[0];
+                popup_ee2ec220c843346ebc837b50e32d0063.setContent(html_0ab0d4e689ae4575cdb0d1c04c880f72);
             
         
 
-        marker_8895f9f3ca51aea31c1b277f7e5d5a10.bindPopup(popup_243ceeb3a71a586cd01d8f97ac6ff215)
+        marker_24ee0bc506cd41798d9e57b83e131a2a.bindPopup(popup_ee2ec220c843346ebc837b50e32d0063)
         ;
 
         
     
     
-            var marker_a8e6dfbebc9d2e488e4f1d50a615a1cc = L.marker(
+            var marker_8b5570b50908356074448880f8dfdfa1 = L.marker(
                 [36.84278798379223, -75.97439579980049],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_19e6ca2724154aab172212239032a129 = L.AwesomeMarkers.icon(
+            var icon_84b44e388ccfef3a3e1bb1737fd90ad2 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_a8e6dfbebc9d2e488e4f1d50a615a1cc.setIcon(icon_19e6ca2724154aab172212239032a129);
+            marker_8b5570b50908356074448880f8dfdfa1.setIcon(icon_84b44e388ccfef3a3e1bb1737fd90ad2);
         
     
-        var popup_f4a4938a7553aa5d1f3380ddc12f04a0 = L.popup({"maxWidth": 500});
+        var popup_7292f8d912d932a16c1ac54159b86d33 = L.popup({"maxWidth": 500});
 
         
             
-                var html_e240081e227a33782c965bca47e0acd7 = $(`<div id="html_e240081e227a33782c965bca47e0acd7" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Star of the Sea</b></h4>         <h5>Virginia Beach, VA</h5>         <h5>2024-06-16</h5>         <h5><a href=https://www.staroftheseaparish.com/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=13298888390107646321>Information</a></h5>        </div>     </div>`)[0];
-                popup_f4a4938a7553aa5d1f3380ddc12f04a0.setContent(html_e240081e227a33782c965bca47e0acd7);
+                var html_87eeec8d906c162792c81d68e875aa79 = $(`<div id="html_87eeec8d906c162792c81d68e875aa79" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Star of the Sea</b></h4>         <h5>Virginia Beach, VA</h5>         <h5>2024-06-16</h5>         <h5><a href=https://www.staroftheseaparish.com/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=13298888390107646321>Information</a></h5>        </div>     </div>`)[0];
+                popup_7292f8d912d932a16c1ac54159b86d33.setContent(html_87eeec8d906c162792c81d68e875aa79);
             
         
 
-        marker_a8e6dfbebc9d2e488e4f1d50a615a1cc.bindPopup(popup_f4a4938a7553aa5d1f3380ddc12f04a0)
+        marker_8b5570b50908356074448880f8dfdfa1.bindPopup(popup_7292f8d912d932a16c1ac54159b86d33)
         ;
 
         
     
     
-            var marker_aa077bed0887c0a21aa5d647a39f28a6 = L.marker(
+            var marker_25c0c2ca2bff6a9509a5bd323ba6a326 = L.marker(
                 [39.037949688906075, -80.46531005560274],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_ac96de2954158cff2d679742b145c14d = L.AwesomeMarkers.icon(
+            var icon_d1a76f6f4529d59818fabe3fdd82b3ac = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_aa077bed0887c0a21aa5d647a39f28a6.setIcon(icon_ac96de2954158cff2d679742b145c14d);
+            marker_25c0c2ca2bff6a9509a5bd323ba6a326.setIcon(icon_d1a76f6f4529d59818fabe3fdd82b3ac);
         
     
-        var popup_a91ca389775061a849b602b3ae831d9b = L.popup({"maxWidth": 500});
+        var popup_954a1427d5946221238a8c9c1be0f4c7 = L.popup({"maxWidth": 500});
 
         
             
-                var html_2c56b8ac4ec0e1d60cc9107b158bf9d2 = $(`<div id="html_2c56b8ac4ec0e1d60cc9107b158bf9d2" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Patrick's Church</b></h4>         <h5>Weston, WV</h5>         <h5>2024-03-17</h5>         <h5><a href=https://www.spchurchweston.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=1830764932497155832>Information</a></h5>        </div>     </div>`)[0];
-                popup_a91ca389775061a849b602b3ae831d9b.setContent(html_2c56b8ac4ec0e1d60cc9107b158bf9d2);
+                var html_4fd74ef0597ced28c0eb074e0b4cb45f = $(`<div id="html_4fd74ef0597ced28c0eb074e0b4cb45f" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Patrick's Church</b></h4>         <h5>Weston, WV</h5>         <h5>2024-03-17</h5>         <h5><a href=https://www.spchurchweston.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=1830764932497155832>Information</a></h5>        </div>     </div>`)[0];
+                popup_954a1427d5946221238a8c9c1be0f4c7.setContent(html_4fd74ef0597ced28c0eb074e0b4cb45f);
             
         
 
-        marker_aa077bed0887c0a21aa5d647a39f28a6.bindPopup(popup_a91ca389775061a849b602b3ae831d9b)
+        marker_25c0c2ca2bff6a9509a5bd323ba6a326.bindPopup(popup_954a1427d5946221238a8c9c1be0f4c7)
         ;
 
         
     
     
-            var marker_f89de7db1b7ece2586d48d91a101846d = L.marker(
+            var marker_df62c44df93b13933f79e37a5ddd280a = L.marker(
                 [39.58157189462572, -79.94987008992133],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_1a7ae6ddedbed03223f8f3c7e9eebe7a = L.AwesomeMarkers.icon(
+            var icon_88e37d6781298cd595a804e3bc5b2a24 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_f89de7db1b7ece2586d48d91a101846d.setIcon(icon_1a7ae6ddedbed03223f8f3c7e9eebe7a);
+            marker_df62c44df93b13933f79e37a5ddd280a.setIcon(icon_88e37d6781298cd595a804e3bc5b2a24);
         
     
-        var popup_29902bef06b1e355db52ac6564d91560 = L.popup({"maxWidth": 500});
+        var popup_7455b72da22bede46cc5b994b9808394 = L.popup({"maxWidth": 500});
 
         
             
-                var html_18f6eca5cb9d4f082534512d5608e992 = $(`<div id="html_18f6eca5cb9d4f082534512d5608e992" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St Francis de Sales</b></h4>         <h5>Morgantown, WV</h5>         <h5>2024-04-21</h5>         <h5><a href=https://stfrancisdesalesparish.com/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=16546800394806074265>Information</a></h5>        </div>     </div>`)[0];
-                popup_29902bef06b1e355db52ac6564d91560.setContent(html_18f6eca5cb9d4f082534512d5608e992);
+                var html_3aeac712c794cc61f06282e664c2d99d = $(`<div id="html_3aeac712c794cc61f06282e664c2d99d" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St Francis de Sales</b></h4>         <h5>Morgantown, WV</h5>         <h5>2024-04-21</h5>         <h5><a href=https://stfrancisdesalesparish.com/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=16546800394806074265>Information</a></h5>        </div>     </div>`)[0];
+                popup_7455b72da22bede46cc5b994b9808394.setContent(html_3aeac712c794cc61f06282e664c2d99d);
             
         
 
-        marker_f89de7db1b7ece2586d48d91a101846d.bindPopup(popup_29902bef06b1e355db52ac6564d91560)
+        marker_df62c44df93b13933f79e37a5ddd280a.bindPopup(popup_7455b72da22bede46cc5b994b9808394)
         ;
 
         
     
     
-            var marker_e6050c08e3994651f3426d4c6257b926 = L.marker(
+            var marker_5b3252e9a83eaae434161811bfe8f2c1 = L.marker(
                 [39.898410467332674, -79.72986235074055],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_c7df155fcdd91c22a3c98751c2860209 = L.AwesomeMarkers.icon(
+            var icon_1b35550ca36d29d8db9bf3f49d367ed9 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_e6050c08e3994651f3426d4c6257b926.setIcon(icon_c7df155fcdd91c22a3c98751c2860209);
+            marker_5b3252e9a83eaae434161811bfe8f2c1.setIcon(icon_1b35550ca36d29d8db9bf3f49d367ed9);
         
     
-        var popup_cd224fd001f08452ee3ba972b61dd17e = L.popup({"maxWidth": 500});
+        var popup_75d84c60ae3c10efa0066575ebf4541d = L.popup({"maxWidth": 500});
 
         
             
-                var html_eb31f215c817706295b13709db115536 = $(`<div id="html_eb31f215c817706295b13709db115536" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St Therese</b></h4>         <h5>Uniontown, PA</h5>         <h5>2024-04-07</h5>         <h5><a href=https://www.faysouth.org/about-st-therese/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=483037831987090223>Information</a></h5>        </div>     </div>`)[0];
-                popup_cd224fd001f08452ee3ba972b61dd17e.setContent(html_eb31f215c817706295b13709db115536);
+                var html_125f1ff8413f4ee104549f3c6095d26f = $(`<div id="html_125f1ff8413f4ee104549f3c6095d26f" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St Therese</b></h4>         <h5>Uniontown, PA</h5>         <h5>2024-04-07</h5>         <h5><a href=https://www.faysouth.org/about-st-therese/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=483037831987090223>Information</a></h5>        </div>     </div>`)[0];
+                popup_75d84c60ae3c10efa0066575ebf4541d.setContent(html_125f1ff8413f4ee104549f3c6095d26f);
             
         
 
-        marker_e6050c08e3994651f3426d4c6257b926.bindPopup(popup_cd224fd001f08452ee3ba972b61dd17e)
+        marker_5b3252e9a83eaae434161811bfe8f2c1.bindPopup(popup_75d84c60ae3c10efa0066575ebf4541d)
         ;
 
         
     
     
-            var marker_7db78dc6ce2d28d00f9efe3327afbb8f = L.marker(
+            var marker_d43e17a9b41a22002c07f3921715ff59 = L.marker(
                 [36.1305492, -115.163507],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_b5204ac9037b3f56af36aa292f072ea5 = L.AwesomeMarkers.icon(
+            var icon_b63919662225b6a7da6f30967f9a542e = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_7db78dc6ce2d28d00f9efe3327afbb8f.setIcon(icon_b5204ac9037b3f56af36aa292f072ea5);
+            marker_d43e17a9b41a22002c07f3921715ff59.setIcon(icon_b63919662225b6a7da6f30967f9a542e);
         
     
-        var popup_dda681231c3861d8b224d6632fc70a48 = L.popup({"maxWidth": 500});
+        var popup_8d5f35d32af64ea6845ca5e6e47a9bfa = L.popup({"maxWidth": 500});
 
         
             
-                var html_80655865f6c6a3d81b00865623427e6a = $(`<div id="html_80655865f6c6a3d81b00865623427e6a" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Guardian Angel Cathedral</b></h4>         <h5>Las Vegas, NV</h5>         <h5>2024-04-17</h5>         <h5><a href=http://www.gaclv.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=2819017687395076884>Information</a></h5>         <h5><b>Notes:</b> <br>St. Therese card by the Child Jesus statue!<br>Returned 2025-09-13 for mass.<br></h5>        </div>     </div>`)[0];
-                popup_dda681231c3861d8b224d6632fc70a48.setContent(html_80655865f6c6a3d81b00865623427e6a);
+                var html_4d1b54f5fe3d47efa16ab70134a2dcc4 = $(`<div id="html_4d1b54f5fe3d47efa16ab70134a2dcc4" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Guardian Angel Cathedral</b></h4>         <h5>Las Vegas, NV</h5>         <h5>2024-04-17</h5>         <h5><a href=http://www.gaclv.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=2819017687395076884>Information</a></h5>         <h5><b>Notes:</b> <br>St. Therese card by the Child Jesus statue!<br>Returned 2025-09-13 for mass.<br></h5>        </div>     </div>`)[0];
+                popup_8d5f35d32af64ea6845ca5e6e47a9bfa.setContent(html_4d1b54f5fe3d47efa16ab70134a2dcc4);
             
         
 
-        marker_7db78dc6ce2d28d00f9efe3327afbb8f.bindPopup(popup_dda681231c3861d8b224d6632fc70a48)
+        marker_d43e17a9b41a22002c07f3921715ff59.bindPopup(popup_8d5f35d32af64ea6845ca5e6e47a9bfa)
         ;
 
         
     
     
-            var marker_77c3b41e97df3cc14a18b2c4bedec804 = L.marker(
+            var marker_ca377fc8a126b1a3742bb0fb3ee2a1ee = L.marker(
                 [39.48300856283884, -80.13026221696927],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_d5a3750cb9b172c09ebe51b87c9be0b5 = L.AwesomeMarkers.icon(
+            var icon_a97fb858bde4cbaca54008bec6c65a76 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_77c3b41e97df3cc14a18b2c4bedec804.setIcon(icon_d5a3750cb9b172c09ebe51b87c9be0b5);
+            marker_ca377fc8a126b1a3742bb0fb3ee2a1ee.setIcon(icon_a97fb858bde4cbaca54008bec6c65a76);
         
     
-        var popup_03f3f248a25267d30e311185e10e855e = L.popup({"maxWidth": 500});
+        var popup_4f4405102d8840a0e1ac73814ae301ee = L.popup({"maxWidth": 500});
 
         
             
-                var html_a859bbf3b635b1367d56b0ff020bbfa1 = $(`<div id="html_a859bbf3b635b1367d56b0ff020bbfa1" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Immaculate Conception</b></h4>         <h5>Fairmont, WV</h5>         <h5>Many Dates</h5>         <h5><a href=http://icfairmont.com/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=7489801332753327077>Information</a></h5>        </div>     </div>`)[0];
-                popup_03f3f248a25267d30e311185e10e855e.setContent(html_a859bbf3b635b1367d56b0ff020bbfa1);
+                var html_109f28fa7a0d3166b7576e1c90f2f2e3 = $(`<div id="html_109f28fa7a0d3166b7576e1c90f2f2e3" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Immaculate Conception</b></h4>         <h5>Fairmont, WV</h5>         <h5>Many Dates</h5>         <h5><a href=http://icfairmont.com/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=7489801332753327077>Information</a></h5>        </div>     </div>`)[0];
+                popup_4f4405102d8840a0e1ac73814ae301ee.setContent(html_109f28fa7a0d3166b7576e1c90f2f2e3);
             
         
 
-        marker_77c3b41e97df3cc14a18b2c4bedec804.bindPopup(popup_03f3f248a25267d30e311185e10e855e)
+        marker_ca377fc8a126b1a3742bb0fb3ee2a1ee.bindPopup(popup_4f4405102d8840a0e1ac73814ae301ee)
         ;
 
         
     
     
-            var marker_95c3a9b7a350991da8f89a04011af1d6 = L.marker(
+            var marker_8b6dde5a57a381797e50f3bdcb63948e = L.marker(
                 [43.03790398850314, -78.69535883398353],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_024ee23f7a6f195dc893372448f6890b = L.AwesomeMarkers.icon(
+            var icon_dbbb2d8682967074ab2c421740b98a14 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_95c3a9b7a350991da8f89a04011af1d6.setIcon(icon_024ee23f7a6f195dc893372448f6890b);
+            marker_8b6dde5a57a381797e50f3bdcb63948e.setIcon(icon_dbbb2d8682967074ab2c421740b98a14);
         
     
-        var popup_a07985724aae40b766e35520c496ed65 = L.popup({"maxWidth": 500});
+        var popup_f936ee46fb90c8f67ba7e92ab8f1f132 = L.popup({"maxWidth": 500});
 
         
             
-                var html_b77adc4326c848e32beafde700ecc7b2 = $(`<div id="html_b77adc4326c848e32beafde700ecc7b2" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Mary's</b></h4>         <h5>Swormville, NY</h5>         <h5>Many Dates</h5>         <h5><a href=http://www.stmaryswormville.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=15566587623503197031>Information</a></h5>        </div>     </div>`)[0];
-                popup_a07985724aae40b766e35520c496ed65.setContent(html_b77adc4326c848e32beafde700ecc7b2);
+                var html_1b24dab37e28d16acbab37ba77fdffd3 = $(`<div id="html_1b24dab37e28d16acbab37ba77fdffd3" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Mary's</b></h4>         <h5>Swormville, NY</h5>         <h5>Many Dates</h5>         <h5><a href=http://www.stmaryswormville.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=15566587623503197031>Information</a></h5>        </div>     </div>`)[0];
+                popup_f936ee46fb90c8f67ba7e92ab8f1f132.setContent(html_1b24dab37e28d16acbab37ba77fdffd3);
             
         
 
-        marker_95c3a9b7a350991da8f89a04011af1d6.bindPopup(popup_a07985724aae40b766e35520c496ed65)
+        marker_8b6dde5a57a381797e50f3bdcb63948e.bindPopup(popup_f936ee46fb90c8f67ba7e92ab8f1f132)
         ;
 
         
     
     
-            var marker_239601835e40dfc71b4aeb7a79993bac = L.marker(
+            var marker_980c1201d431be6f1719a1aef51ecbe0 = L.marker(
                 [39.65607668495172, -78.76122245668184],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_9007b4eae9364a5c0c7626e5c2921884 = L.AwesomeMarkers.icon(
+            var icon_6e89508711595e4d09b9ed619b6887ac = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_239601835e40dfc71b4aeb7a79993bac.setIcon(icon_9007b4eae9364a5c0c7626e5c2921884);
+            marker_980c1201d431be6f1719a1aef51ecbe0.setIcon(icon_6e89508711595e4d09b9ed619b6887ac);
         
     
-        var popup_efcdd5d8c6e711e66258c68ab9850a8d = L.popup({"maxWidth": 500});
+        var popup_bfa557636aa1b108c2124ed061d29824 = L.popup({"maxWidth": 500});
 
         
             
-                var html_33bdc7143e6c290458103617fc2c654b = $(`<div id="html_33bdc7143e6c290458103617fc2c654b" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Patrick Church</b></h4>         <h5>Cumberland, MD</h5>         <h5>2024-07-07</h5>         <h5><a href=https://www.olmcumberland.org/churches/saint-patrick-church/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=17948394533302438235>Information</a></h5>        </div>     </div>`)[0];
-                popup_efcdd5d8c6e711e66258c68ab9850a8d.setContent(html_33bdc7143e6c290458103617fc2c654b);
+                var html_002f1ab21c13d53dcaa0256f23b8d4ab = $(`<div id="html_002f1ab21c13d53dcaa0256f23b8d4ab" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Patrick Church</b></h4>         <h5>Cumberland, MD</h5>         <h5>2024-07-07</h5>         <h5><a href=https://www.olmcumberland.org/churches/saint-patrick-church/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=17948394533302438235>Information</a></h5>        </div>     </div>`)[0];
+                popup_bfa557636aa1b108c2124ed061d29824.setContent(html_002f1ab21c13d53dcaa0256f23b8d4ab);
             
         
 
-        marker_239601835e40dfc71b4aeb7a79993bac.bindPopup(popup_efcdd5d8c6e711e66258c68ab9850a8d)
+        marker_980c1201d431be6f1719a1aef51ecbe0.bindPopup(popup_bfa557636aa1b108c2124ed061d29824)
         ;
 
         
     
     
-            var marker_f247d74b7d8e34b3d21b4088e037d22c = L.marker(
+            var marker_09256033a9656419535014ce03b7c7fb = L.marker(
                 [39.4866174, -80.141787],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_3738c428c87f4851ba5d595197a6b2bc = L.AwesomeMarkers.icon(
+            var icon_018618891a5ba75b00d4277facdfc25e = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_f247d74b7d8e34b3d21b4088e037d22c.setIcon(icon_3738c428c87f4851ba5d595197a6b2bc);
+            marker_09256033a9656419535014ce03b7c7fb.setIcon(icon_018618891a5ba75b00d4277facdfc25e);
         
     
-        var popup_8ce554c0dfbd650baf1bee67c5284a01 = L.popup({"maxWidth": 500});
+        var popup_a8950e3bbbf9ed2329a3ffd21069b95c = L.popup({"maxWidth": 500});
 
         
             
-                var html_c51197b64e768955358202bf96243aeb = $(`<div id="html_c51197b64e768955358202bf96243aeb" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Peter the Fisherman</b></h4>         <h5>Fairmont, WV</h5>         <h5>2024-08-02</h5>         <h5><a href=http://www.thefisherman.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=7927779782048067454>Information</a></h5>         <h5><b>Notes:</b> <br>Adoration<br></h5>        </div>     </div>`)[0];
-                popup_8ce554c0dfbd650baf1bee67c5284a01.setContent(html_c51197b64e768955358202bf96243aeb);
+                var html_58ae551ab712333364193398ad7d80ce = $(`<div id="html_58ae551ab712333364193398ad7d80ce" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Peter the Fisherman</b></h4>         <h5>Fairmont, WV</h5>         <h5>2024-08-02</h5>         <h5><a href=http://www.thefisherman.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=7927779782048067454>Information</a></h5>         <h5><b>Notes:</b> <br>Adoration<br></h5>        </div>     </div>`)[0];
+                popup_a8950e3bbbf9ed2329a3ffd21069b95c.setContent(html_58ae551ab712333364193398ad7d80ce);
             
         
 
-        marker_f247d74b7d8e34b3d21b4088e037d22c.bindPopup(popup_8ce554c0dfbd650baf1bee67c5284a01)
+        marker_09256033a9656419535014ce03b7c7fb.bindPopup(popup_a8950e3bbbf9ed2329a3ffd21069b95c)
         ;
 
         
     
     
-            var marker_fa358b257622d71593ab2145869a56aa = L.marker(
+            var marker_b4d710220e3358ef8c3d39db130b5a28 = L.marker(
                 [40.44956630000001, -79.9849717],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_1b719ec8cb1cf300b17c399979ffe793 = L.AwesomeMarkers.icon(
+            var icon_abaf825fbca9a32b48a9eee1ebebc398 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_fa358b257622d71593ab2145869a56aa.setIcon(icon_1b719ec8cb1cf300b17c399979ffe793);
+            marker_b4d710220e3358ef8c3d39db130b5a28.setIcon(icon_abaf825fbca9a32b48a9eee1ebebc398);
         
     
-        var popup_a5a7c075ea8894388a41e06f8c79dc72 = L.popup({"maxWidth": 500});
+        var popup_a0a379d4f159359365e65504b86e24bd = L.popup({"maxWidth": 500});
 
         
             
-                var html_4b9e98e45cdf190f99c098c1d1e89e44 = $(`<div id="html_4b9e98e45cdf190f99c098c1d1e89e44" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Old St Patrick's Church</b></h4>         <h5>Pittsburgh, PA</h5>         <h5>2024-08-03</h5>         <h5><a href=https://pghshrines.org/st-patrick-1>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=10107906646000079697>Information</a></h5>         <h5><b>Notes:</b> <br>St. Therese in the garden, and two statues in foyer.<br>We climbed the Holy Stairs on our knees.<br></h5>        </div>     </div>`)[0];
-                popup_a5a7c075ea8894388a41e06f8c79dc72.setContent(html_4b9e98e45cdf190f99c098c1d1e89e44);
+                var html_f090de882a06c8d700657bef4dff399c = $(`<div id="html_f090de882a06c8d700657bef4dff399c" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Old St Patrick's Church</b></h4>         <h5>Pittsburgh, PA</h5>         <h5>2024-08-03</h5>         <h5><a href=https://pghshrines.org/st-patrick-1>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=10107906646000079697>Information</a></h5>         <h5><b>Notes:</b> <br>St. Therese in the garden, and two statues in foyer.<br>We climbed the Holy Stairs on our knees.<br></h5>        </div>     </div>`)[0];
+                popup_a0a379d4f159359365e65504b86e24bd.setContent(html_f090de882a06c8d700657bef4dff399c);
             
         
 
-        marker_fa358b257622d71593ab2145869a56aa.bindPopup(popup_a5a7c075ea8894388a41e06f8c79dc72)
+        marker_b4d710220e3358ef8c3d39db130b5a28.bindPopup(popup_a0a379d4f159359365e65504b86e24bd)
         ;
 
         
     
     
-            var marker_b0fb36ce7408485583002375e628cc05 = L.marker(
+            var marker_3d683064505c0d6833fd0f1e5e42e4ca = L.marker(
                 [40.4648953, -79.98365129999999],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_ab8b4b6aaf5343c2f73e689ccaed1659 = L.AwesomeMarkers.icon(
+            var icon_1cfa53856b224fe88ee19545fff11ce8 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_b0fb36ce7408485583002375e628cc05.setIcon(icon_ab8b4b6aaf5343c2f73e689ccaed1659);
+            marker_3d683064505c0d6833fd0f1e5e42e4ca.setIcon(icon_1cfa53856b224fe88ee19545fff11ce8);
         
     
-        var popup_accba41c7d622b883ca3d896f2cf60f1 = L.popup({"maxWidth": 500});
+        var popup_470644c0beb0c4acdbbbdf3f21616fb1 = L.popup({"maxWidth": 500});
 
         
             
-                var html_71e5a098897501472e116420e0a926a7 = $(`<div id="html_71e5a098897501472e116420e0a926a7" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Anthony Chapel</b></h4>         <h5>Pittsburgh, PA</h5>         <h5>2024-08-03</h5>         <h5><a href=http://www.saintanthonyschapel.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=5926539274681529652>Information</a></h5>         <h5><b>Notes:</b> <br>They have many Catholic relics.<br>Tour was really a lecture.<br></h5>        </div>     </div>`)[0];
-                popup_accba41c7d622b883ca3d896f2cf60f1.setContent(html_71e5a098897501472e116420e0a926a7);
+                var html_02efeeff8164e7b50f392e14d4bd5d53 = $(`<div id="html_02efeeff8164e7b50f392e14d4bd5d53" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Anthony Chapel</b></h4>         <h5>Pittsburgh, PA</h5>         <h5>2024-08-03</h5>         <h5><a href=http://www.saintanthonyschapel.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=5926539274681529652>Information</a></h5>         <h5><b>Notes:</b> <br>They have many Catholic relics.<br>Tour was really a lecture.<br></h5>        </div>     </div>`)[0];
+                popup_470644c0beb0c4acdbbbdf3f21616fb1.setContent(html_02efeeff8164e7b50f392e14d4bd5d53);
             
         
 
-        marker_b0fb36ce7408485583002375e628cc05.bindPopup(popup_accba41c7d622b883ca3d896f2cf60f1)
+        marker_3d683064505c0d6833fd0f1e5e42e4ca.bindPopup(popup_470644c0beb0c4acdbbbdf3f21616fb1)
         ;
 
         
     
     
-            var marker_af5288cc0506919aa75564fd41f5fd2d = L.marker(
+            var marker_284f5313d12e8bf6b588694f1ae093d2 = L.marker(
                 [40.4096211, -80.5501985],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_b0418c4767f779dc17d8dbb4cba5b50e = L.AwesomeMarkers.icon(
+            var icon_3afb17532032b4aff2bb909b7f7aab61 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_af5288cc0506919aa75564fd41f5fd2d.setIcon(icon_b0418c4767f779dc17d8dbb4cba5b50e);
+            marker_284f5313d12e8bf6b588694f1ae093d2.setIcon(icon_3afb17532032b4aff2bb909b7f7aab61);
         
     
-        var popup_e3e27a4a50b13f8560e066d8f938c328 = L.popup({"maxWidth": 500});
+        var popup_f1bc1f57c19bf2e03f139a106ffab691 = L.popup({"maxWidth": 500});
 
         
             
-                var html_7b87c626974dcc972e0cf0998a8b93ca = $(`<div id="html_7b87c626974dcc972e0cf0998a8b93ca" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Joeseph the Worker</b></h4>         <h5>Weirton, WV</h5>         <h5>2024-09-16</h5>         <h5><a href=https://stjoeweirton.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=2688160923226673736>Information</a></h5>         <h5><b>Notes:</b> <br>Adoration<br>St Therese Statue in Blessed Sacrement santuary<br>We lit a candle to St. Joseph<br></h5>        </div>     </div>`)[0];
-                popup_e3e27a4a50b13f8560e066d8f938c328.setContent(html_7b87c626974dcc972e0cf0998a8b93ca);
+                var html_712b49ae1c3ed0f13951ce8f6dbaeb26 = $(`<div id="html_712b49ae1c3ed0f13951ce8f6dbaeb26" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Joeseph the Worker</b></h4>         <h5>Weirton, WV</h5>         <h5>2024-09-16</h5>         <h5><a href=https://stjoeweirton.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=2688160923226673736>Information</a></h5>         <h5><b>Notes:</b> <br>Adoration<br>St Therese Statue in Blessed Sacrement santuary<br>We lit a candle to St. Joseph<br></h5>        </div>     </div>`)[0];
+                popup_f1bc1f57c19bf2e03f139a106ffab691.setContent(html_712b49ae1c3ed0f13951ce8f6dbaeb26);
             
         
 
-        marker_af5288cc0506919aa75564fd41f5fd2d.bindPopup(popup_e3e27a4a50b13f8560e066d8f938c328)
+        marker_284f5313d12e8bf6b588694f1ae093d2.bindPopup(popup_f1bc1f57c19bf2e03f139a106ffab691)
         ;
 
         
     
     
-            var marker_d63334176e127cd41ef0bd01cfc525ce = L.marker(
+            var marker_09ac19a1ac3ad320144e88c607597035 = L.marker(
                 [40.2577777, -80.1944915],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_e592ca40d711f507b8e9197e1d21c569 = L.AwesomeMarkers.icon(
+            var icon_8de191e4830cc54ecba67a2edb883f65 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_d63334176e127cd41ef0bd01cfc525ce.setIcon(icon_e592ca40d711f507b8e9197e1d21c569);
+            marker_09ac19a1ac3ad320144e88c607597035.setIcon(icon_8de191e4830cc54ecba67a2edb883f65);
         
     
-        var popup_59014d1c3a93c885ded75204e89302a8 = L.popup({"maxWidth": 500});
+        var popup_4faf91fbf4df9cea7f5c7b6196e6202e = L.popup({"maxWidth": 500});
 
         
             
-                var html_7c2ed7669cab0f834e66625c6bc0f19d = $(`<div id="html_7c2ed7669cab0f834e66625c6bc0f19d" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St Patrick's Church</b></h4>         <h5>Canonsburg, PA</h5>         <h5>2024-10-03</h5>         <h5><a href=https://romeroparish.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=12188368680009646315>Information</a></h5>         <h5><b>Notes:</b> <br>Smiling St. Therese statue up front<br></h5>        </div>     </div>`)[0];
-                popup_59014d1c3a93c885ded75204e89302a8.setContent(html_7c2ed7669cab0f834e66625c6bc0f19d);
+                var html_a9c5cf4e258bc120cde859c3d7f5d309 = $(`<div id="html_a9c5cf4e258bc120cde859c3d7f5d309" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St Patrick's Church</b></h4>         <h5>Canonsburg, PA</h5>         <h5>2024-10-03</h5>         <h5><a href=https://romeroparish.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=12188368680009646315>Information</a></h5>         <h5><b>Notes:</b> <br>Smiling St. Therese statue up front<br></h5>        </div>     </div>`)[0];
+                popup_4faf91fbf4df9cea7f5c7b6196e6202e.setContent(html_a9c5cf4e258bc120cde859c3d7f5d309);
             
         
 
-        marker_d63334176e127cd41ef0bd01cfc525ce.bindPopup(popup_59014d1c3a93c885ded75204e89302a8)
+        marker_09ac19a1ac3ad320144e88c607597035.bindPopup(popup_4faf91fbf4df9cea7f5c7b6196e6202e)
         ;
 
         
     
     
-            var marker_feade4b69b8c229e1f928bb888428200 = L.marker(
+            var marker_755f83515638bbdbd43a3294b61ebcf8 = L.marker(
                 [40.2636111, -76.88666669999999],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_7da4abf605c636ac04d1cae2f7a10619 = L.AwesomeMarkers.icon(
+            var icon_8bc3bd4d1026b5c3b048cd80168490bd = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_feade4b69b8c229e1f928bb888428200.setIcon(icon_7da4abf605c636ac04d1cae2f7a10619);
+            marker_755f83515638bbdbd43a3294b61ebcf8.setIcon(icon_8bc3bd4d1026b5c3b048cd80168490bd);
         
     
-        var popup_35fcf9e650062ef17d658a33f9fe908b = L.popup({"maxWidth": 500});
+        var popup_fa514d0829c92b5068cd401d0dac4226 = L.popup({"maxWidth": 500});
 
         
             
-                var html_6fb3af5789edae935222f80e8f18d614 = $(`<div id="html_6fb3af5789edae935222f80e8f18d614" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St Patrick Cathedral</b></h4>         <h5>Harrisburg, PA</h5>         <h5>2024-10-11</h5>         <h5><a href=http://www.stpatrickcathedral.com/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=11310087575696880764>Information</a></h5>        </div>     </div>`)[0];
-                popup_35fcf9e650062ef17d658a33f9fe908b.setContent(html_6fb3af5789edae935222f80e8f18d614);
+                var html_341f0b38f44d3555ead27518b6c5fa65 = $(`<div id="html_341f0b38f44d3555ead27518b6c5fa65" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St Patrick Cathedral</b></h4>         <h5>Harrisburg, PA</h5>         <h5>2024-10-11</h5>         <h5><a href=http://www.stpatrickcathedral.com/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=11310087575696880764>Information</a></h5>        </div>     </div>`)[0];
+                popup_fa514d0829c92b5068cd401d0dac4226.setContent(html_341f0b38f44d3555ead27518b6c5fa65);
             
         
 
-        marker_feade4b69b8c229e1f928bb888428200.bindPopup(popup_35fcf9e650062ef17d658a33f9fe908b)
+        marker_755f83515638bbdbd43a3294b61ebcf8.bindPopup(popup_fa514d0829c92b5068cd401d0dac4226)
         ;
 
         
     
     
-            var marker_8e0a40eed25033823d653f4dcca0c2a4 = L.marker(
+            var marker_11121d274b206b70f7fee281ef4eed6b = L.marker(
                 [39.6989248, -77.3264291],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_d58781471a14b655372b7c09e8aca2fb = L.AwesomeMarkers.icon(
+            var icon_b05277d3a439f18e9bbad2a4ac9a23aa = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_8e0a40eed25033823d653f4dcca0c2a4.setIcon(icon_d58781471a14b655372b7c09e8aca2fb);
+            marker_11121d274b206b70f7fee281ef4eed6b.setIcon(icon_b05277d3a439f18e9bbad2a4ac9a23aa);
         
     
-        var popup_6dc1bfa88a03478627fd18fe7a21494e = L.popup({"maxWidth": 500});
+        var popup_8ee03d6b83cd9e693cfcb3437a78d742 = L.popup({"maxWidth": 500});
 
         
             
-                var html_69ec25b6c0a624c124042db2e01a0f3a = $(`<div id="html_69ec25b6c0a624c124042db2e01a0f3a" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>The National Shrine of Saint Elizabeth Ann Seton</b></h4>         <h5>Emmitsburg, MD</h5>         <h5>2024-10-12</h5>         <h5><a href=https://setonshrine.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=4286919849536828944>Information</a></h5>        </div>     </div>`)[0];
-                popup_6dc1bfa88a03478627fd18fe7a21494e.setContent(html_69ec25b6c0a624c124042db2e01a0f3a);
+                var html_97af26045970d877a81766824022e376 = $(`<div id="html_97af26045970d877a81766824022e376" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>The National Shrine of Saint Elizabeth Ann Seton</b></h4>         <h5>Emmitsburg, MD</h5>         <h5>2024-10-12</h5>         <h5><a href=https://setonshrine.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=4286919849536828944>Information</a></h5>        </div>     </div>`)[0];
+                popup_8ee03d6b83cd9e693cfcb3437a78d742.setContent(html_97af26045970d877a81766824022e376);
             
         
 
-        marker_8e0a40eed25033823d653f4dcca0c2a4.bindPopup(popup_6dc1bfa88a03478627fd18fe7a21494e)
+        marker_11121d274b206b70f7fee281ef4eed6b.bindPopup(popup_8ee03d6b83cd9e693cfcb3437a78d742)
         ;
 
         
     
     
-            var marker_7e8665fd44826079d7034153f813c87c = L.marker(
+            var marker_1245a38c30b0787590661366fc5e8cf0 = L.marker(
                 [39.67657070000001, -77.3567766],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_190a8aba26094608736216627a2e1d56 = L.AwesomeMarkers.icon(
+            var icon_3622d6068a9661ad5377d88ca676d420 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_7e8665fd44826079d7034153f813c87c.setIcon(icon_190a8aba26094608736216627a2e1d56);
+            marker_1245a38c30b0787590661366fc5e8cf0.setIcon(icon_3622d6068a9661ad5377d88ca676d420);
         
     
-        var popup_93d8b4ec5e3d9b44a402bc4cc7cb3a95 = L.popup({"maxWidth": 500});
+        var popup_d49ea16e2a426995d05f49996cf06030 = L.popup({"maxWidth": 500});
 
         
             
-                var html_619978531455ff0a697c6d37990c57c9 = $(`<div id="html_619978531455ff0a697c6d37990c57c9" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Anthony Shrine</b></h4>         <h5>Emmitsburg, MD</h5>         <h5>2024-10-12</h5>         <h5><a href=http://www.sasolmc.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=682287844246271252>Information</a></h5>         <h5><b>Notes:</b> <br>St. Therese statue in back.<br></h5>        </div>     </div>`)[0];
-                popup_93d8b4ec5e3d9b44a402bc4cc7cb3a95.setContent(html_619978531455ff0a697c6d37990c57c9);
+                var html_676877a398bceee71518c18a13238f25 = $(`<div id="html_676877a398bceee71518c18a13238f25" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Anthony Shrine</b></h4>         <h5>Emmitsburg, MD</h5>         <h5>2024-10-12</h5>         <h5><a href=http://www.sasolmc.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=682287844246271252>Information</a></h5>         <h5><b>Notes:</b> <br>St. Therese statue in back.<br></h5>        </div>     </div>`)[0];
+                popup_d49ea16e2a426995d05f49996cf06030.setContent(html_676877a398bceee71518c18a13238f25);
             
         
 
-        marker_7e8665fd44826079d7034153f813c87c.bindPopup(popup_93d8b4ec5e3d9b44a402bc4cc7cb3a95)
+        marker_1245a38c30b0787590661366fc5e8cf0.bindPopup(popup_d49ea16e2a426995d05f49996cf06030)
         ;
 
         
     
     
-            var marker_a042aa0de4b9ae8c1f92590714901f37 = L.marker(
+            var marker_6273ae1f87a345d26872f9c8e45112c0 = L.marker(
                 [39.6815862, -77.35625689999999],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_c97a2bb2a468829f187f2cb0f00d7fd4 = L.AwesomeMarkers.icon(
+            var icon_51b2572bb6524fa0d4d3ba231495430f = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_a042aa0de4b9ae8c1f92590714901f37.setIcon(icon_c97a2bb2a468829f187f2cb0f00d7fd4);
+            marker_6273ae1f87a345d26872f9c8e45112c0.setIcon(icon_51b2572bb6524fa0d4d3ba231495430f);
         
     
-        var popup_7f11bd8f07f36b67ea808179dff8c2a1 = L.popup({"maxWidth": 500});
+        var popup_c00e663bb823072f7d2604237d1a2484 = L.popup({"maxWidth": 500});
 
         
             
-                var html_15fdae498664dd13604c53e0519406bf = $(`<div id="html_15fdae498664dd13604c53e0519406bf" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>National Shrine Grotto of ​Our Lady of Lourdes</b></h4>         <h5>Emmitsburg, MD</h5>         <h5>2024-10-12</h5>         <h5><a href=https://www.nsgrotto.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=8306733676471758308>Information</a></h5>         <h5><b>Notes:</b> <br>Several St. Therese sightings]<br></h5>        </div>     </div>`)[0];
-                popup_7f11bd8f07f36b67ea808179dff8c2a1.setContent(html_15fdae498664dd13604c53e0519406bf);
+                var html_ecd94f1f3046fbbc3671cc30758fcacd = $(`<div id="html_ecd94f1f3046fbbc3671cc30758fcacd" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>National Shrine Grotto of ​Our Lady of Lourdes</b></h4>         <h5>Emmitsburg, MD</h5>         <h5>2024-10-12</h5>         <h5><a href=https://www.nsgrotto.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=8306733676471758308>Information</a></h5>         <h5><b>Notes:</b> <br>Several St. Therese sightings]<br></h5>        </div>     </div>`)[0];
+                popup_c00e663bb823072f7d2604237d1a2484.setContent(html_ecd94f1f3046fbbc3671cc30758fcacd);
             
         
 
-        marker_a042aa0de4b9ae8c1f92590714901f37.bindPopup(popup_7f11bd8f07f36b67ea808179dff8c2a1)
+        marker_6273ae1f87a345d26872f9c8e45112c0.bindPopup(popup_c00e663bb823072f7d2604237d1a2484)
         ;
 
         
     
     
-            var marker_5d8e8a374c8e4c0bfc459bf362bb9566 = L.marker(
+            var marker_86dbad73a540e44771c32e0d0b092f2e = L.marker(
                 [39.6001889, -77.8199995],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_aefd3c8df16ff9920feeb0817aa4df8a = L.AwesomeMarkers.icon(
+            var icon_4607b009f184f1b08839e5e909ffb014 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_5d8e8a374c8e4c0bfc459bf362bb9566.setIcon(icon_aefd3c8df16ff9920feeb0817aa4df8a);
+            marker_86dbad73a540e44771c32e0d0b092f2e.setIcon(icon_4607b009f184f1b08839e5e909ffb014);
         
     
-        var popup_8d94d0742ba2b9739a23fb4f8e77b55c = L.popup({"maxWidth": 500});
+        var popup_ff7c749354a5de7fe0bd30ce1d726610 = L.popup({"maxWidth": 500});
 
         
             
-                var html_fd321d9faf51c887b738f0bf0bec49af = $(`<div id="html_fd321d9faf51c887b738f0bf0bec49af" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St Augustine's Catholic Church</b></h4>         <h5>Williamsport, MD</h5>         <h5>2024-10-13</h5>         <h5><a href=http://www.mystaugustinemd.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=15515040074649016089>Information</a></h5>         <h5><b>Notes:</b> <br>We stayed for a social after mass<br>Visiting Priest from Camaroon, currently staying in Baltimore.<br></h5>        </div>     </div>`)[0];
-                popup_8d94d0742ba2b9739a23fb4f8e77b55c.setContent(html_fd321d9faf51c887b738f0bf0bec49af);
+                var html_6edb51388cec769e88a206efed3afefd = $(`<div id="html_6edb51388cec769e88a206efed3afefd" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St Augustine's Catholic Church</b></h4>         <h5>Williamsport, MD</h5>         <h5>2024-10-13</h5>         <h5><a href=http://www.mystaugustinemd.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=15515040074649016089>Information</a></h5>         <h5><b>Notes:</b> <br>We stayed for a social after mass<br>Visiting Priest from Camaroon, currently staying in Baltimore.<br></h5>        </div>     </div>`)[0];
+                popup_ff7c749354a5de7fe0bd30ce1d726610.setContent(html_6edb51388cec769e88a206efed3afefd);
             
         
 
-        marker_5d8e8a374c8e4c0bfc459bf362bb9566.bindPopup(popup_8d94d0742ba2b9739a23fb4f8e77b55c)
+        marker_86dbad73a540e44771c32e0d0b092f2e.bindPopup(popup_ff7c749354a5de7fe0bd30ce1d726610)
         ;
 
         
     
     
-            var marker_fd9dbe1fefd63442a3923de43348c48f = L.marker(
+            var marker_f67767565e6dd02c4a2989a84ded1da1 = L.marker(
                 [39.6332584, -79.9557023],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_07576d27826b555240d2ed87e6794c58 = L.AwesomeMarkers.icon(
+            var icon_9bdc0a850f5f249b90123cbd90a12a29 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_fd9dbe1fefd63442a3923de43348c48f.setIcon(icon_07576d27826b555240d2ed87e6794c58);
+            marker_f67767565e6dd02c4a2989a84ded1da1.setIcon(icon_9bdc0a850f5f249b90123cbd90a12a29);
         
     
-        var popup_df5e809b612cb94c875322d23c0d3772 = L.popup({"maxWidth": 500});
+        var popup_1da0e91414548dc76db50a26654dfc31 = L.popup({"maxWidth": 500});
 
         
             
-                var html_cbdb66a7ef0230aa85650b3fa9d990db = $(`<div id="html_cbdb66a7ef0230aa85650b3fa9d990db" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St John's University Parish</b></h4>         <h5>Morgantown, WV</h5>         <h5>2024-10-26</h5>         <h5><a href=http://www.mountaineercatholic.com/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=1559047630539468599>Information</a></h5>         <h5><b>Notes:</b> <br>Angels and Demons talk by Dave Vanvickle<br>Candlelight Mass after the talk<br></h5>        </div>     </div>`)[0];
-                popup_df5e809b612cb94c875322d23c0d3772.setContent(html_cbdb66a7ef0230aa85650b3fa9d990db);
+                var html_bd07a483d9bf203eb0201d0c159e75df = $(`<div id="html_bd07a483d9bf203eb0201d0c159e75df" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St John's University Parish</b></h4>         <h5>Morgantown, WV</h5>         <h5>2024-10-26</h5>         <h5><a href=http://www.mountaineercatholic.com/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=1559047630539468599>Information</a></h5>         <h5><b>Notes:</b> <br>Angels and Demons talk by Dave Vanvickle<br>Candlelight Mass after the talk<br></h5>        </div>     </div>`)[0];
+                popup_1da0e91414548dc76db50a26654dfc31.setContent(html_bd07a483d9bf203eb0201d0c159e75df);
             
         
 
-        marker_fd9dbe1fefd63442a3923de43348c48f.bindPopup(popup_df5e809b612cb94c875322d23c0d3772)
+        marker_f67767565e6dd02c4a2989a84ded1da1.bindPopup(popup_1da0e91414548dc76db50a26654dfc31)
         ;
 
         
     
     
-            var marker_ce8a46a5e19f5e238b2458edb93dd15d = L.marker(
+            var marker_d2717915d343a38d6acf0768ca836daf = L.marker(
                 [34.3398984, -82.92170639999999],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_dbc8abe39839f081bd9a0519ef53b2d8 = L.AwesomeMarkers.icon(
+            var icon_6d83cf3a468766d208310e79b79edfc6 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_ce8a46a5e19f5e238b2458edb93dd15d.setIcon(icon_dbc8abe39839f081bd9a0519ef53b2d8);
+            marker_d2717915d343a38d6acf0768ca836daf.setIcon(icon_6d83cf3a468766d208310e79b79edfc6);
         
     
-        var popup_d8083cc2c128ea7ccdfe3d6b09900eb1 = L.popup({"maxWidth": 500});
+        var popup_797095aca806ac441f733a1f068fd8ba = L.popup({"maxWidth": 500});
 
         
             
-                var html_ef78736a11d1738a59ff508bb785db53 = $(`<div id="html_ef78736a11d1738a59ff508bb785db53" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Sacred Heart of Jesus</b></h4>         <h5>Hartwell, GA</h5>         <h5>2024-11-24</h5>         <h5><a href=http://www.sacredheartofhartwell.com/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=12817003173398641811>Information</a></h5>         <h5><b>Notes:</b> <br>We also went to Easter Mass here several years ago.<br></h5>        </div>     </div>`)[0];
-                popup_d8083cc2c128ea7ccdfe3d6b09900eb1.setContent(html_ef78736a11d1738a59ff508bb785db53);
+                var html_1e8acd030b0044c9c31d4e646c5eb4e2 = $(`<div id="html_1e8acd030b0044c9c31d4e646c5eb4e2" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Sacred Heart of Jesus</b></h4>         <h5>Hartwell, GA</h5>         <h5>2024-11-24</h5>         <h5><a href=http://www.sacredheartofhartwell.com/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=12817003173398641811>Information</a></h5>         <h5><b>Notes:</b> <br>We also went to Easter Mass here several years ago.<br></h5>        </div>     </div>`)[0];
+                popup_797095aca806ac441f733a1f068fd8ba.setContent(html_1e8acd030b0044c9c31d4e646c5eb4e2);
             
         
 
-        marker_ce8a46a5e19f5e238b2458edb93dd15d.bindPopup(popup_d8083cc2c128ea7ccdfe3d6b09900eb1)
+        marker_d2717915d343a38d6acf0768ca836daf.bindPopup(popup_797095aca806ac441f733a1f068fd8ba)
         ;
 
         
     
     
-            var marker_d33c2ae572b4709b12596d0f11a8425b = L.marker(
+            var marker_927c687e4d228bc9b2746f8822d1e2e8 = L.marker(
                 [38.3647839, -81.69701270000002],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_994e715c5d9067be699010957bd58aeb = L.AwesomeMarkers.icon(
+            var icon_b216116d4979bc9adfe0f52690f3cd14 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_d33c2ae572b4709b12596d0f11a8425b.setIcon(icon_994e715c5d9067be699010957bd58aeb);
+            marker_927c687e4d228bc9b2746f8822d1e2e8.setIcon(icon_b216116d4979bc9adfe0f52690f3cd14);
         
     
-        var popup_b89b134a8c2d16e6a2bdd7c8e9266e0a = L.popup({"maxWidth": 500});
+        var popup_ade942bf639e066c8ae4660d0efc8a98 = L.popup({"maxWidth": 500});
 
         
             
-                var html_7e3ba50508251e4d1500a79c5c367cfa = $(`<div id="html_7e3ba50508251e4d1500a79c5c367cfa" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Blessed Sacrement</b></h4>         <h5>Charleston, WV</h5>         <h5>2024-11-25</h5>         <h5><a href=https://blessedsacramentwv.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=10852926190473264683>Information</a></h5>        </div>     </div>`)[0];
-                popup_b89b134a8c2d16e6a2bdd7c8e9266e0a.setContent(html_7e3ba50508251e4d1500a79c5c367cfa);
+                var html_40fb280c78d109d3a057288f8cae9b1a = $(`<div id="html_40fb280c78d109d3a057288f8cae9b1a" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Blessed Sacrement</b></h4>         <h5>Charleston, WV</h5>         <h5>2024-11-25</h5>         <h5><a href=https://blessedsacramentwv.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=10852926190473264683>Information</a></h5>        </div>     </div>`)[0];
+                popup_ade942bf639e066c8ae4660d0efc8a98.setContent(html_40fb280c78d109d3a057288f8cae9b1a);
             
         
 
-        marker_d33c2ae572b4709b12596d0f11a8425b.bindPopup(popup_b89b134a8c2d16e6a2bdd7c8e9266e0a)
+        marker_927c687e4d228bc9b2746f8822d1e2e8.bindPopup(popup_ade942bf639e066c8ae4660d0efc8a98)
         ;
 
         
     
     
-            var marker_b7e6fbe2b64f407729854851fdc0200e = L.marker(
+            var marker_3e6544186aced71b00985eb172fc0a5c = L.marker(
                 [35.42814389999999, -83.4430486],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_8df817396fd5bea2e6444fcd71069274 = L.AwesomeMarkers.icon(
+            var icon_c532181a6139390d45a9864576cec6b9 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_b7e6fbe2b64f407729854851fdc0200e.setIcon(icon_8df817396fd5bea2e6444fcd71069274);
+            marker_3e6544186aced71b00985eb172fc0a5c.setIcon(icon_c532181a6139390d45a9864576cec6b9);
         
     
-        var popup_7e37b07c1ef7516accc749b7ffd999ce = L.popup({"maxWidth": 500});
+        var popup_a59c787cdd07ebe77d7aa99df600066f = L.popup({"maxWidth": 500});
 
         
             
-                var html_a3af7159bf43b8dcfea9dc1a0f65d43e = $(`<div id="html_a3af7159bf43b8dcfea9dc1a0f65d43e" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St Joseph's Church</b></h4>         <h5>Bryson City, NC</h5>         <h5>2024-11-20</h5>         <h5><a href=http://www.stjosephbryson.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=14986058283425496742>Information</a></h5>         <h5><b>Notes:</b> <br><br></h5>        </div>     </div>`)[0];
-                popup_7e37b07c1ef7516accc749b7ffd999ce.setContent(html_a3af7159bf43b8dcfea9dc1a0f65d43e);
+                var html_46b89dd45005884206df77c0d83853c9 = $(`<div id="html_46b89dd45005884206df77c0d83853c9" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St Joseph's Church</b></h4>         <h5>Bryson City, NC</h5>         <h5>2024-11-20</h5>         <h5><a href=http://www.stjosephbryson.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=14986058283425496742>Information</a></h5>         <h5><b>Notes:</b> <br><br></h5>        </div>     </div>`)[0];
+                popup_a59c787cdd07ebe77d7aa99df600066f.setContent(html_46b89dd45005884206df77c0d83853c9);
             
         
 
-        marker_b7e6fbe2b64f407729854851fdc0200e.bindPopup(popup_7e37b07c1ef7516accc749b7ffd999ce)
+        marker_3e6544186aced71b00985eb172fc0a5c.bindPopup(popup_a59c787cdd07ebe77d7aa99df600066f)
         ;
 
         
     
     
-            var marker_914fc2a3f837c4748137845b887e083f = L.marker(
+            var marker_891590169c61907632d86d32ab13a4e4 = L.marker(
                 [40.45241939999999, -80.00850559999999],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_70f09d3000ddabeb7d90fae232b86cdf = L.AwesomeMarkers.icon(
+            var icon_461d554fe33d6f161b6881f50611349a = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_914fc2a3f837c4748137845b887e083f.setIcon(icon_70f09d3000ddabeb7d90fae232b86cdf);
+            marker_891590169c61907632d86d32ab13a4e4.setIcon(icon_461d554fe33d6f161b6881f50611349a);
         
     
-        var popup_1ded72775039293e5c2d004ca3ae0cb3 = L.popup({"maxWidth": 500});
+        var popup_b12e87e0a9a60f88e17d566387f9ded8 = L.popup({"maxWidth": 500});
 
         
             
-                var html_991e73b361bc3d1fff303f3c85a0abf9 = $(`<div id="html_991e73b361bc3d1fff303f3c85a0abf9" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Saint Peter Catholic Church</b></h4>         <h5>Pittsburgh, PA</h5>         <h5>2024-12-18</h5>         <h5><a href=https://christoursaviorpgh.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=15585981912932731536>Information</a></h5>         <h5><b>Notes:</b> <br>St. Therese statue right inside main door<br>Attended weekday mass<br></h5>        </div>     </div>`)[0];
-                popup_1ded72775039293e5c2d004ca3ae0cb3.setContent(html_991e73b361bc3d1fff303f3c85a0abf9);
+                var html_684aed38d3bb633235508cf5ead0e36f = $(`<div id="html_684aed38d3bb633235508cf5ead0e36f" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Saint Peter Catholic Church</b></h4>         <h5>Pittsburgh, PA</h5>         <h5>2024-12-18</h5>         <h5><a href=https://christoursaviorpgh.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=15585981912932731536>Information</a></h5>         <h5><b>Notes:</b> <br>St. Therese statue right inside main door<br>Attended weekday mass<br></h5>        </div>     </div>`)[0];
+                popup_b12e87e0a9a60f88e17d566387f9ded8.setContent(html_684aed38d3bb633235508cf5ead0e36f);
             
         
 
-        marker_914fc2a3f837c4748137845b887e083f.bindPopup(popup_1ded72775039293e5c2d004ca3ae0cb3)
+        marker_891590169c61907632d86d32ab13a4e4.bindPopup(popup_b12e87e0a9a60f88e17d566387f9ded8)
         ;
 
         
     
     
-            var marker_709251a492a91d1ed9ff1d52e954de35 = L.marker(
+            var marker_5170f40698c6f52a4c791aca04394ccf = L.marker(
                 [39.6524128, -78.7673987],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_e04799b3cab701f257bd627e8565ecbe = L.AwesomeMarkers.icon(
+            var icon_f83745086e03c6b602719f6abb83a5bc = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_709251a492a91d1ed9ff1d52e954de35.setIcon(icon_e04799b3cab701f257bd627e8565ecbe);
+            marker_5170f40698c6f52a4c791aca04394ccf.setIcon(icon_f83745086e03c6b602719f6abb83a5bc);
         
     
-        var popup_b70d4b3161bcd4782e2634ab1ccfd84d = L.popup({"maxWidth": 500});
+        var popup_9fd3d76cde604b288fa85f62dc1d6ed7 = L.popup({"maxWidth": 500});
 
         
             
-                var html_44002c95306efe62acef0cfe7b0df1ed = $(`<div id="html_44002c95306efe62acef0cfe7b0df1ed" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Shrine of SS Peter and Paul</b></h4>         <h5>Cumberland, MD</h5>         <h5>2025-02-19</h5>         <h5><a href=http://www.olmcumberland.org/the-shrine-of-ss-peter-and-paul/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=5078087740484611177>Information</a></h5>         <h5><b>Notes:</b> <br>Big St. Therese statue inside main door<br>Attended weekday mass<br>Founded by St. John Neumann<br></h5>        </div>     </div>`)[0];
-                popup_b70d4b3161bcd4782e2634ab1ccfd84d.setContent(html_44002c95306efe62acef0cfe7b0df1ed);
+                var html_83df1868a2d1c61dd2ef27714cb82700 = $(`<div id="html_83df1868a2d1c61dd2ef27714cb82700" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Shrine of SS Peter and Paul</b></h4>         <h5>Cumberland, MD</h5>         <h5>2025-02-19</h5>         <h5><a href=http://www.olmcumberland.org/the-shrine-of-ss-peter-and-paul/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=5078087740484611177>Information</a></h5>         <h5><b>Notes:</b> <br>Big St. Therese statue inside main door<br>Attended weekday mass<br>Founded by St. John Neumann<br></h5>        </div>     </div>`)[0];
+                popup_9fd3d76cde604b288fa85f62dc1d6ed7.setContent(html_83df1868a2d1c61dd2ef27714cb82700);
             
         
 
-        marker_709251a492a91d1ed9ff1d52e954de35.bindPopup(popup_b70d4b3161bcd4782e2634ab1ccfd84d)
+        marker_5170f40698c6f52a4c791aca04394ccf.bindPopup(popup_9fd3d76cde604b288fa85f62dc1d6ed7)
         ;
 
         
     
     
-            var marker_2a15d93738414afeacc110ce8a12db73 = L.marker(
+            var marker_7245674de6ba33a84a9069a72e135875 = L.marker(
                 [42.98261049999999, -78.5789162],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_5e475e2bcb9dea24af2b192f91ba93fa = L.AwesomeMarkers.icon(
+            var icon_f8f39f5f73df4eaf8c48818ae8f54a1d = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_2a15d93738414afeacc110ce8a12db73.setIcon(icon_5e475e2bcb9dea24af2b192f91ba93fa);
+            marker_7245674de6ba33a84a9069a72e135875.setIcon(icon_f8f39f5f73df4eaf8c48818ae8f54a1d);
         
     
-        var popup_9a91e09205e86057726092989019e981 = L.popup({"maxWidth": 500});
+        var popup_fb792417dc0e5e8ea200cbab527c3583 = L.popup({"maxWidth": 500});
 
         
             
-                var html_a6d0901b54834d3dd6dd3c26aa2bfc5e = $(`<div id="html_a6d0901b54834d3dd6dd3c26aa2bfc5e" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Our Lady of Peace</b></h4>         <h5>Clarence, NY</h5>         <h5>2025-03-22</h5>         <h5><a href=http://www.olpclarence.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=6810328333985117440>Information</a></h5>         <h5><b>Notes:</b> <br>Father Art Said Mass!<br></h5>        </div>     </div>`)[0];
-                popup_9a91e09205e86057726092989019e981.setContent(html_a6d0901b54834d3dd6dd3c26aa2bfc5e);
+                var html_4cad29611191807b09da6b7a4677e20c = $(`<div id="html_4cad29611191807b09da6b7a4677e20c" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Our Lady of Peace</b></h4>         <h5>Clarence, NY</h5>         <h5>2025-03-22</h5>         <h5><a href=http://www.olpclarence.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=6810328333985117440>Information</a></h5>         <h5><b>Notes:</b> <br>Father Art Said Mass!<br></h5>        </div>     </div>`)[0];
+                popup_fb792417dc0e5e8ea200cbab527c3583.setContent(html_4cad29611191807b09da6b7a4677e20c);
             
         
 
-        marker_2a15d93738414afeacc110ce8a12db73.bindPopup(popup_9a91e09205e86057726092989019e981)
+        marker_7245674de6ba33a84a9069a72e135875.bindPopup(popup_fb792417dc0e5e8ea200cbab527c3583)
         ;
 
         
     
     
-            var marker_bfeb7690c5b6af5536362cd7890f96fc = L.marker(
+            var marker_214c51389355bfa4248e50f54715e927 = L.marker(
                 [35.7774688, -78.6700232],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_941df6c8ff4b11c137e98695189f6eef = L.AwesomeMarkers.icon(
+            var icon_6f2ebf2f96baddf6a0b452cac2d9f9f5 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_bfeb7690c5b6af5536362cd7890f96fc.setIcon(icon_941df6c8ff4b11c137e98695189f6eef);
+            marker_214c51389355bfa4248e50f54715e927.setIcon(icon_6f2ebf2f96baddf6a0b452cac2d9f9f5);
         
     
-        var popup_d07bf65b156d6b69c351980fefd575a9 = L.popup({"maxWidth": 500});
+        var popup_18ef0299048174530e557d976d9357f7 = L.popup({"maxWidth": 500});
 
         
             
-                var html_4a105d19380faff090d070d89a52cf2c = $(`<div id="html_4a105d19380faff090d070d89a52cf2c" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Holy Name of Jesus Cathedral</b></h4>         <h5>Raleigh, NC</h5>         <h5>2025-04-22</h5>         <h5><a href=https://www.raleighcathedral.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=11339247695085911259>Information</a></h5>         <h5><b>Notes:</b> <br>St. Therese Statue!<br>Statues of prominent Saints all around the catherdral<br></h5>        </div>     </div>`)[0];
-                popup_d07bf65b156d6b69c351980fefd575a9.setContent(html_4a105d19380faff090d070d89a52cf2c);
+                var html_a58ac19d0740589409887098593bfaa9 = $(`<div id="html_a58ac19d0740589409887098593bfaa9" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Holy Name of Jesus Cathedral</b></h4>         <h5>Raleigh, NC</h5>         <h5>2025-04-22</h5>         <h5><a href=https://www.raleighcathedral.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=11339247695085911259>Information</a></h5>         <h5><b>Notes:</b> <br>St. Therese Statue!<br>Statues of prominent Saints all around the catherdral<br></h5>        </div>     </div>`)[0];
+                popup_18ef0299048174530e557d976d9357f7.setContent(html_a58ac19d0740589409887098593bfaa9);
             
         
 
-        marker_bfeb7690c5b6af5536362cd7890f96fc.bindPopup(popup_d07bf65b156d6b69c351980fefd575a9)
+        marker_214c51389355bfa4248e50f54715e927.bindPopup(popup_18ef0299048174530e557d976d9357f7)
         ;
 
         
     
     
-            var marker_f3fb91e1ba9c0467c256244117237ab4 = L.marker(
+            var marker_ec33abfbc4fab69b36b70ea237347a17 = L.marker(
                 [37.5406063, -77.43523320000001],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_f307e83e4022707cff35ed4fd64ce6d6 = L.AwesomeMarkers.icon(
+            var icon_1072b538ec34f9b6ddefd9fea6bae7e3 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_f3fb91e1ba9c0467c256244117237ab4.setIcon(icon_f307e83e4022707cff35ed4fd64ce6d6);
+            marker_ec33abfbc4fab69b36b70ea237347a17.setIcon(icon_1072b538ec34f9b6ddefd9fea6bae7e3);
         
     
-        var popup_72c24fae8e5a60a60abd5bb00995f4ae = L.popup({"maxWidth": 500});
+        var popup_a8f6de5492291ced0051c899ad43d00f = L.popup({"maxWidth": 500});
 
         
             
-                var html_a037dfb09bcfed052540826f0f288629 = $(`<div id="html_a037dfb09bcfed052540826f0f288629" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Pro Cathedral of St. Peter</b></h4>         <h5>Richmond, VA</h5>         <h5>2025-04-21</h5>         <h5><a href=http://stpeterchurch1834.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=8662612192253342283>Information</a></h5>         <h5><b>Notes:</b> <br>Restored St. Therese Statue!<br>Daily Mass<br>Confession<br></h5>        </div>     </div>`)[0];
-                popup_72c24fae8e5a60a60abd5bb00995f4ae.setContent(html_a037dfb09bcfed052540826f0f288629);
+                var html_f82f8636385f12b1264abddb5bfc9943 = $(`<div id="html_f82f8636385f12b1264abddb5bfc9943" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Pro Cathedral of St. Peter</b></h4>         <h5>Richmond, VA</h5>         <h5>2025-04-21</h5>         <h5><a href=http://stpeterchurch1834.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=8662612192253342283>Information</a></h5>         <h5><b>Notes:</b> <br>Restored St. Therese Statue!<br>Daily Mass<br>Confession<br></h5>        </div>     </div>`)[0];
+                popup_a8f6de5492291ced0051c899ad43d00f.setContent(html_f82f8636385f12b1264abddb5bfc9943);
             
         
 
-        marker_f3fb91e1ba9c0467c256244117237ab4.bindPopup(popup_72c24fae8e5a60a60abd5bb00995f4ae)
+        marker_ec33abfbc4fab69b36b70ea237347a17.bindPopup(popup_a8f6de5492291ced0051c899ad43d00f)
         ;
 
         
     
     
-            var marker_9972a345afcaefdeb2063c4b72ae085f = L.marker(
+            var marker_8e534289a19362559e3973fa6a1eaa85 = L.marker(
                 [34.0054614, -81.03786459999999],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_deaaa4649f665bfeca0be329ec4f508c = L.AwesomeMarkers.icon(
+            var icon_293ab9a8fda03ad374fc0c7a0cba7c5f = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_9972a345afcaefdeb2063c4b72ae085f.setIcon(icon_deaaa4649f665bfeca0be329ec4f508c);
+            marker_8e534289a19362559e3973fa6a1eaa85.setIcon(icon_293ab9a8fda03ad374fc0c7a0cba7c5f);
         
     
-        var popup_7c03411071cc92130a48b23583d2717e = L.popup({"maxWidth": 500});
+        var popup_59198d692cb8bd6f5113c0fcd427abef = L.popup({"maxWidth": 500});
 
         
             
-                var html_01c6e9b27979a98110d8e483cd6931a0 = $(`<div id="html_01c6e9b27979a98110d8e483cd6931a0" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Basillica of St. Peter</b></h4>         <h5>Columbia, SC</h5>         <h5>2025-04-23</h5>         <h5><a href=https://www.visitstpeters.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=16863539483043315702>Information</a></h5>         <h5><b>Notes:</b> <br><br></h5>        </div>     </div>`)[0];
-                popup_7c03411071cc92130a48b23583d2717e.setContent(html_01c6e9b27979a98110d8e483cd6931a0);
+                var html_09c588151cfa814ab17c1548e36fc0ea = $(`<div id="html_09c588151cfa814ab17c1548e36fc0ea" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Basillica of St. Peter</b></h4>         <h5>Columbia, SC</h5>         <h5>2025-04-23</h5>         <h5><a href=https://www.visitstpeters.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=16863539483043315702>Information</a></h5>         <h5><b>Notes:</b> <br><br></h5>        </div>     </div>`)[0];
+                popup_59198d692cb8bd6f5113c0fcd427abef.setContent(html_09c588151cfa814ab17c1548e36fc0ea);
             
         
 
-        marker_9972a345afcaefdeb2063c4b72ae085f.bindPopup(popup_7c03411071cc92130a48b23583d2717e)
+        marker_8e534289a19362559e3973fa6a1eaa85.bindPopup(popup_59198d692cb8bd6f5113c0fcd427abef)
         ;
 
         
     
     
-            var marker_6fc8f3c990a70fe6aa7d239b5a18e85d = L.marker(
+            var marker_8b5f567460a3eb52209dd834b517d570 = L.marker(
                 [34.48793799999999, -82.637712],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_0ec12ed9cae380322bd051a553c35ba1 = L.AwesomeMarkers.icon(
+            var icon_1226e6063ac9976ca8f2d728731ed3bf = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_6fc8f3c990a70fe6aa7d239b5a18e85d.setIcon(icon_0ec12ed9cae380322bd051a553c35ba1);
+            marker_8b5f567460a3eb52209dd834b517d570.setIcon(icon_1226e6063ac9976ca8f2d728731ed3bf);
         
     
-        var popup_0a79140b8720c68c7707852cf7ac7276 = L.popup({"maxWidth": 500});
+        var popup_3b0c515acba4eddfc391b2904d2ac008 = L.popup({"maxWidth": 500});
 
         
             
-                var html_37e0d880c448518569483bf81f0f0da4 = $(`<div id="html_37e0d880c448518569483bf81f0f0da4" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St Mary of the Angels </b></h4>         <h5>Anderson, SC</h5>         <h5>2025-04-27</h5>         <h5><a href=http://sma43.net/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=462710387617762821>Information</a></h5>         <h5><b>Notes:</b> <br>Amazing Church!<br>Amazing Priest!<br>Amazing congregation!<br>Tacos in the parking lot after.<br></h5>        </div>     </div>`)[0];
-                popup_0a79140b8720c68c7707852cf7ac7276.setContent(html_37e0d880c448518569483bf81f0f0da4);
+                var html_83a6967a07339ee0572b2c296c3bb70e = $(`<div id="html_83a6967a07339ee0572b2c296c3bb70e" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St Mary of the Angels </b></h4>         <h5>Anderson, SC</h5>         <h5>2025-04-27</h5>         <h5><a href=http://sma43.net/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=462710387617762821>Information</a></h5>         <h5><b>Notes:</b> <br>Amazing Church!<br>Amazing Priest!<br>Amazing congregation!<br>Tacos in the parking lot after.<br></h5>        </div>     </div>`)[0];
+                popup_3b0c515acba4eddfc391b2904d2ac008.setContent(html_83a6967a07339ee0572b2c296c3bb70e);
             
         
 
-        marker_6fc8f3c990a70fe6aa7d239b5a18e85d.bindPopup(popup_0a79140b8720c68c7707852cf7ac7276)
+        marker_8b5f567460a3eb52209dd834b517d570.bindPopup(popup_3b0c515acba4eddfc391b2904d2ac008)
         ;
 
         
     
     
-            var marker_47a2c233f8ca52496eb730c13c304166 = L.marker(
+            var marker_a075542b47c026ef0357a90548f91e66 = L.marker(
                 [38.9749328, -76.4878663],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_7cea405782211e08bafd070679657f12 = L.AwesomeMarkers.icon(
+            var icon_4fe9619d5617fcdc3a919c35765b5576 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_47a2c233f8ca52496eb730c13c304166.setIcon(icon_7cea405782211e08bafd070679657f12);
+            marker_a075542b47c026ef0357a90548f91e66.setIcon(icon_4fe9619d5617fcdc3a919c35765b5576);
         
     
-        var popup_e88d2b523b79c9c2a81ac06bdf1e8030 = L.popup({"maxWidth": 500});
+        var popup_646cd2bc59690e6035e28ad258060ea2 = L.popup({"maxWidth": 500});
 
         
             
-                var html_cc47610bdecb0904e4b4c6a79a30d9eb = $(`<div id="html_cc47610bdecb0904e4b4c6a79a30d9eb" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St Mary's Parish</b></h4>         <h5>Annapolis, MD</h5>         <h5>2025-6-01</h5>         <h5><a href=https://www.stmarysannapolis.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=6230453494842891121>Information</a></h5>         <h5><b>Notes:</b> <br>Beautiful Church!<br>Large St. Therese statue on wall<br></h5>        </div>     </div>`)[0];
-                popup_e88d2b523b79c9c2a81ac06bdf1e8030.setContent(html_cc47610bdecb0904e4b4c6a79a30d9eb);
+                var html_8e910ea5726a81b0ea3cf9dd2a84a635 = $(`<div id="html_8e910ea5726a81b0ea3cf9dd2a84a635" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St Mary's Parish</b></h4>         <h5>Annapolis, MD</h5>         <h5>2025-6-01</h5>         <h5><a href=https://www.stmarysannapolis.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=6230453494842891121>Information</a></h5>         <h5><b>Notes:</b> <br>Beautiful Church!<br>Large St. Therese statue on wall<br></h5>        </div>     </div>`)[0];
+                popup_646cd2bc59690e6035e28ad258060ea2.setContent(html_8e910ea5726a81b0ea3cf9dd2a84a635);
             
         
 
-        marker_47a2c233f8ca52496eb730c13c304166.bindPopup(popup_e88d2b523b79c9c2a81ac06bdf1e8030)
+        marker_a075542b47c026ef0357a90548f91e66.bindPopup(popup_646cd2bc59690e6035e28ad258060ea2)
         ;
 
         
     
     
-            var marker_d4cd9221fd24fc1ab5ce15fff7cacda7 = L.marker(
+            var marker_eae7b0c10299087e9e1d5949030de29b = L.marker(
                 [37.9330315, -75.37401990000001],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_e8af5aa31c4f0be38f4aebee27baf75c = L.AwesomeMarkers.icon(
+            var icon_8787e74be69b8057cec1a7e6c3fcc516 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_d4cd9221fd24fc1ab5ce15fff7cacda7.setIcon(icon_e8af5aa31c4f0be38f4aebee27baf75c);
+            marker_eae7b0c10299087e9e1d5949030de29b.setIcon(icon_8787e74be69b8057cec1a7e6c3fcc516);
         
     
-        var popup_35c0d5548aae8c0fb8f6e6e99c1c5712 = L.popup({"maxWidth": 500});
+        var popup_6afd4909a194b6fcd4002f164fb4bf1e = L.popup({"maxWidth": 500});
 
         
             
-                var html_6c5a9b57c69861fa7c1e430176e571b8 = $(`<div id="html_6c5a9b57c69861fa7c1e430176e571b8" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St Andrew the Apostle</b></h4>         <h5>Chincoteague, VA</h5>         <h5>2025-6-03</h5>         <h5><a href=http://standrewci.com/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=13580302739813969619>Information</a></h5>         <h5><b>Notes:</b> <br>Small church<br>Stations garden was neat<br></h5>        </div>     </div>`)[0];
-                popup_35c0d5548aae8c0fb8f6e6e99c1c5712.setContent(html_6c5a9b57c69861fa7c1e430176e571b8);
+                var html_58cded8270e86a98f6c3891cc34ad728 = $(`<div id="html_58cded8270e86a98f6c3891cc34ad728" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St Andrew the Apostle</b></h4>         <h5>Chincoteague, VA</h5>         <h5>2025-6-03</h5>         <h5><a href=http://standrewci.com/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=13580302739813969619>Information</a></h5>         <h5><b>Notes:</b> <br>Small church<br>Stations garden was neat<br></h5>        </div>     </div>`)[0];
+                popup_6afd4909a194b6fcd4002f164fb4bf1e.setContent(html_58cded8270e86a98f6c3891cc34ad728);
             
         
 
-        marker_d4cd9221fd24fc1ab5ce15fff7cacda7.bindPopup(popup_35c0d5548aae8c0fb8f6e6e99c1c5712)
+        marker_eae7b0c10299087e9e1d5949030de29b.bindPopup(popup_6afd4909a194b6fcd4002f164fb4bf1e)
         ;
 
         
     
     
-            var marker_2fb9923a0c47533c234c9af64c822a41 = L.marker(
+            var marker_46f9796e127aad6a7094dad9e43da9fb = L.marker(
                 [39.6391314, -78.7581453],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_f47903a4009da9d5bf5be0804aa31bd3 = L.AwesomeMarkers.icon(
+            var icon_97f32fde7917c4fa8a79a5d552dcba70 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_2fb9923a0c47533c234c9af64c822a41.setIcon(icon_f47903a4009da9d5bf5be0804aa31bd3);
+            marker_46f9796e127aad6a7094dad9e43da9fb.setIcon(icon_97f32fde7917c4fa8a79a5d552dcba70);
         
     
-        var popup_31c8f2f77f7f38b480458028ee0728b1 = L.popup({"maxWidth": 500});
+        var popup_ec6f6a68b54864bbf7365dd44f42a651 = L.popup({"maxWidth": 500});
 
         
             
-                var html_589083d0a52c2384a6790d5893c2ee34 = $(`<div id="html_589083d0a52c2384a6790d5893c2ee34" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Mary Church</b></h4>         <h5>Cumberland, MD</h5>         <h5>2025-6-08</h5>         <h5><a href=https://www.olmcumberland.org/churches/st-mary-of-the-immaculate-conception/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=18095494190447284551>Information</a></h5>         <h5><b>Notes:</b> <br>Very large church!<br>St. Therese statue very prominent in back room<br></h5>        </div>     </div>`)[0];
-                popup_31c8f2f77f7f38b480458028ee0728b1.setContent(html_589083d0a52c2384a6790d5893c2ee34);
+                var html_da33b1f3cea86ee86e904f5cb4b687ab = $(`<div id="html_da33b1f3cea86ee86e904f5cb4b687ab" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Mary Church</b></h4>         <h5>Cumberland, MD</h5>         <h5>2025-6-08</h5>         <h5><a href=https://www.olmcumberland.org/churches/st-mary-of-the-immaculate-conception/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=18095494190447284551>Information</a></h5>         <h5><b>Notes:</b> <br>Very large church!<br>St. Therese statue very prominent in back room<br></h5>        </div>     </div>`)[0];
+                popup_ec6f6a68b54864bbf7365dd44f42a651.setContent(html_da33b1f3cea86ee86e904f5cb4b687ab);
             
         
 
-        marker_2fb9923a0c47533c234c9af64c822a41.bindPopup(popup_31c8f2f77f7f38b480458028ee0728b1)
+        marker_46f9796e127aad6a7094dad9e43da9fb.bindPopup(popup_ec6f6a68b54864bbf7365dd44f42a651)
         ;
 
         
     
     
-            var marker_4e40c25802257759e86fd9afef355aaf = L.marker(
+            var marker_cd07a31e48ac814d88cf31fdc736ccb0 = L.marker(
                 [40.4652168, -79.9639261],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_4cbdbae4e07c40280f839296f76301be = L.AwesomeMarkers.icon(
+            var icon_f29b5f51bf21727dec0d4f6cde847bc0 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_4e40c25802257759e86fd9afef355aaf.setIcon(icon_4cbdbae4e07c40280f839296f76301be);
+            marker_cd07a31e48ac814d88cf31fdc736ccb0.setIcon(icon_f29b5f51bf21727dec0d4f6cde847bc0);
         
     
-        var popup_eac0529eedea126b8942400b0f4050cd = L.popup({"maxWidth": 500});
+        var popup_ce68367f8c4c6ab55e1e3baf8872e0c7 = L.popup({"maxWidth": 500});
 
         
             
-                var html_35e343323036eca6cde9130ffd68f914 = $(`<div id="html_35e343323036eca6cde9130ffd68f914" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Saint Padre Pio Parish</b></h4>         <h5>Pittsburgh, PA</h5>         <h5>2025-06-15</h5>         <h5><a href=http://padrepioparish.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=15291356428250994997>Information</a></h5>         <h5><b>Notes:</b> <br>Very large church!<br>Found old St. Therese prayer book!<br></h5>        </div>     </div>`)[0];
-                popup_eac0529eedea126b8942400b0f4050cd.setContent(html_35e343323036eca6cde9130ffd68f914);
+                var html_976a8cef757d606f8203a892425714da = $(`<div id="html_976a8cef757d606f8203a892425714da" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Saint Padre Pio Parish</b></h4>         <h5>Pittsburgh, PA</h5>         <h5>2025-06-15</h5>         <h5><a href=http://padrepioparish.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=15291356428250994997>Information</a></h5>         <h5><b>Notes:</b> <br>Very large church!<br>Found old St. Therese prayer book!<br></h5>        </div>     </div>`)[0];
+                popup_ce68367f8c4c6ab55e1e3baf8872e0c7.setContent(html_976a8cef757d606f8203a892425714da);
             
         
 
-        marker_4e40c25802257759e86fd9afef355aaf.bindPopup(popup_eac0529eedea126b8942400b0f4050cd)
+        marker_cd07a31e48ac814d88cf31fdc736ccb0.bindPopup(popup_ce68367f8c4c6ab55e1e3baf8872e0c7)
         ;
 
         
     
     
-            var marker_dc2572cc1d1834631c0c1c84c26d9fda = L.marker(
+            var marker_b98409bdaf56df05df0a0f6a31eb1fe8 = L.marker(
                 [42.075199, -78.431079],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_ef08620b00ebbbcf1ec6a44a6f15893c = L.AwesomeMarkers.icon(
+            var icon_b1f9629341e5084754ee894a0c043197 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_dc2572cc1d1834631c0c1c84c26d9fda.setIcon(icon_ef08620b00ebbbcf1ec6a44a6f15893c);
+            marker_b98409bdaf56df05df0a0f6a31eb1fe8.setIcon(icon_b1f9629341e5084754ee894a0c043197);
         
     
-        var popup_b116ff59349ab03e30c9513e43301da2 = L.popup({"maxWidth": 500});
+        var popup_f2d8bcf418119fcbbf38be628f2f338f = L.popup({"maxWidth": 500});
 
         
             
-                var html_daab6b4476d3b254426eb784db5a0613 = $(`<div id="html_daab6b4476d3b254426eb784db5a0613" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Basilica of St. Mary of the Angels</b></h4>         <h5>Olean, NY</h5>         <h5>2025-08-20</h5>         <h5><a href=https://www.smaolean.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=4835589897798939580>Information</a></h5>         <h5><b>Notes:</b> <br>Adoration<br>Official Diocese pilgramage site<br></h5>        </div>     </div>`)[0];
-                popup_b116ff59349ab03e30c9513e43301da2.setContent(html_daab6b4476d3b254426eb784db5a0613);
+                var html_99b8ce136148a3bca11c7c6c78a99394 = $(`<div id="html_99b8ce136148a3bca11c7c6c78a99394" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Basilica of St. Mary of the Angels</b></h4>         <h5>Olean, NY</h5>         <h5>2025-08-20</h5>         <h5><a href=https://www.smaolean.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=4835589897798939580>Information</a></h5>         <h5><b>Notes:</b> <br>Adoration<br>Official Diocese pilgramage site<br></h5>        </div>     </div>`)[0];
+                popup_f2d8bcf418119fcbbf38be628f2f338f.setContent(html_99b8ce136148a3bca11c7c6c78a99394);
             
         
 
-        marker_dc2572cc1d1834631c0c1c84c26d9fda.bindPopup(popup_b116ff59349ab03e30c9513e43301da2)
+        marker_b98409bdaf56df05df0a0f6a31eb1fe8.bindPopup(popup_f2d8bcf418119fcbbf38be628f2f338f)
         ;
 
         
     
     
-            var marker_4ca5560354e3bd5ef6234ea2dedd5953 = L.marker(
+            var marker_1eddeb01f0d4bcfdf7993428897a6d27 = L.marker(
                 [42.0876832, -78.4898898],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_2a4e5be4deb245de578ebe56798372d3 = L.AwesomeMarkers.icon(
+            var icon_f83088c55aeecd92fa84bf61378a9ea1 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_4ca5560354e3bd5ef6234ea2dedd5953.setIcon(icon_2a4e5be4deb245de578ebe56798372d3);
+            marker_1eddeb01f0d4bcfdf7993428897a6d27.setIcon(icon_f83088c55aeecd92fa84bf61378a9ea1);
         
     
-        var popup_b664a16e9dc42b5e195dce6f67b49d7a = L.popup({"maxWidth": 500});
+        var popup_45621355751ff7822775502fceaabe6c = L.popup({"maxWidth": 500});
 
         
             
-                var html_572b8fc8f0efd0ea1472e16c42a87aab = $(`<div id="html_572b8fc8f0efd0ea1472e16c42a87aab" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Bonaventure Parish</b></h4>         <h5>Olean, NY</h5>         <h5>2025-08-21</h5>         <h5><a href=https://emcatholic.org/st-bonaventure-parish>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=8171628029630476406>Information</a></h5>         <h5><b>Notes:</b> <br>St. Therese on a stained glass window!<br>Nice gentleman was coating the doors, had relatives named in some windows<br></h5>        </div>     </div>`)[0];
-                popup_b664a16e9dc42b5e195dce6f67b49d7a.setContent(html_572b8fc8f0efd0ea1472e16c42a87aab);
+                var html_ec1e556c47880491462a5a2ad88d6b06 = $(`<div id="html_ec1e556c47880491462a5a2ad88d6b06" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Bonaventure Parish</b></h4>         <h5>Olean, NY</h5>         <h5>2025-08-21</h5>         <h5><a href=https://emcatholic.org/st-bonaventure-parish>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=8171628029630476406>Information</a></h5>         <h5><b>Notes:</b> <br>St. Therese on a stained glass window!<br>Nice gentleman was coating the doors, had relatives named in some windows<br></h5>        </div>     </div>`)[0];
+                popup_45621355751ff7822775502fceaabe6c.setContent(html_ec1e556c47880491462a5a2ad88d6b06);
             
         
 
-        marker_4ca5560354e3bd5ef6234ea2dedd5953.bindPopup(popup_b664a16e9dc42b5e195dce6f67b49d7a)
+        marker_1eddeb01f0d4bcfdf7993428897a6d27.bindPopup(popup_45621355751ff7822775502fceaabe6c)
         ;
 
         
     
     
-            var marker_24b6044a1603729648749b6ea94f6c2c = L.marker(
+            var marker_a46db04bda72ba8920d430e2782aef5e = L.marker(
                 [42.73564349999999, -84.55597569999999],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_81cae4a248186a73f26927d4f535c19e = L.AwesomeMarkers.icon(
+            var icon_02839e6b8c7f9f04195240bb2dbe24e0 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_24b6044a1603729648749b6ea94f6c2c.setIcon(icon_81cae4a248186a73f26927d4f535c19e);
+            marker_a46db04bda72ba8920d430e2782aef5e.setIcon(icon_02839e6b8c7f9f04195240bb2dbe24e0);
         
     
-        var popup_c55847f662699ee9919c595749cfc074 = L.popup({"maxWidth": 500});
+        var popup_2e688ec42e115ecce5a26a4f86d20169 = L.popup({"maxWidth": 500});
 
         
             
-                var html_4a67a9bc578bd1ea2076c627c145882c = $(`<div id="html_4a67a9bc578bd1ea2076c627c145882c" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Mary's Cathedral</b></h4>         <h5>Lansing, MI</h5>         <h5>2025-09-30</h5>         <h5><a href=https://stmarylansing.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=4756514548963593036>Information</a></h5>         <h5><b>Notes:</b> <br>Short adoration in side chapel<br>Didn't get to see much else, it was dark!<br>Lit candle<br></h5>        </div>     </div>`)[0];
-                popup_c55847f662699ee9919c595749cfc074.setContent(html_4a67a9bc578bd1ea2076c627c145882c);
+                var html_a2047666c7f3d70b24bfd234f4c1c118 = $(`<div id="html_a2047666c7f3d70b24bfd234f4c1c118" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Mary's Cathedral</b></h4>         <h5>Lansing, MI</h5>         <h5>2025-09-30</h5>         <h5><a href=https://stmarylansing.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=4756514548963593036>Information</a></h5>         <h5><b>Notes:</b> <br>Short adoration in side chapel<br>Didn't get to see much else, it was dark!<br>Lit candle<br></h5>        </div>     </div>`)[0];
+                popup_2e688ec42e115ecce5a26a4f86d20169.setContent(html_a2047666c7f3d70b24bfd234f4c1c118);
             
         
 
-        marker_24b6044a1603729648749b6ea94f6c2c.bindPopup(popup_c55847f662699ee9919c595749cfc074)
+        marker_a46db04bda72ba8920d430e2782aef5e.bindPopup(popup_2e688ec42e115ecce5a26a4f86d20169)
         ;
 
         
     
     
-            var marker_15c1cbdd98051505c63298ad4f0dd178 = L.marker(
+            var marker_573426d82691a8e68f789edeb2b854f8 = L.marker(
                 [42.5040898, -83.1707931],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_0d018f9da6bf42ce41d3b81d065976e5 = L.AwesomeMarkers.icon(
+            var icon_2020078a512324a703e52409f1f925d6 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_15c1cbdd98051505c63298ad4f0dd178.setIcon(icon_0d018f9da6bf42ce41d3b81d065976e5);
+            marker_573426d82691a8e68f789edeb2b854f8.setIcon(icon_2020078a512324a703e52409f1f925d6);
         
     
-        var popup_f580b9a8a46f5c611290232e66a389ea = L.popup({"maxWidth": 500});
+        var popup_cc47cd9e7c6ac9729954d208b8bb03a1 = L.popup({"maxWidth": 500});
 
         
             
-                var html_f815b2d14203d1ab5c0dbd31989d1a3b = $(`<div id="html_f815b2d14203d1ab5c0dbd31989d1a3b" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>National Shrine of the Little Flower Basilica</b></h4>         <h5>Royal Oak, MI</h5>         <h5>2025-10-01</h5>         <h5><a href=http://shrinechurch.com/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=11095105906918640898>Information</a></h5>         <h5><b>Notes:</b> <br>St. Therese relics!<br>Spent lots of time on the grounds.<br>Met many nice people!<br></h5>        </div>     </div>`)[0];
-                popup_f580b9a8a46f5c611290232e66a389ea.setContent(html_f815b2d14203d1ab5c0dbd31989d1a3b);
+                var html_a56f6c0ef3d4352659690e7bc5b14ef6 = $(`<div id="html_a56f6c0ef3d4352659690e7bc5b14ef6" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>National Shrine of the Little Flower Basilica</b></h4>         <h5>Royal Oak, MI</h5>         <h5>2025-10-01</h5>         <h5><a href=http://shrinechurch.com/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=11095105906918640898>Information</a></h5>         <h5><b>Notes:</b> <br>St. Therese relics!<br>Spent lots of time on the grounds.<br>Met many nice people!<br></h5>        </div>     </div>`)[0];
+                popup_cc47cd9e7c6ac9729954d208b8bb03a1.setContent(html_a56f6c0ef3d4352659690e7bc5b14ef6);
             
         
 
-        marker_15c1cbdd98051505c63298ad4f0dd178.bindPopup(popup_f580b9a8a46f5c611290232e66a389ea)
+        marker_573426d82691a8e68f789edeb2b854f8.bindPopup(popup_cc47cd9e7c6ac9729954d208b8bb03a1)
         ;
 
         
     
     
-            var marker_f0638fa9038b72c51cd1236cb353de57 = L.marker(
+            var marker_62d4095ce49237a508963e42c9ada0c7 = L.marker(
                 [40.2950995, -80.20105199999999],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_6e68396ae425bdfe679a541a87474f71 = L.AwesomeMarkers.icon(
+            var icon_45cf76c0f7bd25fb373af7d2797d9a33 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_f0638fa9038b72c51cd1236cb353de57.setIcon(icon_6e68396ae425bdfe679a541a87474f71);
+            marker_62d4095ce49237a508963e42c9ada0c7.setIcon(icon_45cf76c0f7bd25fb373af7d2797d9a33);
         
     
-        var popup_a12888ef3f17cf4e869270aebf264652 = L.popup({"maxWidth": 500});
+        var popup_f25b51646a59338f9da340e7fba93156 = L.popup({"maxWidth": 500});
 
         
             
-                var html_2b6f2aed6aefa305566d40602c6e2f25 = $(`<div id="html_2b6f2aed6aefa305566d40602c6e2f25" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Holy Rosary Church</b></h4>         <h5>Muse, PA</h5>         <h5>2025-11-08</h5>         <h5><a href=https://romeroparish.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=17203628206414166777>Information</a></h5>         <h5><b>Notes:</b> <br>Similar architecture as IC Fairmont<br>Weird parking situation<br></h5>        </div>     </div>`)[0];
-                popup_a12888ef3f17cf4e869270aebf264652.setContent(html_2b6f2aed6aefa305566d40602c6e2f25);
+                var html_77ac2faa4bb8ae3c8ef29eba5c54a274 = $(`<div id="html_77ac2faa4bb8ae3c8ef29eba5c54a274" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Holy Rosary Church</b></h4>         <h5>Muse, PA</h5>         <h5>2025-11-08</h5>         <h5><a href=https://romeroparish.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=17203628206414166777>Information</a></h5>         <h5><b>Notes:</b> <br>Similar architecture as IC Fairmont<br>Weird parking situation<br></h5>        </div>     </div>`)[0];
+                popup_f25b51646a59338f9da340e7fba93156.setContent(html_77ac2faa4bb8ae3c8ef29eba5c54a274);
             
         
 
-        marker_f0638fa9038b72c51cd1236cb353de57.bindPopup(popup_a12888ef3f17cf4e869270aebf264652)
+        marker_62d4095ce49237a508963e42c9ada0c7.bindPopup(popup_f25b51646a59338f9da340e7fba93156)
         ;
 
         
     
     
-            var marker_d14476a79a9c4ff5ca39ac0ee5b290de = L.marker(
+            var marker_8a55f2c06208dca0aea80c1bde3d0936 = L.marker(
                 [36.9521002, -81.081459],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_4a8260d47107c2e028cb0e9a3ebb00f9 = L.AwesomeMarkers.icon(
+            var icon_d729c4b1685b74e769aba92d986140d9 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_d14476a79a9c4ff5ca39ac0ee5b290de.setIcon(icon_4a8260d47107c2e028cb0e9a3ebb00f9);
+            marker_8a55f2c06208dca0aea80c1bde3d0936.setIcon(icon_d729c4b1685b74e769aba92d986140d9);
         
     
-        var popup_59a90ce64e5f79be4b99ecbaccdf186a = L.popup({"maxWidth": 500});
+        var popup_3e4cb19321a3d3d62f93e487a06b0591 = L.popup({"maxWidth": 500});
 
         
             
-                var html_8329688c72f5da687c8cfcd197782a49 = $(`<div id="html_8329688c72f5da687c8cfcd197782a49" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Mary Mother of God</b></h4>         <h5>Wytheville, VA</h5>         <h5>2025-11-18</h5>         <h5><a href=http://www.stmaryswytheville.com/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=7804595950571041250>Information</a></h5>         <h5><b>Notes:</b> <br>Small church with interesting history<br>Man who showed us around may have been Pastor<br></h5>        </div>     </div>`)[0];
-                popup_59a90ce64e5f79be4b99ecbaccdf186a.setContent(html_8329688c72f5da687c8cfcd197782a49);
+                var html_da0e25d292fc7fbdfaf3711923aed1cf = $(`<div id="html_da0e25d292fc7fbdfaf3711923aed1cf" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Mary Mother of God</b></h4>         <h5>Wytheville, VA</h5>         <h5>2025-11-18</h5>         <h5><a href=http://www.stmaryswytheville.com/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=7804595950571041250>Information</a></h5>         <h5><b>Notes:</b> <br>Small church with interesting history<br>Man who showed us around may have been Pastor<br></h5>        </div>     </div>`)[0];
+                popup_3e4cb19321a3d3d62f93e487a06b0591.setContent(html_da0e25d292fc7fbdfaf3711923aed1cf);
             
         
 
-        marker_d14476a79a9c4ff5ca39ac0ee5b290de.bindPopup(popup_59a90ce64e5f79be4b99ecbaccdf186a)
+        marker_8a55f2c06208dca0aea80c1bde3d0936.bindPopup(popup_3e4cb19321a3d3d62f93e487a06b0591)
         ;
 
         
     
     
-            var marker_1b9c9ba3de5ade5270a66afe2cab0d28 = L.marker(
+            var marker_76cc40b4a9eb14bfc79b71bf50018003 = L.marker(
                 [35.4513889, -82.5122222],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_f017a470a5669fce6c2732feabd2a55e = L.AwesomeMarkers.icon(
+            var icon_adeb9ed3a7476eb92a8e8603cc1b406b = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_1b9c9ba3de5ade5270a66afe2cab0d28.setIcon(icon_f017a470a5669fce6c2732feabd2a55e);
+            marker_76cc40b4a9eb14bfc79b71bf50018003.setIcon(icon_adeb9ed3a7476eb92a8e8603cc1b406b);
         
     
-        var popup_9a84b0eae8e97bc0115051a0cf53c8a0 = L.popup({"maxWidth": 500});
+        var popup_764d4b49fc9e7c00e07c68056ac4a0dc = L.popup({"maxWidth": 500});
 
         
             
-                var html_e5468e8965d017a8caf2dff066bfe392 = $(`<div id="html_e5468e8965d017a8caf2dff066bfe392" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Barnabas</b></h4>         <h5>Arden, NC</h5>         <h5>2025-11-23</h5>         <h5><a href=http://www.saintbarnabasarden.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=9614871188207025127>Information</a></h5>         <h5><b>Notes:</b> <br>Big, modern church<br>Odd Holy Water dispensers<br>Overflow seating in back<br></h5>        </div>     </div>`)[0];
-                popup_9a84b0eae8e97bc0115051a0cf53c8a0.setContent(html_e5468e8965d017a8caf2dff066bfe392);
+                var html_56e826967a165f5311e2940eb812969f = $(`<div id="html_56e826967a165f5311e2940eb812969f" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Barnabas</b></h4>         <h5>Arden, NC</h5>         <h5>2025-11-23</h5>         <h5><a href=http://www.saintbarnabasarden.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=9614871188207025127>Information</a></h5>         <h5><b>Notes:</b> <br>Big, modern church<br>Odd Holy Water dispensers<br>Overflow seating in back<br></h5>        </div>     </div>`)[0];
+                popup_764d4b49fc9e7c00e07c68056ac4a0dc.setContent(html_56e826967a165f5311e2940eb812969f);
             
         
 
-        marker_1b9c9ba3de5ade5270a66afe2cab0d28.bindPopup(popup_9a84b0eae8e97bc0115051a0cf53c8a0)
+        marker_76cc40b4a9eb14bfc79b71bf50018003.bindPopup(popup_764d4b49fc9e7c00e07c68056ac4a0dc)
         ;
 
         
     
     
-            var marker_de184cb23b77433c6608fa16ce40612e = L.marker(
+            var marker_efc8dc82dde4a2fcd442df105e16405c = L.marker(
                 [39.1504989, -79.4956153],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_6545f7737c03f675177e2a96b8505702 = L.AwesomeMarkers.icon(
+            var icon_a14d5d0c4f394c681a7b0fa06c5bdfba = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_de184cb23b77433c6608fa16ce40612e.setIcon(icon_6545f7737c03f675177e2a96b8505702);
+            marker_efc8dc82dde4a2fcd442df105e16405c.setIcon(icon_a14d5d0c4f394c681a7b0fa06c5bdfba);
         
     
-        var popup_10e5efd2caddd7be036f7e091a2ba45c = L.popup({"maxWidth": 500});
+        var popup_fe1262efab09d547fad4ba442c808d36 = L.popup({"maxWidth": 500});
 
         
             
-                var html_5b1965b39d05853338deb874c753c73b = $(`<div id="html_5b1965b39d05853338deb874c753c73b" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Thomas Aquinas</b></h4>         <h5>Thomas, WV</h5>         <h5>2025-12-07</h5>         <h5><a href=https://sttsite.wordpress.com/author/sttsite/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=13451911173622448563>Information</a></h5>         <h5><b>Notes:</b> <br>St. Therese in back<br>Great Priest and congregation<br>Very welcoming!<br>We returned the next day for Solemnity of Immaculate Conception<br></h5>        </div>     </div>`)[0];
-                popup_10e5efd2caddd7be036f7e091a2ba45c.setContent(html_5b1965b39d05853338deb874c753c73b);
+                var html_d4618736440f0d6e3ce09c4ecef6bfb5 = $(`<div id="html_d4618736440f0d6e3ce09c4ecef6bfb5" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Thomas Aquinas</b></h4>         <h5>Thomas, WV</h5>         <h5>2025-12-07</h5>         <h5><a href=https://sttsite.wordpress.com/author/sttsite/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=13451911173622448563>Information</a></h5>         <h5><b>Notes:</b> <br>St. Therese in back<br>Great Priest and congregation<br>Very welcoming!<br>We returned the next day for Solemnity of Immaculate Conception<br></h5>        </div>     </div>`)[0];
+                popup_fe1262efab09d547fad4ba442c808d36.setContent(html_d4618736440f0d6e3ce09c4ecef6bfb5);
             
         
 
-        marker_de184cb23b77433c6608fa16ce40612e.bindPopup(popup_10e5efd2caddd7be036f7e091a2ba45c)
+        marker_efc8dc82dde4a2fcd442df105e16405c.bindPopup(popup_fe1262efab09d547fad4ba442c808d36)
         ;
 
         
     
     
-            var marker_654c4e257b5a2c458b4c01584d6d55b6 = L.marker(
+            var marker_59f7d16cb663935fbd3f17b9df49be02 = L.marker(
                 [43.1995255, -79.00418359999999],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_869d2bc84f353767d4c3e30238299cc5 = L.AwesomeMarkers.icon(
+            var icon_d6c2f3ec8e19593f3d2a8de3644d973e = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_654c4e257b5a2c458b4c01584d6d55b6.setIcon(icon_869d2bc84f353767d4c3e30238299cc5);
+            marker_59f7d16cb663935fbd3f17b9df49be02.setIcon(icon_d6c2f3ec8e19593f3d2a8de3644d973e);
         
     
-        var popup_1178d3af37bb3bd8a5106fc7966c4155 = L.popup({"maxWidth": 500});
+        var popup_b658b40bcb54582b82d4b77d89098d8f = L.popup({"maxWidth": 500});
 
         
             
-                var html_cbe694db65f7e6d6d21d5c88a373713f = $(`<div id="html_cbe694db65f7e6d6d21d5c88a373713f" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Basilica of the National Shrine of Our Lady of Fatima</b></h4>         <h5>Youngstown, NY</h5>         <h5>2026-03-02</h5>         <h5><a href=http://fatimashrine.com/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=6664407501404126007>Information</a></h5>         <h5><b>Notes:</b> <br>St. Therese statue outside and several of her relics<br></h5>        </div>     </div>`)[0];
-                popup_1178d3af37bb3bd8a5106fc7966c4155.setContent(html_cbe694db65f7e6d6d21d5c88a373713f);
+                var html_4c74e77056f3b8291f8fedf2915c5590 = $(`<div id="html_4c74e77056f3b8291f8fedf2915c5590" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Basilica of the National Shrine of Our Lady of Fatima</b></h4>         <h5>Youngstown, NY</h5>         <h5>2026-03-02</h5>         <h5><a href=http://fatimashrine.com/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=6664407501404126007>Information</a></h5>         <h5><b>Notes:</b> <br>St. Therese statue outside and several of her relics<br></h5>        </div>     </div>`)[0];
+                popup_b658b40bcb54582b82d4b77d89098d8f.setContent(html_4c74e77056f3b8291f8fedf2915c5590);
             
         
 
-        marker_654c4e257b5a2c458b4c01584d6d55b6.bindPopup(popup_1178d3af37bb3bd8a5106fc7966c4155)
+        marker_59f7d16cb663935fbd3f17b9df49be02.bindPopup(popup_b658b40bcb54582b82d4b77d89098d8f)
         ;
 
         
     
     
-            var marker_b732d6d8c399bfb5f375701307ab02d9 = L.marker(
+            var marker_8f8eed6b738b297cc443d753306c8916 = L.marker(
                 [39.5122271, -80.2516866],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_756655c1de533e48a851a1bd8793fd82 = L.AwesomeMarkers.icon(
+            var icon_1ffa6d54a31e9a6d9198bc976bd7d301 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_b732d6d8c399bfb5f375701307ab02d9.setIcon(icon_756655c1de533e48a851a1bd8793fd82);
+            marker_8f8eed6b738b297cc443d753306c8916.setIcon(icon_1ffa6d54a31e9a6d9198bc976bd7d301);
         
     
-        var popup_25b4ecaf1f50ff12aea55a1d5baf9118 = L.popup({"maxWidth": 500});
+        var popup_d47e6706eb8f44e419f083e35caf4bce = L.popup({"maxWidth": 500});
 
         
             
-                var html_191d621981150ccea5e0890954f41d11 = $(`<div id="html_191d621981150ccea5e0890954f41d11" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Peter the Apostle</b></h4>         <h5>Farmington, WV</h5>         <h5>2025-04-17</h5>         <h5><a href=https://maps.google.com/?cid=17359267307349423844>Information</a></h5>         <h5><b>Notes:</b> <br>Adoration Pilgrimage<br></h5>        </div>     </div>`)[0];
-                popup_25b4ecaf1f50ff12aea55a1d5baf9118.setContent(html_191d621981150ccea5e0890954f41d11);
+                var html_dcd0eee1b606ccf0fcf90fdce0e57dba = $(`<div id="html_dcd0eee1b606ccf0fcf90fdce0e57dba" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Peter the Apostle</b></h4>         <h5>Farmington, WV</h5>         <h5>2025-04-17</h5>         <h5><a href=https://maps.google.com/?cid=17359267307349423844>Information</a></h5>         <h5><b>Notes:</b> <br>Adoration Pilgrimage<br></h5>        </div>     </div>`)[0];
+                popup_d47e6706eb8f44e419f083e35caf4bce.setContent(html_dcd0eee1b606ccf0fcf90fdce0e57dba);
             
         
 
-        marker_b732d6d8c399bfb5f375701307ab02d9.bindPopup(popup_25b4ecaf1f50ff12aea55a1d5baf9118)
+        marker_8f8eed6b738b297cc443d753306c8916.bindPopup(popup_d47e6706eb8f44e419f083e35caf4bce)
         ;
 
         
     
     
-            var marker_3a4be0952f98d091a1a5a9e857ce1965 = L.marker(
+            var marker_eaf78893f6de2bc8ff93e2be203df6fa = L.marker(
                 [39.456212, -80.175544],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_cf4e2a5e80e058a4d90f7d47838fae58 = L.AwesomeMarkers.icon(
+            var icon_5765ba23d8758d4abf3bec534c1505d2 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_3a4be0952f98d091a1a5a9e857ce1965.setIcon(icon_cf4e2a5e80e058a4d90f7d47838fae58);
+            marker_eaf78893f6de2bc8ff93e2be203df6fa.setIcon(icon_5765ba23d8758d4abf3bec534c1505d2);
         
     
-        var popup_b0b61f70d45250b5c2a3ae0a1cd9c684 = L.popup({"maxWidth": 500});
+        var popup_4305067f91beb92b0c29aa5ffd73e993 = L.popup({"maxWidth": 500});
 
         
             
-                var html_780ad3323681393f6ae36550827a6e0c = $(`<div id="html_780ad3323681393f6ae36550827a6e0c" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Anthony</b></h4>         <h5>Fairmont, WV</h5>         <h5>2025-04-17</h5>         <h5><a href=http://www.sahswv.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=10265837605191457460>Information</a></h5>         <h5><b>Notes:</b> <br>Adoration Pilgrimage<br></h5>        </div>     </div>`)[0];
-                popup_b0b61f70d45250b5c2a3ae0a1cd9c684.setContent(html_780ad3323681393f6ae36550827a6e0c);
+                var html_e8f3e695fc903e10cb20c17585f96700 = $(`<div id="html_e8f3e695fc903e10cb20c17585f96700" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Anthony</b></h4>         <h5>Fairmont, WV</h5>         <h5>2025-04-17</h5>         <h5><a href=http://www.sahswv.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=10265837605191457460>Information</a></h5>         <h5><b>Notes:</b> <br>Adoration Pilgrimage<br></h5>        </div>     </div>`)[0];
+                popup_4305067f91beb92b0c29aa5ffd73e993.setContent(html_e8f3e695fc903e10cb20c17585f96700);
             
         
 
-        marker_3a4be0952f98d091a1a5a9e857ce1965.bindPopup(popup_b0b61f70d45250b5c2a3ae0a1cd9c684)
+        marker_eaf78893f6de2bc8ff93e2be203df6fa.bindPopup(popup_4305067f91beb92b0c29aa5ffd73e993)
         ;
 
         
     
     
-            var marker_3af4bc7699f663b9db1f530fac121408 = L.marker(
+            var marker_7dcc31f8ec12d75e56669a6527ee3255 = L.marker(
                 [40.2191309, -80.22049799999999],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_d25d30c6169ef57c563da6369fac3d37 = L.AwesomeMarkers.icon(
+            var icon_0c38d33dcc584c0fb9b98fc52f043fe9 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_3af4bc7699f663b9db1f530fac121408.setIcon(icon_d25d30c6169ef57c563da6369fac3d37);
+            marker_7dcc31f8ec12d75e56669a6527ee3255.setIcon(icon_0c38d33dcc584c0fb9b98fc52f043fe9);
         
     
-        var popup_328adde1bee5d26bb6943c42925508b4 = L.popup({"maxWidth": 500});
+        var popup_9a5dfe991c63a0ce4fdcc3b9d2798ecd = L.popup({"maxWidth": 500});
 
         
             
-                var html_d7c7936a04663d7f010467defed8de03 = $(`<div id="html_d7c7936a04663d7f010467defed8de03" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Our Lady of the Miraculous Medal</b></h4>         <h5>Meadowlands, PA</h5>         <h5>2026-07-05</h5>         <h5><a href=https://romeroparish.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=9284028914275914686>Information</a></h5>         <h5><b>Notes:</b> <br>Beautiful St. Therese statues up front<br>Packed full medium sized church<br>Patriotic sermon about freedom!<br></h5>        </div>     </div>`)[0];
-                popup_328adde1bee5d26bb6943c42925508b4.setContent(html_d7c7936a04663d7f010467defed8de03);
+                var html_187947650bbcfd1faa4760b0afaf02ca = $(`<div id="html_187947650bbcfd1faa4760b0afaf02ca" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>Our Lady of the Miraculous Medal</b></h4>         <h5>Meadowlands, PA</h5>         <h5>2026-07-05</h5>         <h5><a href=https://romeroparish.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=9284028914275914686>Information</a></h5>         <h5><b>Notes:</b> <br>Beautiful St. Therese statues up front<br>Packed full medium sized church<br>Patriotic sermon about freedom!<br></h5>        </div>     </div>`)[0];
+                popup_9a5dfe991c63a0ce4fdcc3b9d2798ecd.setContent(html_187947650bbcfd1faa4760b0afaf02ca);
             
         
 
-        marker_3af4bc7699f663b9db1f530fac121408.bindPopup(popup_328adde1bee5d26bb6943c42925508b4)
+        marker_7dcc31f8ec12d75e56669a6527ee3255.bindPopup(popup_9a5dfe991c63a0ce4fdcc3b9d2798ecd)
         ;
 
         
     
     
-            var marker_54014eaae3be3e6c061610eb65611d50 = L.marker(
+            var marker_afb5eb7b3c913078a9db10ccc8d7eb9e = L.marker(
                 [38.4197141, -82.43611829999999],
                 {}
-            ).addTo(marker_cluster_45d2ff1e52177dd7db5e70486c0b1109);
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
         
     
-            var icon_02f57fc67ad6412c9dd478e28dd41d76 = L.AwesomeMarkers.icon(
+            var icon_dea6f284367b779e366fad113308de3a = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_54014eaae3be3e6c061610eb65611d50.setIcon(icon_02f57fc67ad6412c9dd478e28dd41d76);
+            marker_afb5eb7b3c913078a9db10ccc8d7eb9e.setIcon(icon_dea6f284367b779e366fad113308de3a);
         
     
-        var popup_b91528977ba753d1a56cff8f96c85ab1 = L.popup({"maxWidth": 500});
+        var popup_08da061c9ebac527fedc1de5a3795ed3 = L.popup({"maxWidth": 500});
 
         
             
-                var html_522c40ba668001b89cd94aa9607d8b54 = $(`<div id="html_522c40ba668001b89cd94aa9607d8b54" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St Josephs</b></h4>         <h5>Huntington, WV</h5>         <h5>2026-08-16</h5>         <h5><a href=http://www.stjoeshuntington.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=16069398789791070435>Information</a></h5>         <h5><b>Notes:</b> <br>St. Therese statue in back<br>Pretty church and grounds<br></h5>        </div>     </div>`)[0];
-                popup_b91528977ba753d1a56cff8f96c85ab1.setContent(html_522c40ba668001b89cd94aa9607d8b54);
+                var html_b336b87f0da95c2a852ad698c2304cc7 = $(`<div id="html_b336b87f0da95c2a852ad698c2304cc7" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Joseph</b></h4>         <h5>Huntington, WV</h5>         <h5>2026-08-16</h5>         <h5><a href=http://www.stjoeshuntington.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=16069398789791070435>Information</a></h5>         <h5><b>Notes:</b> <br>St. Therese statue in back<br>Pretty church and grounds<br></h5>        </div>     </div>`)[0];
+                popup_08da061c9ebac527fedc1de5a3795ed3.setContent(html_b336b87f0da95c2a852ad698c2304cc7);
             
         
 
-        marker_54014eaae3be3e6c061610eb65611d50.bindPopup(popup_b91528977ba753d1a56cff8f96c85ab1)
+        marker_afb5eb7b3c913078a9db10ccc8d7eb9e.bindPopup(popup_08da061c9ebac527fedc1de5a3795ed3)
         ;
 
         
     
     
-            marker_cluster_45d2ff1e52177dd7db5e70486c0b1109.addTo(map_d3269d1e24bb97ee6fdc4381d3d0c016);
+            var marker_71bd5a499daf7fc77ace56acf6e1b490 = L.marker(
+                [38.5795529, -92.1748964],
+                {}
+            ).addTo(marker_cluster_2753c879b658ff985c82b2e7d0c070b3);
+        
+    
+            var icon_56bad4c79c905028cfda58097cbff09e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_71bd5a499daf7fc77ace56acf6e1b490.setIcon(icon_56bad4c79c905028cfda58097cbff09e);
+        
+    
+        var popup_422e0f78cbd300ba036aed0e3d94b7f0 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_07fb140e6b22b74c574e3090db31b20a = $(`<div id="html_07fb140e6b22b74c574e3090db31b20a" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif;">         <h4><b>St. Peter</b></h4>         <h5>Jefforson City, MO</h5>         <h5>2026-08-17</h5>         <h5><a href=http://www.saintpeterjc.org/>Website</a></h5>         <h5><a href=https://maps.google.com/?cid=6077223509315411440>Information</a></h5>         <h5><b>Notes:</b> <br>St. Therese statue in side room, and in Adoration Chapel below the church<br>Happened by while visiting Capitol<br>Lady who was cleaning showed us down to the Chapel<br></h5>        </div>     </div>`)[0];
+                popup_422e0f78cbd300ba036aed0e3d94b7f0.setContent(html_07fb140e6b22b74c574e3090db31b20a);
+            
+        
+
+        marker_71bd5a499daf7fc77ace56acf6e1b490.bindPopup(popup_422e0f78cbd300ba036aed0e3d94b7f0)
+        ;
+
+        
+    
+    
+            marker_cluster_2753c879b658ff985c82b2e7d0c070b3.addTo(map_9f9f4153604a427badc1e7f7abf6870a);
         
 </script>
 </html>
